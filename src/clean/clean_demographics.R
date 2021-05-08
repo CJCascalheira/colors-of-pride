@@ -1,7 +1,6 @@
 # Dependencies
 library(tidyverse)
 library(rio)
-library(RBtest)
 
 # Import
 scop <- import("data/raw/scop_final.sav") %>%
@@ -41,7 +40,7 @@ nrow(scop_adults1)
 scop_1 <- scop_adults1 %>%
   select(record_id, age, birth, intersex, trans, starts_with("gender__"), 
          other_gender, perception_scale, orientation, other_orientation, 
-         hiv_result, starts_with("race__"), other_race, education, annual_income, 
+         hiv_result, starts_with("race"), other_race, education, annual_income, 
          homeless_exp, fam_rejection, res1:res21, starts_with("res_scale"),
          starts_with("helpful"), trans_age, age_orientation, age_lgbtq,
          starts_with("gender_prob"), starts_with("orientation_prob"), ptsd,
@@ -51,6 +50,7 @@ scop_1 <- scop_adults1 %>%
          starts_with("assualtant"), recent_assault) %>%
   # Recode variables
   mutate(
+    # Demographic variables
     birth = recode(birth, `1` = "female", `0` = "male", `99` = "other", 
                    `88` = "unsure", `77` = "prefer not to answer"),
     intersex = recode(intersex, `1` = "yes", `0` = "no", `88` = "unsure", `77` = "prefer not to answer"),
@@ -67,6 +67,11 @@ scop_1 <- scop_adults1 %>%
                          `4` = "pansexual", `5` = "same-gender loving", `6` = "asexual",
                          `7` = "queer", `8` = "heterosexual", `9` = "heteroflexible", `99` = "not listed"),
     hiv_result = recode(hiv_result, `1` = "yes", `0` = "no", `88` = "unsure"),
+    # Race variables - two different types to consider
+    race_expansive = recode(race_expansive, `1` = "AI/AN", `2` = "asian", `3` = "black", 
+                            `4` = "latinx", `5` = "latinx/AI", `6` = "latinx/multi", `7` = "non-lat white",
+                            `8` = "other"),
+    race_expansive = if_else(is.na(race_expansive), "other", race_expansive),
     race___1 = recode(race___1, `1` = "AI/AN", `0` = "not_applicable"),
     race___2 = recode(race___2, `1` = "asian", `0` = "not_applicable"),
     race___3 = recode(race___3, `1` = "south asian", `0` = "not_applicable"),
@@ -74,6 +79,7 @@ scop_1 <- scop_adults1 %>%
     race___5 = recode(race___5, `1` = "latinx", `0` = "not_applicable"),
     race___6 = recode(race___6, `1` = "white", `0` = "not_applicable"),
     race___99 = recode(race___99, `1` = "not_listed", `0` = "not_applicable"),
+    # More demographics
     education = recode(education, `0` = "some high school", `1` = "some high school",
                        `2` = "high school / GED", `3` = "some college", `4` = "bachelor",
                        `5` = "master's", `6` = "doctorate"),
@@ -154,7 +160,7 @@ scop_1 <- scop_adults1 %>%
     orientation_prob16 = recode(orientation_prob16, `1` = 4, `2` = 3, `3` = 2, `4` = 1),
     orientation_prob17 = recode(orientation_prob17, `1` = 4, `2` = 3, `3` = 2, `4` = 1)
   ) %>%
-  # Adjust the drug scoring to show that higher scores indicate more frequent use
+  # Adjust the drug scoring to show that higher scores indicate more frequent problematic use
   mutate_at(c("drugs1", "drugs2", "drugs3", "drugs4", "drugs5", "drugs6", "drugs7", 
               "drugs8", "drugs9", "drugs10"), funs(recode(., `1` = 6, `2` = 5, `3` = 4, 
                                                          `4` = 3, `5` = 2, `6` = 1, 
@@ -177,6 +183,10 @@ scop_1 <- scop_adults1 %>%
 scop_1 %>%
   count(trans)
 
+# Explore race variable
+scop_1 %>%
+  count(race_expansive)
+
 # Number of HIV+ participants
 scop_1 %>%
   count(hiv_result)
@@ -189,7 +199,7 @@ scop_1 %>%
 scop_1 %>%
   count(sud)
 
-# Number of SUD
+# Number of PTSD
 scop_1 %>%
   count(ptsd)
 
@@ -203,105 +213,66 @@ scop_1 %>%
 
 # RECODE DEMOGRAPHICS -----------------------------------------------------
 
-#######################
-# Use the race_expansive variable instead? Revisit next time
-#######################
-
-# Race variables
-scop_race <- scop_1 %>%
-  select(record_id, starts_with("race")) %>%
-  # Unite all the columns
-  unite(race_united, race___1:race___6, sep = "_", remove = TRUE, na.rm = TRUE) %>%
-  mutate(
-    race_united = str_remove_all(race_united, "not_applicable"),
-    race_united = str_remove_all(race_united, "_")
-  ) %>%
+# Gender variables
+scop_gender <- scop_1 %>%
+  select(record_id, starts_with("gender___")) %>%
   # Drop other column
-  select(-race___99)
-
-# Check the unique combinations
-unique(scop_race$race_united)
-table(scop_race$race_united)
-
-# Create vector of single race categories
-one_race <- c("AI/AN", "asian", "south asian", "black", "latinx", "white", "")
-
-# Reassign to mixed ethnicity / race
-scop_race1 <- scop_race %>%
+  select(-gender___99) %>%
+  # Unite all the columns
+  unite(gender_united, gender___1:gender___7, sep = "_", remove = TRUE, na.rm = TRUE) %>%
   mutate(
-    race = if_else(race_united %in% one_race, race_united, "mixed")
-  ) %>%
-  # Drop the useless column
-  select(-race_united)
-
-# Check the race variable
-unique(scop_race1$race)
-table(scop_race1$race)
-
-# Prepare vector of records with blank race
-no_race <- scop_race1 %>%
-  filter(race == "") %>%
-  select(record_id) %>%
-  pull()
-
-scop_1 %>%
-  select(record_id, other_race) %>%
-  filter(record_id %in% no_race)
-
-# REPLACE MISSING DATA FOR SCALES -----------------------------------------
-
-# Select the measures and a few demographic variables for testing missing values
-scop_scales <- scop_1 %>%
-  select(record_id, trans, age, orientation, res1:res21, starts_with("res_scale"), starts_with("gender_prob"), 
-         starts_with("orientation_prob"), starts_with("drugs"), starts_with("drug_affect"))
-
-# Test for missing data
-scop_scales_missing <- RBtest(scop_scales)
-
-# Types of missing variables
-# -1 = complete variables
-# 1 = MAR (missing at random)
-table(scop_scales_missing$type)
-
-# CALCULATE SCORES --------------------------------------------------------
-
-# Check intracommunity prejudice
-intracomm_eds <- scop_1 %>%
-  select(record_id, ends_with("___5")) %>%
-  select(-gender___5, -race___5) %>%
-  gather(key = "eds", value = "score", -record_id) %>%
-  filter(score == 1) %>%
-  spread(key = "eds", value = "score") %>%
-  mutate(intracomm_eds = rep(1, nrow(.))) %>%
-  select(record_id, intracomm_eds)
-
-# Select other record ids
-no_intra_eds <- anti_join(scop_1, intracomm_eds) %>%
-  select(record_id) %>%
-  mutate(
-    intracomm_eds = rep(0, nrow(.))
+    gender_united = str_remove_all(gender_united, "not_applicable"),
+    gender_united = str_remove_all(gender_united, "_")
   )
 
-# Create new intracommunity EDS variable for main dataframe
-intracomm_eds_1 <- intracomm_eds %>%
-  bind_rows(no_intra_eds)
+# Check the unique combinations
+unique(scop_gender$gender_united)
+table(scop_gender$gender_united)
 
-# Add intracommunity EDS to dataframe
-scop_2 <- left_join(scop_1, intracomm_eds_1)
+# Create vector of single gender categories
+one_gender <- c("man", "woman", "transgender", "genderqueer", "agender", 
+                "nonbinary", "gender nonconforming", "")
 
-# Score Multidimensional Scale of Perceived Social Support (Zimet et al., 1988, 1990)
-scop_2 %>%
-  select(record_id, res1:res12) %>%
-  gather(key = "res", value = "score", -record_id) %>%
-  group_by(record_id) %>%
-  # Mean score
-  summarise(mspss_total = mean(score))
+# Reassign to gender categories
+clean_gender <- scop_gender %>%
+  filter(!(gender_united %in% one_gender)) %>%
+  mutate(
+    # Code nonbinary folx
+    nonbinary = if_else(str_detect(gender_united, regex("nonbinary", ignore_case = TRUE)), 
+                        "nonbinary", NA_character_),
+    # Code binary transgender folx
+    transgender = if_else(is.na(nonbinary) & str_detect(gender_united, regex("manwoman|transgender", ignore_case = TRUE)), "transgender", NA_character_),
+    # Code gender nonconforming
+    nonconforming = if_else(is.na(nonbinary) & is.na(transgender) & str_detect(gender_united, regex("nonconforming", ignore_case = TRUE)), "gender nonconforming", NA_character_),
+    # Recode genderqueer / agender
+    genderqueer = if_else(is.na(nonbinary) & is.na(transgender) & is.na(nonconforming) & str_detect(gender_united, regex("genderqueer|agender", ignore_case = TRUE)), "genderqueer", NA_character_)
+  ) %>%
+  # United all columns
+  select(-gender_united) %>%
+  unite(gender_united, nonbinary:genderqueer, na.rm = TRUE)
 
-# Score Brief Resilience Scale (Smith et al., 2008)
-scop_2 %>%
-  select(record_id, res_scale1:res_scale6) %>%
-  gather(key = "res_scale", value = "score", -record_id) %>%
-  group_by(record_id) %>%
-  # Mean score
-  summarise(mspss_total = mean(score))
+# Combine the gender variables
+scop_gender_1 <- scop_gender %>%
+  filter(!(record_id %in% clean_gender$record_id)) %>%
+  bind_rows(clean_gender) %>%
+  # Replace unknown gender
+  mutate(
+    gender_united = if_else(gender_united == "", "unknown", gender_united)
+  ) %>%
+  # Rename the gender column
+  rename(gender = gender_united)
 
+# Clean up gender in main data frame
+scop_2 <- scop_1 %>%
+  # Drop gender variables and other demographic variables not needed
+  select(-starts_with("gender___"), -other_gender, -other_orientation, -starts_with("race___"), -RACE, -RACE2, -other_race) %>%
+  # Recode race variable
+  rename(race = race_expansive) %>%
+  # Add new gedner variable
+  left_join(scop_gender_1) %>%
+  # Rearrange columns
+  select(record_id, age, birth, gender, orientation, race, hiv_result, everything())
+
+# SAVE CLEANED DEMOGRAPHICS -----------------------------------------------
+
+write_csv(scop_2, "data/cleaned/cleaned_demographics.csv")
