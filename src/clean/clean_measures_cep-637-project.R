@@ -68,9 +68,10 @@ brs_total <- scop_2 %>%
   summarise(brs_total = mean(score))
 
 # Score the Expanded Everyday Discrimination Scale (Williams et al., 2008)
+# Used the full version from Stone et al. (2020) due to superior distribution 
 # Higher scores indicate more frequent experiences of discrimination
 eds_orientation_total <- scop_2 %>%
-  select(record_id, orientation_prob1:orientation_prob10) %>%
+  select(record_id, orientation_prob1:orientation_prob17) %>%
   gather(key = "orientation_eds", value = "score", -record_id) %>%
   group_by(record_id) %>%
   # Mean score
