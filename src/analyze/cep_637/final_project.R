@@ -1,8 +1,13 @@
 # Dependencies
 library(psych)
+library(car)
 library(KScorrect)
 library(tidyverse)
 library(rio)
+library(sjPlot)
+
+# Remove scientific notation
+options(scipen = 999)
 
 # Import data - cleaned
 scop_a <- read_csv("data/cleaned/cleaned_cep-637.csv") %>%
@@ -34,8 +39,49 @@ scop_c <- scop_a %>%
 scop <- scop_c %>%
   filter(freq_prob_drug_use != 1)
 
+# Scale all variables to return standardized coefficients
+scop_1 <- scop %>%
+  select(freq_prob_drug_use, race_ctrl, age, income_ctrl, unwanted, eds_orientation_total, mspss_total) %>%
+  lapply(scale) %>%
+  as.data.frame()
+
 # N
 nrow(scop)
+
+# MODELS ------------------------------------------------------------------
+
+# Model 1
+model_1 <- lm(freq_prob_drug_use ~ race_ctrl + age + income_ctrl, data = scop)
+
+# Get standardized coefficients 
+model_1_std <- lm(freq_prob_drug_use ~ race_ctrl + age + income_ctrl, data = scop_1)
+
+# Model 2
+model_2 <- lm(freq_prob_drug_use ~ race_ctrl + age + income_ctrl + unwanted + 
+                eds_orientation_total + mspss_total, data = scop)
+
+# Get standardized coefficients 
+model_2_std <- lm(freq_prob_drug_use ~ race_ctrl + age + income_ctrl + unwanted + 
+                    eds_orientation_total + mspss_total, data = scop_1)
+
+####### Model 1
+
+# Summarize the model
+summary(model_1)
+summary(model_1_std)
+
+####### Model 2
+
+# Summarize the model
+summary(model_2)
+summary(model_2_std)
+
+####### MODEL COMPARISON
+anova(model_1, model_2)
+tab_model(model_1, model_2)
+
+# Confidence intervals
+confint(model_2)
 
 # ANALYZE DEMOGRAPHICS ----------------------------------------------------
 
@@ -148,3 +194,72 @@ scop %>%
   select(age, income_ctrl, mspss_total, eds_orientation_total, freq_prob_drug_use) %>%
   describe() %>%
   select(skew, kurtosis)
+
+# NORMAL DISTRIBUTION OF RESIDUALS ----------------------------------------
+
+# Q-Q plot of variables
+qqPlot(scop$age)
+qqPlot(scop$income_ctrl)
+qqPlot(scop$eds_orientation_total)
+qqPlot(scop$mspss_total)
+qqPlot(scop$freq_prob_drug_use)
+
+# RELATIONSHIP: STANDARDIZED RESIDUALS VS. PREDICTED VARIABLE -------------
+
+####### MODEL 1 
+
+# Create plots
+par(mfrow = c(2, 2))
+plot(model_1)
+
+# Create a plot of standarized residuals vs. fitted values only
+block_1_plot <- scop %>%
+  ggplot(aes(model_1$fitted.values, rstandard(model_1))) +
+  geom_point() +
+  geom_smooth(method = "lm", colour = "Blue") + 
+  labs(x = "Fitted Values", y = "Residuals", title = "Block 1") +
+  theme_bw()
+block_1_plot
+ggsave("src/analyze/cep_637/plots/block_1.png", plot = block_1_plot)
+
+# Histogram of standardized residuals
+par(mfrow = c(1, 1))
+hist(rstandard(model_1))
+
+####### MODEL 2 
+
+# Create plots
+par(mfrow = c(2, 2))
+plot(model_2)
+
+# Create a plot of standarized residuals vs. fitted values only
+block_2_plot <- scop %>%
+  ggplot(aes(model_2$fitted.values, rstandard(model_2))) +
+  geom_point() +
+  geom_smooth(method = "lm", colour = "Blue") + 
+  labs(x = "Fitted Values", y = "Residuals", title = "Block 2") +
+  theme_bw()
+block_2_plot
+ggsave("src/analyze/cep_637/plots/block_2.png", plot = block_2_plot)
+
+# Histogram of standardized residuals
+par(mfrow = c(1, 1))
+hist(rstandard(model_2))
+
+# MULTICOLLINEARITY -------------------------------------------------------
+
+####### MODEL 1 
+
+# Check the variance inflation factor (VIF)
+vif(model_1)
+
+# Tolerance
+1 / vif(model_1)
+
+####### MODEL 2
+
+# Check the variance inflation factor (VIF)
+vif(model_2)
+
+# Tolerance
+1 / vif(model_2)
