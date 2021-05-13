@@ -1,0 +1,1097 @@
+record_id,age,birth,gender,orientation,race,hiv_result,education,annual_income,unwanted,intracomm_eds,mspss_total,brs_total,freq_prob_drug_use,drug_abuse_severity,eds_orientation_total
+63,41,male,man,gay,non-lat white,yes,high school / GED,$40 - 49k,0,0,4.666666666666667,4,1.2,0,1
+64,40,female,woman,lesbian,latinx,no,some college,$50 - 74k,1,1,6.666666666666667,5,1.5,1,NA
+69,20,female,woman,bisexual,latinx/multi,no,high school / GED,$30 - 39k,0,1,4.75,2.1666666666666665,1.2,10,2.588235294117647
+71,28,male,man,bisexual,non-lat white,no,some college,$40 - 49k,0,0,4.25,3,4.1,5,2.588235294117647
+72,24,male,man,lesbian,non-lat white,no,bachelor,$40 - 49k,0,0,4.833333333333333,3,3.6,5,2.2941176470588234
+74,23,female,woman,gay,non-lat white,no,bachelor,$50 - 74k,0,0,4.833333333333333,2.6666666666666665,4.3,5,2.3529411764705883
+75,27,male,man,gay,non-lat white,no,bachelor,$40 - 49k,0,1,4.5,2.6666666666666665,3.8,6,2.2941176470588234
+76,25,female,woman,bisexual,non-lat white,no,bachelor,$50 - 74k,0,0,4.166666666666667,2.8333333333333335,3.7,5,2.1176470588235294
+77,25,female,woman,bisexual,non-lat white,no,bachelor,$40 - 49k,0,0,4.583333333333333,3.1666666666666665,4.2,7,2.176470588235294
+78,27,male,man,gay,non-lat white,no,master's,$40 - 49k,0,0,4.75,3.1666666666666665,4.2,5,2.1176470588235294
+80,20,female,woman,bisexual,non-lat white,no,high school / GED,$30 - 39k,0,0,4.25,2.6666666666666665,4,10,2.3529411764705883
+82,21,female,woman,bisexual,non-lat white,no,some high school,$30 - 39k,0,0,4.166666666666667,3.1666666666666665,3.9,10,2.235294117647059
+85,22,female,woman,bisexual,non-lat white,no,some high school,$30 - 39k,0,0,4.583333333333333,3.1666666666666665,1.2,10,2.176470588235294
+86,24,female,woman,bisexual,non-lat white,no,some high school,$30 - 39k,0,0,5.166666666666667,2.8333333333333335,1.2,10,2.3529411764705883
+87,26,female,woman,bisexual,other,no,some high school,$20 - 29k,0,0,4.166666666666667,3,1.2,10,2.411764705882353
+89,28,female,woman,lesbian,non-lat white,no,bachelor,$40 - 49k,0,0,6.416666666666667,4,1,1,1.9411764705882353
+91,21,male,man,bisexual,other,no,some high school,$30 - 39k,0,0,4.916666666666667,2.3333333333333335,1.8,10,2.5294117647058822
+92,21,male,man,bisexual,other,no,some high school,$20 - 29k,1,0,4.166666666666667,2.8333333333333335,1.7,10,2.8823529411764706
+95,23,male,man,bisexual,other,no,some high school,$20 - 29k,0,0,4.666666666666667,2.8333333333333335,1.7,10,2.411764705882353
+96,24,male,man,bisexual,other,no,some high school,$20 - 29k,0,1,5,2.6666666666666665,1.7,10,NA
+97,25,female,woman,bisexual,other,no,some high school,$10 - 19k,1,1,4.916666666666667,2.8333333333333335,1.7,10,NA
+99,26,male,transgender,bisexual,non-lat white,no,some college,$50 - 74k,0,0,3.8333333333333335,3.1666666666666665,1.5,3,1.8823529411764706
+100,26,female,woman,bisexual,latinx/multi,no,some high school,$20 - 29k,1,1,4.75,2.8333333333333335,1.7,10,NA
+103,30,female,woman,lesbian,non-lat white,no,bachelor,$75 - 100k,0,1,4.583333333333333,3.3333333333333335,1.6,0,NA
+104,28,male,gender nonconforming,same-gender loving,non-lat white,no,high school / GED,$30 - 39k,0,1,3.1666666666666665,3.3333333333333335,1.9,4,NA
+105,24,male,gender nonconforming,same-gender loving,non-lat white,no,high school / GED,$30 - 39k,0,1,3.3333333333333335,3.1666666666666665,1.9,6,NA
+106,28,male,man,bisexual,non-lat white,no,bachelor,$75 - 100k,0,1,4.083333333333333,3,1.2,0,NA
+107,29,female,man,heterosexual,non-lat white,no,some college,> $100k,1,0,4,3,1,0,2
+108,31,male,man,bisexual,non-lat white,no,bachelor,$75 - 100k,0,1,4.416666666666667,2,1.5,0,NA
+109,27,female,woman,bisexual,non-lat white,no,some high school,$20 - 29k,1,1,4.75,2.3333333333333335,1.7,10,NA
+110,28,male,man,bisexual,non-lat white,no,some high school,$20 - 29k,1,1,5,2.8333333333333335,2,10,NA
+111,29,male,man,bisexual,non-lat white,no,some high school,$20 - 29k,1,1,4.916666666666667,3.3333333333333335,2,10,NA
+112,20,female,woman,bisexual,non-lat white,no,some high school,$20 - 29k,1,0,4.333333333333333,3,2,10,2.588235294117647
+114,30,female,transgender,gay,black,no,bachelor,$30 - 39k,0,1,4.5,3.5,1,0,1.7647058823529411
+115,21,female,woman,bisexual,non-lat white,no,some high school,$20 - 29k,1,1,5,3,2,10,2.5294117647058822
+117,26,male,transgender,gay,latinx/multi,no,high school / GED,$30 - 39k,1,0,3.9166666666666665,3,2.5,6,NA
+118,28,female,woman,pansexual,latinx/AI,no,master's,< $10k,1,1,6.166666666666667,4,1.8,6,NA
+119,21,female,woman,bisexual,non-lat white,no,some high school,$20 - 29k,1,1,4.416666666666667,2.5,2,10,NA
+120,22,male,man,bisexual,non-lat white,no,some high school,$20 - 29k,1,1,4.333333333333333,2.8333333333333335,2,10,NA
+121,28,male,man,gay,non-lat white,no,some college,$40 - 49k,0,0,5.916666666666667,4,1,0,1
+123,23,male,man,bisexual,non-lat white,no,some high school,$20 - 29k,1,0,4.416666666666667,3.3333333333333335,2,10,2.5294117647058822
+124,30,female,woman,gay,black,no,bachelor,$30 - 39k,0,1,5.25,3.8333333333333335,1.5,0,1.8823529411764706
+127,36,male,man,gay,non-lat white,no,some college,$30 - 39k,0,0,5.916666666666667,3.6666666666666665,1,0,1.2352941176470589
+128,24,male,man,bisexual,non-lat white,no,some high school,$20 - 29k,1,0,4.416666666666667,2,2.2,10,NA
+129,36,male,man,gay,non-lat white,no,bachelor,$40 - 49k,0,0,6.083333333333333,3.8333333333333335,1,0,1.1176470588235294
+130,32,male,man,bisexual,non-lat white,no,some college,$30 - 39k,0,0,5.75,4,1,0,1
+131,25,female,woman,bisexual,non-lat white,no,some high school,$20 - 29k,1,1,4.75,2.8333333333333335,2.2,10,NA
+132,26,male,man,bisexual,non-lat white,no,some high school,$20 - 29k,1,1,4.166666666666667,2.8333333333333335,2,10,NA
+133,27,female,woman,bisexual,non-lat white,no,some high school,$20 - 29k,1,1,4.833333333333333,3,2,10,NA
+135,28,female,woman,bisexual,non-lat white,no,some high school,$20 - 29k,1,1,3.3333333333333335,2.6666666666666665,2,10,NA
+136,29,male,man,bisexual,non-lat white,no,some high school,$20 - 29k,1,0,4.583333333333333,3.5,2,10,2.6470588235294117
+138,20,female,woman,bisexual,non-lat white,no,some high school,$30 - 39k,1,1,4,2.8333333333333335,2,10,NA
+139,36,male,man,bisexual,non-lat white,no,some college,$40 - 49k,0,0,6,4.166666666666667,1.1,3,NA
+141,21,female,woman,bisexual,non-lat white,no,some high school,$20 - 29k,1,0,4.5,2.5,2,10,2.9411764705882355
+142,22,female,woman,bisexual,non-lat white,no,some high school,$20 - 29k,1,0,4.5,3.1666666666666665,2,10,2.5294117647058822
+143,52,male,nonbinary,bisexual,non-lat white,no,bachelor,< $10k,0,0,2.9166666666666665,3.6666666666666665,1,1,1
+144,22,male,man,bisexual,non-lat white,no,some high school,$20 - 29k,1,0,4.416666666666667,3.1666666666666665,2,10,2.823529411764706
+145,22,male,man,bisexual,non-lat white,no,some high school,$20 - 29k,1,0,4.083333333333333,3.5,2,10,2.6470588235294117
+146,23,male,man,bisexual,non-lat white,no,some high school,$20 - 29k,1,0,4.5,2.8333333333333335,2,10,2.588235294117647
+147,24,female,woman,bisexual,non-lat white,no,some high school,$20 - 29k,1,0,4,2.6666666666666665,2,10,2.764705882352941
+148,25,male,man,bisexual,non-lat white,no,some high school,$30 - 39k,1,0,4.333333333333333,3.1666666666666665,2,10,2.6470588235294117
+149,26,female,woman,bisexual,non-lat white,no,some high school,$20 - 29k,1,0,4.666666666666667,3.3333333333333335,3.9,10,2.411764705882353
+151,28,female,woman,bisexual,non-lat white,no,some high school,$20 - 29k,1,0,4.583333333333333,3.1666666666666665,2,10,2.3529411764705883
+152,29,male,man,bisexual,non-lat white,no,some high school,$20 - 29k,1,0,4.25,3.6666666666666665,2,10,2.5294117647058822
+153,20,male,man,bisexual,non-lat white,no,some high school,$20 - 29k,1,0,4.5,3,2,10,2.411764705882353
+154,21,female,woman,bisexual,non-lat white,no,some high school,$20 - 29k,1,0,4.333333333333333,2.8333333333333335,2,10,2.764705882352941
+155,22,male,man,bisexual,non-lat white,no,some high school,$20 - 29k,1,0,4.5,3.1666666666666665,2,10,2.4705882352941178
+156,30,female,transgender,lesbian,black,yes,some high school,$30 - 39k,0,0,3.75,2.8333333333333335,3.5,4,NA
+158,24,female,woman,bisexual,non-lat white,no,some high school,$30 - 39k,1,0,4.25,3.3333333333333335,2,10,2.411764705882353
+161,21,female,woman,bisexual,non-lat white,no,some high school,$30 - 39k,1,0,3.9166666666666665,3,2,10,2.7058823529411766
+162,22,male,man,bisexual,non-lat white,no,some high school,$20 - 29k,1,0,4.25,2.8333333333333335,2,10,2.3529411764705883
+164,23,male,man,bisexual,non-lat white,no,some high school,$20 - 29k,1,0,3.6666666666666665,2.6666666666666665,2,10,2.4705882352941178
+165,24,female,woman,bisexual,non-lat white,no,some high school,$20 - 29k,1,0,3.5833333333333335,2.8333333333333335,2,10,2.176470588235294
+167,65,female,woman,lesbian,non-lat white,no,bachelor,$20 - 29k,1,0,6,4,1,2,1
+168,21,female,woman,bisexual,non-lat white,no,some high school,$20 - 29k,1,0,3.6666666666666665,3.5,2,10,NA
+169,22,female,woman,bisexual,non-lat white,no,some high school,$20 - 29k,1,0,4.25,3,2,10,2.4705882352941178
+172,22,female,woman,bisexual,non-lat white,no,high school / GED,$30 - 39k,1,0,4,2.6666666666666665,2,10,NA
+173,23,female,woman,bisexual,non-lat white,no,some high school,$20 - 29k,1,0,4.75,3.8333333333333335,2,10,2.3529411764705883
+175,22,female,woman,lesbian,asian,no,bachelor,< $10k,0,0,6.583333333333333,2.3333333333333335,1,0,NA
+176,26,male,woman,bisexual,AI/AN,no,some college,$40 - 49k,0,1,4.666666666666667,2.1666666666666665,3.7,0,NA
+179,29,female,woman,bisexual,latinx/multi,yes,some college,$30 - 39k,1,0,2.6666666666666665,2.6666666666666665,3.9,7,3.176470588235294
+180,33,female,woman,lesbian,AI/AN,no,some college,$50 - 74k,0,0,5.583333333333333,3.1666666666666665,1.3,0,2.823529411764706
+182,23,female,woman,lesbian,non-lat white,no,bachelor,$50 - 74k,1,0,4.583333333333333,3.5,2.7,0,2.235294117647059
+183,27,female,woman,lesbian,asian,no,master's,> $100k,1,0,3.3333333333333335,3,3.2,0,2.411764705882353
+184,34,female,man,gay,latinx,no,doctorate,$40 - 49k,1,0,3.9166666666666665,3.1666666666666665,3.8,8,2.4705882352941178
+185,32,female,woman,lesbian,non-lat white,no,bachelor,$50 - 74k,0,1,5.25,3.1666666666666665,3.3,0,NA
+186,25,female,man,gay,asian,no,bachelor,$50 - 74k,0,0,3.8333333333333335,2.6666666666666665,4.1,5,3.1176470588235294
+187,37,female,man,gay,asian,no,some college,$30 - 39k,0,0,3.8333333333333335,2.6666666666666665,4.1,7,2.2941176470588234
+188,28,female,woman,lesbian,AI/AN,no,master's,$30 - 39k,1,0,4.25,2.8333333333333335,4.5,0,2.9411764705882355
+189,28,female,woman,lesbian,black,no,some college,$40 - 49k,1,0,4.75,2.5,3.1,0,2.1176470588235294
+190,27,female,woman,lesbian,non-lat white,no,bachelor,> $100k,1,0,3.5,3.6666666666666665,3.1,0,2.2941176470588234
+191,33,female,man,gay,asian,no,doctorate,$40 - 49k,0,0,3.75,3,4.8,0,2.5294117647058822
+192,35,female,man,gay,non-lat white,no,some college,$40 - 49k,1,0,3.8333333333333335,3.8333333333333335,3.5,5,2.588235294117647
+193,24,female,man,gay,latinx,no,doctorate,$50 - 74k,1,0,3.75,2.6666666666666665,3.5,7,2.823529411764706
+194,26,female,woman,lesbian,black,no,bachelor,> $100k,1,0,4.833333333333333,3.6666666666666665,3.6,7,2.176470588235294
+195,27,female,woman,lesbian,asian,no,some college,$75 - 100k,0,0,4.5,4,4.5,0,1.8235294117647058
+196,24,female,woman,lesbian,AI/AN,no,bachelor,$30 - 39k,1,0,2.9166666666666665,3.6666666666666665,3.6,5,2.4705882352941178
+197,29,female,woman,lesbian,AI/AN,no,master's,$75 - 100k,0,0,4,2.3333333333333335,3.1,0,2.8823529411764706
+198,24,female,woman,lesbian,AI/AN,no,doctorate,$50 - 74k,0,0,4.75,3.1666666666666665,2.8,5,2.176470588235294
+199,40,female,woman,lesbian,non-lat white,no,some college,$30 - 39k,0,0,2.9166666666666665,2.5,4.1,0,2.823529411764706
+200,30,female,man,gay,black,no,some college,$50 - 74k,0,0,4.166666666666667,3,3.2,3,2.5294117647058822
+201,25,female,man,gay,asian,no,master's,$40 - 49k,0,0,4.25,2.5,3.7,0,2.4705882352941178
+202,29,female,woman,lesbian,asian,no,bachelor,$40 - 49k,1,0,3.75,3.3333333333333335,3.8,0,2.4705882352941178
+203,29,female,man,gay,AI/AN,no,some college,$75 - 100k,0,0,4.333333333333333,3.8333333333333335,3.1,6,2.411764705882353
+204,33,female,man,gay,asian,no,doctorate,> $100k,0,0,4.083333333333333,2.8333333333333335,3.4,5,2.9411764705882355
+205,35,female,woman,lesbian,asian,no,bachelor,$75 - 100k,1,0,3.3333333333333335,3,3.9,0,2.4705882352941178
+207,36,female,woman,pansexual,latinx,no,high school / GED,$30 - 39k,1,0,7,4.5,1,2,1.4705882352941178
+208,26,male,man,gay,non-lat white,yes,bachelor,$40 - 49k,1,0,5.666666666666667,2.8333333333333335,3.5,4,2.8823529411764706
+209,27,female,woman,bisexual,AI/AN,yes,some college,$10 - 19k,1,0,3.3333333333333335,2.5,3.2,9,3.1176470588235294
+211,23,female,woman,lesbian,latinx,no,doctorate,> $100k,0,0,3.9166666666666665,3.5,3.7,0,2.411764705882353
+212,37,female,man,gay,latinx,no,bachelor,$30 - 39k,1,0,4,2.5,4,0,2.588235294117647
+213,26,female,man,gay,asian,no,some college,$50 - 74k,1,0,3.5,3.5,3.2,8,2.3529411764705883
+214,33,female,woman,lesbian,black,no,bachelor,> $100k,0,0,4.5,2.6666666666666665,3.4,7,1.7647058823529411
+215,24,female,man,gay,black,no,master's,$50 - 74k,0,0,4.083333333333333,3.1666666666666665,3.8,3,2.7058823529411766
+216,40,female,woman,lesbian,black,no,master's,$40 - 49k,1,0,3.8333333333333335,2.6666666666666665,2.1,4,2.7058823529411766
+217,27,female,man,gay,AI/AN,no,some college,$50 - 74k,0,0,3.5,2.6666666666666665,3.4,6,2.6470588235294117
+218,34,female,man,gay,latinx,no,some college,$50 - 74k,1,0,4.333333333333333,3.6666666666666665,4.1,0,2.9411764705882355
+219,31,female,woman,lesbian,latinx,no,some college,$75 - 100k,1,0,3.6666666666666665,2.1666666666666665,3.6,0,2.9411764705882355
+220,22,female,woman,lesbian,asian,no,some college,$50 - 74k,1,0,3.4166666666666665,3.1666666666666665,3.6,5,2.588235294117647
+221,36,female,man,gay,asian,no,master's,$30 - 39k,1,0,4.333333333333333,3.1666666666666665,3.8,0,2.2941176470588234
+222,28,female,woman,lesbian,black,no,some college,$50 - 74k,1,0,3.8333333333333335,2.6666666666666665,3.2,0,2.2941176470588234
+223,40,female,man,gay,asian,no,some college,$40 - 49k,0,0,4.416666666666667,2.6666666666666665,3,0,2.6470588235294117
+224,36,female,man,gay,latinx,no,doctorate,$40 - 49k,1,0,3.9166666666666665,3.6666666666666665,3,7,2.2941176470588234
+225,31,female,woman,lesbian,latinx,no,bachelor,$75 - 100k,1,0,4.25,3.5,3,4,2.235294117647059
+227,27,female,woman,lesbian,non-lat white,no,some college,$30 - 39k,1,0,6,3,2.7,6,NA
+228,29,male,man,bisexual,AI/AN,no,some college,$30 - 39k,1,0,4.166666666666667,3,1.9,1,2.588235294117647
+229,31,male,man,gay,black,no,some college,$20 - 29k,1,0,4.416666666666667,3.3333333333333335,2.2,8,2.176470588235294
+230,36,male,man,bisexual,latinx,yes,master's,$40 - 49k,1,0,5.5,2.8333333333333335,2.9,9,2.588235294117647
+240,30,male,man,gay,non-lat white,no,some college,$30 - 39k,1,0,4.333333333333333,3,2.1,6,2.0588235294117645
+241,29,male,man,gay,non-lat white,no,some college,$30 - 39k,1,0,4.833333333333333,2.8333333333333335,3.6,5,2.823529411764706
+244,34,male,transgender,bisexual,latinx/multi,no,some high school,< $10k,0,0,3.75,3.1666666666666665,1.5,4,3.176470588235294
+246,28,male,man,gay,black,yes,master's,$50 - 74k,0,0,4.333333333333333,3.3333333333333335,1,0,2.235294117647059
+247,26,female,gender nonconforming,pansexual,AI/AN,yes,some college,$30 - 39k,1,0,3.6666666666666665,3.3333333333333335,3.3,8,3
+248,18,male,man,gay,non-lat white,no,bachelor,< $10k,0,0,4.5,4,1,1,1.5294117647058822
+250,23,male,man,gay,asian,no,some college,$20 - 29k,0,0,4.916666666666667,3,3.7,0,NA
+251,29,male,man,gay,non-lat white,no,some college,$40 - 49k,1,0,4.666666666666667,2.8333333333333335,3.3,0,2.5294117647058822
+252,27,male,man,gay,non-lat white,no,some college,$40 - 49k,1,0,4.166666666666667,2.6666666666666665,4,6,2.1176470588235294
+254,28,male,man,gay,non-lat white,yes,some college,$40 - 49k,1,0,5.333333333333333,2.8333333333333335,3.9,4,2.176470588235294
+255,42,female,woman,bisexual,non-lat white,no,master's,$20 - 29k,1,0,4.833333333333333,1.6666666666666667,2.5,7,2.0588235294117645
+256,26,female,woman,lesbian,asian,unsure,master's,$50 - 74k,0,0,5.083333333333333,3,1.2,0,2.4705882352941178
+257,30,male,man,gay,non-lat white,no,some college,$40 - 49k,1,0,5.166666666666667,3.1666666666666665,3.9,5,2.5294117647058822
+260,48,female,woman,lesbian,black,no,high school / GED,$30 - 39k,0,0,6.25,3.8333333333333335,1,0,NA
+261,64,male,woman,bisexual,non-lat white,no,bachelor,$10 - 19k,0,1,4.166666666666667,2.6666666666666665,1,1,1.0588235294117647
+262,20,female,nonbinary,pansexual,non-lat white,no,some college,< $10k,1,0,5.583333333333333,2.3333333333333335,1,1,NA
+263,69,male,man,bisexual,non-lat white,no,some college,$50 - 74k,1,0,3.5,3.5,1.3,2,1.3529411764705883
+264,33,female,woman,lesbian,latinx,no,master's,$40 - 49k,0,1,5.416666666666667,2.5,1.9,0,NA
+267,21,male,man,asexual,asian,no,bachelor,$30 - 39k,0,1,6.333333333333333,4.166666666666667,1,1,1
+269,32,female,woman,lesbian,non-lat white,no,high school / GED,$30 - 39k,1,0,4.416666666666667,2.8333333333333335,2.6,5,2.5294117647058822
+270,26,male,woman,gay,non-lat white,no,master's,$50 - 74k,1,1,5.916666666666667,3.1666666666666665,3.9,6,2.588235294117647
+271,32,male,woman,gay,non-lat white,no,doctorate,$50 - 74k,1,0,6.416666666666667,3.1666666666666665,1.4,2,2.9411764705882355
+273,23,male,man,bisexual,non-lat white,no,some high school,$40 - 49k,1,0,4.416666666666667,2.5,1.2,10,2.5294117647058822
+274,44,male,gender nonconforming,heteroflexible,non-lat white,no,some college,$30 - 39k,0,1,3.75,4,1.5,0,1.0588235294117647
+276,30,male,gender nonconforming,gay,non-lat white,yes,some college,$50 - 74k,1,0,6.5,3,1.7,10,3.0588235294117645
+277,22,male,man,bisexual,non-lat white,no,some high school,$40 - 49k,1,0,4.416666666666667,3,2.5,10,2.411764705882353
+284,21,female,woman,bisexual,other,no,some high school,$30 - 39k,1,0,4.416666666666667,2.6666666666666665,3.2,9,2.4705882352941178
+285,35,male,woman,lesbian,non-lat white,no,master's,$50 - 74k,0,0,2.9166666666666665,4.333333333333333,1,1,1
+289,39,male,man,gay,latinx/multi,no,high school / GED,$75 - 100k,0,0,5.916666666666667,3.6666666666666665,1,2,1
+291,28,female,woman,lesbian,non-lat white,no,some college,$30 - 39k,1,0,6.833333333333333,5,1.7,2,1.2352941176470589
+296,60,male,man,gay,non-lat white,no,master's,> $100k,0,0,7,4.166666666666667,1,1,1
+300,57,male,man,gay,latinx/multi,no,bachelor,$50 - 74k,0,1,5.083333333333333,4,1,1,NA
+301,22,female,woman,heteroflexible,non-lat white,no,bachelor,$10 - 19k,1,0,4.75,1.3333333333333333,1,5,1
+303,48,female,woman,heterosexual,non-lat white,no,some college,$30 - 39k,1,0,5.583333333333333,3.5,1,1,1.8823529411764706
+305,45,female,woman,bisexual,latinx,no,bachelor,$10 - 19k,1,0,3.3333333333333335,2.1666666666666665,1.2,1,1.2352941176470589
+309,22,female,woman,bisexual,latinx,no,some college,$30 - 39k,1,0,5.833333333333333,3.1666666666666665,2,5,1.3529411764705883
+313,27,female,woman,bisexual,non-lat white,no,bachelor,< $10k,1,1,5.416666666666667,3.1666666666666665,1,1,1.3529411764705883
+316,28,female,woman,gay,non-lat white,no,some college,$10 - 19k,1,0,5,3.5,1.5,0,NA
+318,29,male,man,gay,latinx,no,bachelor,< $10k,0,0,3.4166666666666665,2.8333333333333335,1.1,0,1.1176470588235294
+322,19,prefer not to answer,man,gay,latinx,no,some high school,$10 - 19k,0,1,6.083333333333333,3.1666666666666665,1,1,1.1764705882352942
+329,19,female,woman,lesbian,latinx/multi,no,high school / GED,< $10k,1,1,4.25,3.1666666666666665,3.9,4,NA
+330,26,male,man,bisexual,non-lat white,no,some college,$40 - 49k,0,0,6,3,3.8,0,2.764705882352941
+331,46,male,man,gay,non-lat white,no,some college,$30 - 39k,0,0,4.166666666666667,2,1.3,1,1.1176470588235294
+333,18,male,man,bisexual,latinx,no,high school / GED,$75 - 100k,0,0,5.5,3.6666666666666665,1,3,1.4705882352941178
+341,19,female,woman,bisexual,non-lat white,no,high school / GED,< $10k,0,0,5.166666666666667,3.1666666666666665,1,0,1
+348,66,male,man,gay,non-lat white,no,master's,$20 - 29k,0,0,4.583333333333333,3.5,1.4,5,NA
+349,41,female,woman,lesbian,non-lat white,no,bachelor,$30 - 39k,1,0,6,3.3333333333333335,1.1,1,2.0588235294117645
+352,49,female,woman,lesbian,non-lat white,no,some college,> $100k,1,0,7,5,1,1,1
+355,29,female,woman,pansexual,non-lat white,no,some college,$20 - 29k,1,0,5,2,2.6,7,NA
+361,20,female,nonbinary,heteroflexible,latinx/multi,no,high school / GED,< $10k,0,0,3.5,1.5,1,1,1.1176470588235294
+370,39,female,woman,pansexual,latinx,no,high school / GED,< $10k,1,0,5.833333333333333,4.166666666666667,1,2,1
+372,26,female,woman,bisexual,non-lat white,no,some college,$20 - 29k,1,0,5.833333333333333,1.6666666666666667,1.1,1,2.0588235294117645
+376,19,prefer not to answer,man,gay,latinx,no,some high school,$10 - 19k,0,1,6.166666666666667,2.6666666666666665,1,1,1.4705882352941178
+381,53,male,man,gay,non-lat white,no,some college,$50 - 74k,1,0,6.166666666666667,4.166666666666667,1,1,1.0588235294117647
+382,29,male,man,gay,non-lat white,yes,some college,$20 - 29k,1,0,5.5,2.6666666666666665,4.3,6,2.176470588235294
+383,18,female,man,gay,non-lat white,no,high school / GED,< $10k,1,0,5.083333333333333,2.5,3.1,7,2.9411764705882355
+385,41,female,woman,same-gender loving,non-lat white,no,bachelor,< $10k,1,1,4.416666666666667,4.333333333333333,1.2,0,2.4705882352941178
+387,36,female,woman,bisexual,other,no,high school / GED,$20 - 29k,1,1,4.333333333333333,1.5,1,0,2.588235294117647
+395,28,female,transgender,pansexual,other,no,some college,< $10k,0,0,5.083333333333333,2.3333333333333335,1.8,1,1.7647058823529411
+399,18,female,woman,bisexual,non-lat white,no,some college,< $10k,1,0,4.666666666666667,2.1666666666666665,1,1,1
+400,32,male,transgender,asexual,latinx,no,some college,< $10k,1,0,3,2.8333333333333335,1,1,2.5294117647058822
+405,18,female,man,gay,non-lat white,no,high school / GED,< $10k,1,0,5.083333333333333,3,1.4,5,NA
+406,18,female,transgender,gay,non-lat white,no,some high school,< $10k,1,0,4.75,3,1.4,2,NA
+408,37,male,man,gay,other,yes,some high school,< $10k,1,0,5.583333333333333,3.6666666666666665,1.6,9,NA
+410,46,female,woman,lesbian,non-lat white,no,some college,$40 - 49k,1,1,4.25,3.6666666666666665,1.6,2,1.8823529411764706
+421,19,female,woman,bisexual,latinx,no,some college,$10 - 19k,1,0,4.5,2.3333333333333335,1,2,NA
+422,23,female,man,asexual,non-lat white,no,some college,< $10k,1,1,4,2,1.5,1,2.235294117647059
+423,23,male,man,gay,latinx/multi,no,some college,$75 - 100k,1,0,4.5,3.3333333333333335,1.9,1,2
+426,32,female,genderqueer,bisexual,non-lat white,no,some college,$40 - 49k,0,1,5.666666666666667,3,1,0,2.1176470588235294
+427,20,female,woman,queer,other,no,bachelor,$10 - 19k,0,1,4.916666666666667,1.8333333333333333,1,1,NA
+428,41,female,woman,lesbian,latinx/multi,no,high school / GED,$30 - 39k,0,0,1,2.8333333333333335,1,1,1.0588235294117647
+431,34,male,transgender,gay,non-lat white,no,bachelor,$50 - 74k,1,1,6,3.1666666666666665,1.3,3,NA
+438,29,female,woman,pansexual,non-lat white,no,high school / GED,< $10k,1,0,5.666666666666667,1.5,2,8,3.2941176470588234
+439,50,female,woman,heteroflexible,non-lat white,no,doctorate,> $100k,1,0,2.75,2,1.1,0,1.588235294117647
+441,27,male,transgender,gay,non-lat white,no,master's,$40 - 49k,1,1,3.8333333333333335,3.1666666666666665,1.6,2,NA
+442,30,male,transgender,gay,non-lat white,no,master's,$50 - 74k,0,1,4,3,3.5,5,NA
+443,63,male,man,gay,non-lat white,no,bachelor,$20 - 29k,0,0,6.666666666666667,4.333333333333333,1,1,1
+445,28,female,man,heterosexual,non-lat white,no,some college,$10 - 19k,0,0,5.416666666666667,3.3333333333333335,1.9,8,2.411764705882353
+452,31,male,man,gay,non-lat white,no,some college,$75 - 100k,0,0,6,3.6666666666666665,1.5,0,1.2941176470588236
+453,25,male,man,gay,non-lat white,no,bachelor,$75 - 100k,0,0,6,3.6666666666666665,1.6,0,1.9411764705882353
+454,65,female,woman,lesbian,non-lat white,no,doctorate,$75 - 100k,0,0,6.666666666666667,4.166666666666667,1,1,1
+460,43,female,woman,bisexual,non-lat white,no,some college,$30 - 39k,1,0,5,2.3333333333333335,2,0,1.1176470588235294
+462,34,male,transgender,gay,latinx/multi,no,master's,$50 - 74k,1,1,5.166666666666667,3,1.5,2,NA
+464,35,female,woman,lesbian,non-lat white,no,some college,$75 - 100k,0,0,5.5,3.1666666666666665,1.5,0,2.411764705882353
+465,31,male,man,gay,non-lat white,no,some college,$75 - 100k,0,0,5.416666666666667,3.3333333333333335,1.5,0,2.4705882352941178
+466,34,female,woman,bisexual,latinx,NA,some college,$20 - 29k,1,0,7,3,1.3,0,NA
+467,25,female,woman,lesbian,non-lat white,no,master's,$50 - 74k,1,1,3.9166666666666665,2.8333333333333335,2.9,1,2
+468,43,female,woman,lesbian,non-lat white,no,high school / GED,$40 - 49k,0,0,5.583333333333333,3.6666666666666665,1,0,1.2352941176470589
+469,30,male,man,gay,non-lat white,no,bachelor,$30 - 39k,0,0,6.25,4,2,3,1.2941176470588236
+470,33,female,woman,lesbian,non-lat white,no,some college,$50 - 74k,0,0,4.916666666666667,3.3333333333333335,1.5,0,2.411764705882353
+471,22,male,genderqueer,gay,non-lat white,no,bachelor,$50 - 74k,0,0,4.916666666666667,2.8333333333333335,3.8,0,2.764705882352941
+474,28,male,transgender,gay,non-lat white,no,master's,$40 - 49k,1,1,5.083333333333333,3.1666666666666665,1.4,4,NA
+475,31,male,man,gay,non-lat white,no,high school / GED,$40 - 49k,0,0,6.166666666666667,4,1,0,1.3529411764705883
+476,28,female,woman,lesbian,latinx,no,high school / GED,$30 - 39k,0,0,4.333333333333333,2.6666666666666665,1,0,1.4705882352941178
+478,37,male,transgender,heterosexual,non-lat white,yes,high school / GED,$30 - 39k,1,0,2.8333333333333335,3.6666666666666665,1,0,1.2941176470588236
+479,50,male,man,bisexual,non-lat white,no,some college,$40 - 49k,0,0,4.333333333333333,3.8333333333333335,1.5,0,1.3529411764705883
+480,28,male,transgender,bisexual,non-lat white,no,bachelor,$30 - 39k,1,1,5.333333333333333,3.1666666666666665,1.7,2,NA
+481,25,male,transgender,bisexual,non-lat white,no,some college,$50 - 74k,0,0,5.25,3.3333333333333335,1,0,NA
+484,68,male,man,gay,non-lat white,yes,master's,$50 - 74k,0,0,5.333333333333333,5,1,0,1
+488,34,female,woman,bisexual,non-lat white,no,some college,< $10k,1,1,5.75,2.3333333333333335,1.7,4,NA
+494,25,female,man,bisexual,non-lat white,no,bachelor,$40 - 49k,0,1,4.166666666666667,3.1666666666666665,1.4,2,NA
+495,22,male,transgender,lesbian,non-lat white,no,some college,$30 - 39k,0,0,4.916666666666667,2.8333333333333335,2.9,4,NA
+496,27,male,woman,lesbian,non-lat white,no,master's,$30 - 39k,0,0,5.416666666666667,3.6666666666666665,1,1,1.411764705882353
+497,24,male,transgender,lesbian,non-lat white,yes,some high school,$40 - 49k,0,0,3.9166666666666665,3.3333333333333335,2.6,7,NA
+498,22,male,woman,lesbian,non-lat white,no,some college,$20 - 29k,1,1,4.833333333333333,3.1666666666666665,1.3,4,1.4705882352941178
+499,21,male,woman,pansexual,black,yes,high school / GED,< $10k,1,1,4.083333333333333,4,2.2,7,2.7058823529411766
+500,31,female,man,gay,asian,no,master's,$20 - 29k,0,1,5.666666666666667,2.8333333333333335,1,0,1.6470588235294117
+501,34,male,transgender,lesbian,latinx,yes,some high school,$20 - 29k,1,0,4.083333333333333,2.5,3,7,NA
+502,25,female,transgender,bisexual,latinx/multi,no,high school / GED,$30 - 39k,0,0,4.833333333333333,2.6666666666666665,1.8,4,NA
+503,31,male,man,lesbian,non-lat white,no,high school / GED,$30 - 39k,0,0,3.6666666666666665,3,2,7,2.9411764705882355
+504,37,male,transgender,lesbian,black,yes,some high school,$30 - 39k,1,0,3.25,2.5,2.6,9,NA
+508,30,female,transgender,gay,non-lat white,no,master's,$50 - 74k,0,1,1.5,2.8333333333333335,3.5,5,NA
+509,32,female,man,bisexual,non-lat white,yes,bachelor,$75 - 100k,0,1,5.583333333333333,3.1666666666666665,4.2,3,NA
+510,25,male,woman,lesbian,asian,no,bachelor,$20 - 29k,0,1,5.333333333333333,3.8333333333333335,1,0,NA
+511,23,female,transgender,gay,asian,yes,some high school,$30 - 39k,0,0,4.416666666666667,2.6666666666666665,2.4,6,NA
+512,27,male,transgender,bisexual,latinx/multi,no,high school / GED,$30 - 39k,0,0,4.833333333333333,3,1.9,3,2.764705882352941
+523,30,female,woman,lesbian,latinx,no,bachelor,$50 - 74k,1,0,7,4.333333333333333,1,0,NA
+528,33,female,woman,bisexual,non-lat white,no,master's,$50 - 74k,1,0,4.5,4.166666666666667,1,1,1.5294117647058822
+529,36,female,woman,lesbian,non-lat white,no,some college,< $10k,0,0,4.416666666666667,3.5,1,1,1.411764705882353
+530,35,male,man,gay,latinx,no,high school / GED,$20 - 29k,1,1,4.583333333333333,4.166666666666667,1,5,1.8235294117647058
+537,34,female,genderqueer,queer,non-lat white,no,bachelor,$50 - 74k,0,0,6.166666666666667,3.8333333333333335,1,2,1.1764705882352942
+539,41,female,man,heterosexual,non-lat white,no,some college,$20 - 29k,1,1,6.25,2,1,1,1
+541,28,female,woman,lesbian,latinx,no,master's,$30 - 39k,1,0,5.416666666666667,3,1.1,0,1.1764705882352942
+547,19,female,transgender,bisexual,latinx/multi,no,bachelor,< $10k,0,0,6,3.5,1.8,2,1.588235294117647
+551,34,female,woman,lesbian,non-lat white,no,bachelor,$10 - 19k,0,0,6.416666666666667,2.6666666666666665,1,3,1.1764705882352942
+560,35,female,woman,lesbian,non-lat white,no,master's,$50 - 74k,0,0,6.5,4.666666666666667,1.4,1,1.411764705882353
+562,21,female,woman,asexual,asian,no,bachelor,< $10k,0,1,3.5833333333333335,4,1.1,3,1.1176470588235294
+563,24,female,woman,queer,latinx,no,bachelor,$50 - 74k,0,0,6.416666666666667,3.5,1.2,2,NA
+567,57,male,man,gay,other,yes,master's,$50 - 74k,0,1,4.75,2.6666666666666665,1,1,NA
+569,20,female,woman,bisexual,non-lat white,no,bachelor,< $10k,0,1,4.916666666666667,2,1.5,4,1.6470588235294117
+570,22,female,man,gay,non-lat white,no,bachelor,< $10k,0,0,7,2.6666666666666665,1,1,1.0588235294117647
+571,27,female,agender,bisexual,latinx,no,bachelor,< $10k,1,1,6.916666666666667,3.8333333333333335,1.2,3,NA
+573,21,female,nonbinary,pansexual,non-lat white,no,some college,< $10k,0,0,5.25,3,1,2,1.6470588235294117
+574,20,female,woman,lesbian,non-lat white,no,bachelor,$10 - 19k,0,0,4.583333333333333,2.1666666666666665,1,3,1.3529411764705883
+575,20,female,woman,bisexual,non-lat white,no,bachelor,< $10k,0,1,5.916666666666667,3.1666666666666665,1,2,1.2352941176470589
+578,25,male,man,bisexual,non-lat white,no,some high school,$30 - 39k,0,1,4.833333333333333,2.6666666666666665,1,10,NA
+580,27,female,genderqueer,asexual,latinx/multi,no,bachelor,$10 - 19k,0,1,2.5,2.8333333333333335,1,1,1.7647058823529411
+587,26,male,man,gay,non-lat white,no,high school / GED,$50 - 74k,0,1,5.25,2.8333333333333335,1.9,0,NA
+588,25,female,nonbinary,pansexual,latinx/multi,no,some college,< $10k,0,0,5.5,1.1666666666666667,1.1,2,1
+591,48,female,woman,lesbian,non-lat white,no,bachelor,$50 - 74k,1,1,6.5,2.8333333333333335,1.4,4,2.6470588235294117
+592,30,male,man,gay,non-lat white,no,high school / GED,$20 - 29k,0,1,5.833333333333333,3.6666666666666665,1,0,NA
+593,52,male,man,bisexual,non-lat white,no,some college,$30 - 39k,0,0,6.083333333333333,4.666666666666667,1,0,1
+597,22,female,gender nonconforming,lesbian,non-lat white,no,high school / GED,$40 - 49k,0,1,3.0833333333333335,3.5,2.4,7,NA
+599,28,male,transgender,gay,non-lat white,no,high school / GED,$75 - 100k,0,0,4.666666666666667,3,1.1,1,1.7647058823529411
+600,35,male,transgender,gay,non-lat white,no,some college,$50 - 74k,0,1,3.9166666666666665,3,1.2,1,1.588235294117647
+605,27,female,woman,lesbian,latinx,no,master's,$30 - 39k,0,0,6.083333333333333,4.333333333333333,1,1,1.2941176470588236
+608,29,male,man,gay,non-lat white,no,high school / GED,$30 - 39k,0,0,5.583333333333333,3.8333333333333335,1,0,NA
+609,25,male,man,gay,non-lat white,no,bachelor,$30 - 39k,0,0,6,3.8333333333333335,2.3,3,1
+613,29,male,man,gay,non-lat white,yes,some college,$40 - 49k,1,0,5.333333333333333,3.1666666666666665,2.8,6,2.0588235294117645
+619,42,male,gender nonconforming,bisexual,non-lat white,yes,master's,> $100k,1,0,6.75,2.8333333333333335,5.2,7,3.6470588235294117
+621,30,male,man,gay,non-lat white,no,some college,$30 - 39k,0,0,5.75,4,1,0,NA
+623,22,male,woman,bisexual,latinx,no,bachelor,$10 - 19k,1,0,5.25,2.5,1,2,1.7647058823529411
+624,28,female,woman,pansexual,non-lat white,no,bachelor,$50 - 74k,1,1,5.5,4.333333333333333,1.1,2,NA
+625,23,male,man,queer,latinx,no,bachelor,$20 - 29k,0,0,6,2.8333333333333335,1.1,2,2.5294117647058822
+627,22,female,nonbinary,not listed,non-lat white,no,some college,$20 - 29k,1,0,5.083333333333333,2.3333333333333335,3.5,7,3.6470588235294117
+629,18,male,nonbinary,gay,black,no,high school / GED,$30 - 39k,0,0,2.9166666666666665,3.3333333333333335,1,0,1.2352941176470589
+630,29,female,woman,lesbian,latinx,no,bachelor,$40 - 49k,0,0,5.916666666666667,3.6666666666666665,1,0,NA
+631,24,female,woman,bisexual,latinx/multi,no,bachelor,< $10k,0,0,6.583333333333333,2.6666666666666665,1.5,4,NA
+632,23,male,man,gay,non-lat white,no,bachelor,$10 - 19k,0,0,6.25,3.5,2,2,NA
+635,19,female,genderqueer,queer,non-lat white,no,bachelor,$10 - 19k,0,1,5.166666666666667,4.333333333333333,1.6,1,1.7647058823529411
+636,27,male,man,gay,latinx,no,high school / GED,$20 - 29k,0,0,5,3,1,0,NA
+638,20,male,man,gay,black,no,bachelor,$10 - 19k,0,0,6.083333333333333,3,2,3,NA
+639,53,male,man,gay,latinx,no,master's,$40 - 49k,1,0,5.75,3,1.2,2,1
+643,25,female,woman,bisexual,latinx/multi,no,bachelor,$30 - 39k,0,0,7,3.1666666666666665,1,2,1
+649,42,male,man,gay,non-lat white,yes,high school / GED,$30 - 39k,0,0,5.583333333333333,2.5,1.5,2,NA
+652,27,female,woman,lesbian,latinx,no,high school / GED,$20 - 29k,0,0,5.583333333333333,3.3333333333333335,1,0,NA
+653,32,female,woman,lesbian,black,no,high school / GED,$30 - 39k,0,0,5.666666666666667,2.6666666666666665,1,0,NA
+654,22,female,woman,bisexual,non-lat white,no,high school / GED,$10 - 19k,0,0,6.083333333333333,3,1.5,4,NA
+655,28,male,man,gay,asian,no,bachelor,$30 - 39k,0,0,6.416666666666667,3.5,1.5,0,1.3529411764705883
+657,36,male,gender nonconforming,pansexual,latinx,no,some college,$20 - 29k,0,0,5.333333333333333,3.3333333333333335,1,0,NA
+659,30,female,woman,queer,latinx/multi,no,master's,$20 - 29k,1,1,5.833333333333333,3.3333333333333335,1.5,2,1.7058823529411764
+664,57,male,man,gay,non-lat white,no,master's,> $100k,1,0,6.916666666666667,3.3333333333333335,1.4,6,1.4705882352941178
+665,36,female,woman,lesbian,black,no,high school / GED,$20 - 29k,0,0,5,2.5,1,0,NA
+666,31,male,man,bisexual,non-lat white,no,some college,$30 - 39k,0,0,3.4166666666666665,3.1666666666666665,2,3,NA
+667,21,male,man,gay,asian,no,bachelor,$10 - 19k,0,0,6.083333333333333,3.5,1.5,0,NA
+668,34,male,man,gay,non-lat white,no,high school / GED,$20 - 29k,0,0,6.333333333333333,3.1666666666666665,1,0,NA
+672,19,female,woman,bisexual,non-lat white,no,bachelor,> $100k,1,1,5.083333333333333,3.3333333333333335,2.9,8,2.411764705882353
+676,19,female,transgender,pansexual,latinx,no,some college,< $10k,1,0,5,3.5,2,3,NA
+677,49,male,man,gay,non-lat white,yes,some college,< $10k,1,0,3.9166666666666665,1,3.6,9,2.4705882352941178
+678,44,female,woman,queer,latinx,no,some college,$10 - 19k,1,0,4.083333333333333,2.6666666666666665,1.1,5,NA
+679,30,male,nonbinary,queer,non-lat white,no,some college,$10 - 19k,0,1,4.083333333333333,4,1.4,1,1.7058823529411764
+681,24,male,man,gay,non-lat white,no,bachelor,< $10k,0,0,5.916666666666667,3,1.5,5,1.2941176470588236
+683,37,male,man,gay,latinx,no,bachelor,$40 - 49k,0,0,6.083333333333333,3.1666666666666665,1.8,3,NA
+685,46,female,woman,bisexual,black,no,high school / GED,$30 - 39k,0,0,6.083333333333333,3.1666666666666665,1.8,4,NA
+686,25,male,genderqueer,pansexual,non-lat white,no,high school / GED,$20 - 29k,0,0,2.0833333333333335,2.8333333333333335,1,0,NA
+687,33,male,man,gay,non-lat white,no,some college,$30 - 39k,0,0,6.083333333333333,3.5,1.5,0,NA
+688,30,male,man,gay,non-lat white,no,high school / GED,$30 - 39k,0,0,5.833333333333333,3.6666666666666665,1,0,1.3529411764705883
+689,32,male,man,bisexual,non-lat white,no,some college,$40 - 49k,0,0,5.833333333333333,4.166666666666667,1,0,NA
+690,25,female,woman,bisexual,non-lat white,no,high school / GED,$20 - 29k,0,0,6,3.6666666666666665,1,0,NA
+691,36,male,man,gay,black,no,high school / GED,$20 - 29k,0,0,5.916666666666667,4,1.6,0,1
+693,25,female,woman,lesbian,non-lat white,no,high school / GED,$10 - 19k,0,0,4.25,2.3333333333333335,1,0,NA
+694,33,male,man,gay,non-lat white,yes,high school / GED,< $10k,1,1,3.75,2.5,1.8,9,2.235294117647059
+696,42,male,man,gay,non-lat white,no,master's,$75 - 100k,1,0,6.75,3.5,1.5,8,1.4705882352941178
+697,26,female,woman,bisexual,black,no,some college,$30 - 39k,1,0,2.8333333333333335,2,1.5,1,1.588235294117647
+699,34,female,woman,pansexual,other,no,master's,$30 - 39k,1,0,4,3.6666666666666665,1.7,6,1.2941176470588236
+701,31,female,nonbinary,pansexual,non-lat white,no,some college,< $10k,1,0,3,1.8333333333333333,1,2,NA
+702,26,female,nonbinary,queer,latinx/multi,no,some college,$30 - 39k,1,0,3.3333333333333335,2.8333333333333335,1.6,7,NA
+703,37,male,man,gay,non-lat white,no,some college,$40 - 49k,0,0,6.083333333333333,3.8333333333333335,1,0,1.4705882352941178
+704,26,male,man,gay,non-lat white,no,bachelor,$40 - 49k,0,0,6.416666666666667,3.8333333333333335,1,0,1
+705,34,male,man,bisexual,black,no,high school / GED,$20 - 29k,0,0,5.916666666666667,4,1,0,2
+708,31,male,man,bisexual,black,no,bachelor,$40 - 49k,0,0,6,4,1,0,1
+709,26,male,man,gay,non-lat white,no,some college,$40 - 49k,0,0,5.916666666666667,3.5,1,0,1
+710,31,male,man,gay,black,no,high school / GED,$20 - 29k,0,0,6.166666666666667,4,1,0,1.8235294117647058
+711,29,male,man,gay,non-lat white,no,bachelor,$40 - 49k,0,0,6.25,4.166666666666667,1,0,1
+713,33,female,woman,bisexual,black,no,high school / GED,$30 - 39k,0,0,6.166666666666667,4,1,1,1
+715,29,male,man,gay,non-lat white,no,bachelor,$30 - 39k,0,0,5.833333333333333,3.8333333333333335,1,0,NA
+716,27,male,man,bisexual,black,no,some college,$30 - 39k,0,0,5.833333333333333,4.166666666666667,1,0,1.5294117647058822
+717,26,female,agender,asexual,non-lat white,no,bachelor,$20 - 29k,1,0,5.25,2.5,1.1,1,2.764705882352941
+718,32,female,woman,queer,latinx,no,some college,< $10k,1,1,3.9166666666666665,4.166666666666667,1,1,1.588235294117647
+719,30,female,woman,queer,black,no,bachelor,$30 - 39k,1,1,6.416666666666667,3.1666666666666665,1.2,3,2.0588235294117645
+720,55,female,transgender,heterosexual,latinx/multi,no,bachelor,$30 - 39k,0,0,4.75,2,1,1,NA
+722,32,male,man,bisexual,non-lat white,no,bachelor,$30 - 39k,0,0,6.083333333333333,4.5,1,0,1
+723,27,male,man,gay,non-lat white,no,bachelor,$30 - 39k,0,0,5.916666666666667,4.166666666666667,1,0,1
+725,36,male,man,gay,black,no,high school / GED,$30 - 39k,0,0,6.083333333333333,4.166666666666667,1,0,1.6470588235294117
+726,33,male,man,bisexual,non-lat white,no,bachelor,$30 - 39k,0,1,5.75,3.8333333333333335,1,0,NA
+727,35,female,woman,bisexual,non-lat white,no,some college,$20 - 29k,0,0,6,4.333333333333333,1,0,1
+728,27,female,woman,gay,non-lat white,no,high school / GED,$20 - 29k,0,0,5.5,4.333333333333333,1,0,2.176470588235294
+729,34,female,woman,bisexual,black,no,high school / GED,$20 - 29k,0,0,6,4.166666666666667,1,0,1
+732,19,male,nonbinary,pansexual,non-lat white,no,some high school,< $10k,0,1,7,3,1,1,NA
+733,30,female,woman,bisexual,latinx/multi,no,some college,< $10k,1,1,6.333333333333333,1.8333333333333333,1.4,6,1.7647058823529411
+734,20,female,woman,pansexual,latinx,no,bachelor,< $10k,1,0,6.833333333333333,2.1666666666666665,1.5,3,1.8235294117647058
+737,20,female,woman,pansexual,latinx,no,bachelor,< $10k,1,1,6.25,3.1666666666666665,1.7,4,2.0588235294117645
+739,26,male,man,gay,non-lat white,no,bachelor,$40 - 49k,0,0,6.166666666666667,4.166666666666667,1,0,1
+741,28,female,woman,bisexual,AI/AN,yes,high school / GED,$10 - 19k,1,0,2.9166666666666665,2.3333333333333335,3.2,10,3.235294117647059
+742,29,male,man,bisexual,non-lat white,no,bachelor,$50 - 74k,0,0,6,4,1,0,1
+744,28,male,man,bisexual,non-lat white,no,some college,$40 - 49k,0,0,6.166666666666667,4.166666666666667,1,0,1
+745,37,male,man,gay,black,no,some college,$40 - 49k,0,0,6.25,3.6666666666666665,1,0,NA
+746,31,male,man,gay,non-lat white,no,bachelor,$50 - 74k,0,0,6.333333333333333,4,1,0,1
+747,30,male,man,bisexual,non-lat white,no,bachelor,$50 - 74k,0,0,6,4,1,0,1
+748,29,male,man,gay,non-lat white,no,bachelor,$30 - 39k,0,0,6.333333333333333,4.166666666666667,1,0,1
+749,35,female,man,gay,asian,no,some college,$75 - 100k,0,0,4.666666666666667,2.1666666666666665,3.4,4,2.176470588235294
+750,28,female,man,gay,asian,no,some college,$30 - 39k,0,0,4.25,3.5,3.7,0,2.411764705882353
+751,32,female,woman,lesbian,AI/AN,no,some college,$40 - 49k,1,0,4.083333333333333,3.1666666666666665,4,0,2.4705882352941178
+752,22,female,woman,lesbian,asian,no,bachelor,$50 - 74k,0,0,3.9166666666666665,3.5,4.2,0,2.4705882352941178
+753,27,female,man,gay,latinx,no,bachelor,$50 - 74k,0,0,3.9166666666666665,2.6666666666666665,4.4,4,2.2941176470588234
+754,36,female,man,gay,latinx,no,bachelor,$50 - 74k,0,0,4.166666666666667,2.8333333333333335,2.9,5,2.176470588235294
+755,30,female,man,gay,asian,no,bachelor,$75 - 100k,0,0,3.6666666666666665,3.1666666666666665,3.3,0,2.6470588235294117
+756,23,female,woman,lesbian,asian,no,some college,$75 - 100k,1,0,3.8333333333333335,3,4.9,0,2.2941176470588234
+757,26,female,woman,lesbian,AI/AN,no,some college,$50 - 74k,1,0,3.5833333333333335,1.5,3.1,0,2.411764705882353
+759,30,female,woman,lesbian,asian,no,master's,$75 - 100k,1,0,3.5833333333333335,2.3333333333333335,2.5,0,3.2941176470588234
+760,40,female,man,gay,asian,no,doctorate,$50 - 74k,0,0,3.5833333333333335,3.1666666666666665,3.2,5,2.8823529411764706
+761,39,female,man,gay,black,no,bachelor,$30 - 39k,1,0,2.9166666666666665,3.5,3.6,5,2.588235294117647
+762,39,female,man,gay,asian,no,some college,$40 - 49k,1,0,4.25,2.6666666666666665,4.3,5,2.3529411764705883
+763,23,female,woman,lesbian,latinx,no,doctorate,$30 - 39k,1,0,4,3.1666666666666665,3.1,0,2.411764705882353
+764,22,female,woman,lesbian,black,no,master's,$75 - 100k,0,0,5,3.1666666666666665,2.8,0,2.588235294117647
+765,26,female,man,gay,AI/AN,no,master's,$50 - 74k,0,0,4.75,4,3.7,5,2.235294117647059
+766,26,female,man,gay,latinx,no,some college,$30 - 39k,1,0,3.1666666666666665,2.6666666666666665,3.4,0,2.2941176470588234
+767,36,female,woman,lesbian,asian,no,doctorate,> $100k,0,0,2.8333333333333335,2.5,3.9,6,2.8823529411764706
+768,29,female,woman,lesbian,AI/AN,no,some college,$40 - 49k,0,0,4.083333333333333,2.3333333333333335,3.3,4,2.411764705882353
+769,29,female,man,gay,latinx,no,bachelor,$50 - 74k,1,0,2.6666666666666665,3.3333333333333335,3.6,8,2.764705882352941
+770,29,female,man,gay,non-lat white,no,some college,> $100k,0,0,3.75,2.1666666666666665,3.3,4,2.176470588235294
+771,32,female,man,gay,black,no,master's,$75 - 100k,0,0,3.8333333333333335,2.3333333333333335,3.9,0,2.8823529411764706
+772,28,female,woman,lesbian,latinx,no,some college,$40 - 49k,1,0,4.666666666666667,3,2.9,0,2.1176470588235294
+773,31,female,man,gay,black,no,some college,$50 - 74k,1,0,3.5,3.1666666666666665,3.4,0,2.4705882352941178
+774,37,female,man,gay,asian,no,master's,$75 - 100k,0,0,3.8333333333333335,2.5,3.2,4,2.4705882352941178
+775,30,female,woman,lesbian,asian,no,doctorate,$30 - 39k,0,0,4.166666666666667,2.5,3.1,0,2.235294117647059
+776,35,female,man,gay,non-lat white,no,master's,$40 - 49k,1,0,3.8333333333333335,3,3.1,0,2.823529411764706
+780,30,female,woman,pansexual,non-lat white,no,some college,$10 - 19k,1,1,5.75,3.5,1,3,NA
+782,39,female,nonbinary,same-gender loving,latinx/AI,no,some college,< $10k,1,1,5.333333333333333,3.1666666666666665,1.4,2,1.1764705882352942
+784,25,male,man,gay,non-lat white,no,bachelor,$40 - 49k,0,0,6,4.166666666666667,1,0,1
+786,29,male,man,bisexual,non-lat white,no,some college,$40 - 49k,0,0,6,3.6666666666666665,1,0,1
+787,35,female,transgender,heterosexual,latinx,no,some college,$50 - 74k,0,0,7,4.333333333333333,1,1,NA
+788,28,male,man,bisexual,non-lat white,no,bachelor,$30 - 39k,0,0,5.75,4.166666666666667,1,1,1.2941176470588236
+789,44,female,woman,pansexual,latinx,no,bachelor,$40 - 49k,1,1,4,1.6666666666666667,2.3,3,3.0588235294117645
+790,27,female,transgender,gay,non-lat white,no,bachelor,$10 - 19k,0,1,3.75,2.1666666666666665,1,2,2.6470588235294117
+792,24,male,man,bisexual,non-lat white,no,some college,$30 - 39k,0,0,5.666666666666667,4.5,1,0,1
+797,36,female,woman,lesbian,latinx,no,some college,$50 - 74k,0,0,6.75,3.3333333333333335,1,1,1
+798,19,male,man,same-gender loving,latinx,no,bachelor,$10 - 19k,1,0,5.75,3.1666666666666665,3,5,3.1176470588235294
+800,61,female,woman,lesbian,latinx,no,some college,$10 - 19k,1,0,6.666666666666667,3.3333333333333335,1,1,1
+801,22,male,transgender,pansexual,latinx/multi,no,some college,< $10k,0,0,6,1.5,1.3,3,1.0588235294117647
+802,31,male,genderqueer,queer,latinx/multi,no,master's,$50 - 74k,1,1,7,4.5,1.5,8,1.2941176470588236
+804,39,female,woman,pansexual,non-lat white,no,master's,> $100k,1,0,6.75,4,1,1,NA
+805,30,female,woman,lesbian,latinx,no,some college,$40 - 49k,1,0,4.833333333333333,2.5,2,2,1.2941176470588236
+806,28,male,man,bisexual,non-lat white,no,bachelor,$30 - 39k,0,0,6.083333333333333,4.166666666666667,1,0,1
+807,25,female,woman,bisexual,latinx,no,NA,$10 - 19k,0,1,4,3,1,2,NA
+812,26,female,woman,lesbian,latinx/multi,no,high school / GED,$20 - 29k,1,0,6.333333333333333,3,1,5,1.411764705882353
+815,26,male,man,gay,non-lat white,yes,bachelor,$30 - 39k,1,0,4.333333333333333,2.8333333333333335,3.2,5,2.764705882352941
+820,25,male,man,gay,non-lat white,yes,some college,$40 - 49k,1,0,5.416666666666667,2.8333333333333335,4.3,7,3.176470588235294
+821,28,male,nonbinary,asexual,non-lat white,no,bachelor,$20 - 29k,0,0,5.916666666666667,4.666666666666667,1,1,1.0588235294117647
+823,24,male,man,gay,non-lat white,yes,some college,$30 - 39k,1,0,5.166666666666667,3.1666666666666665,3.9,6,2.235294117647059
+824,27,male,man,gay,non-lat white,yes,bachelor,$40 - 49k,1,0,5.083333333333333,3.1666666666666665,3.5,6,1.9411764705882353
+825,22,female,woman,lesbian,latinx,no,high school / GED,$10 - 19k,1,1,5.416666666666667,4.333333333333333,1.2,3,2.7058823529411766
+827,23,male,nonbinary,bisexual,latinx/AI,no,doctorate,$10 - 19k,1,0,3.1666666666666665,2.8333333333333335,2.3,7,2.764705882352941
+830,31,female,woman,lesbian,black,no,bachelor,$30 - 39k,1,0,3.75,4.166666666666667,2.7,6,2.7058823529411766
+831,29,female,woman,lesbian,non-lat white,no,doctorate,$40 - 49k,1,0,4.416666666666667,2.3333333333333335,4.2,5,2.6470588235294117
+832,29,female,woman,lesbian,asian,no,some college,$40 - 49k,1,0,4.5,3.1666666666666665,2.7,0,3.1176470588235294
+833,22,female,woman,lesbian,asian,no,master's,$30 - 39k,1,0,4.5,2.6666666666666665,3.6,4,2.176470588235294
+834,22,female,man,gay,black,no,doctorate,$30 - 39k,1,0,4.416666666666667,2.6666666666666665,3.5,0,2.1176470588235294
+835,33,female,man,gay,asian,no,doctorate,> $100k,0,0,3.9166666666666665,3.3333333333333335,3.2,4,2.4705882352941178
+836,22,female,woman,lesbian,asian,no,bachelor,> $100k,0,0,4.166666666666667,2,3.7,3,2.3529411764705883
+837,30,female,woman,lesbian,asian,no,some college,$50 - 74k,0,0,3.5833333333333335,3.3333333333333335,3.6,3,2.4705882352941178
+838,22,female,man,gay,latinx,no,some college,> $100k,1,0,4.583333333333333,2.3333333333333335,3.3,0,2.3529411764705883
+839,31,female,woman,lesbian,AI/AN,no,some college,> $100k,1,0,4.083333333333333,2.6666666666666665,4.3,0,2.235294117647059
+840,38,female,man,gay,asian,no,some college,> $100k,0,0,3.1666666666666665,2.6666666666666665,3.3,5,2.5294117647058822
+841,37,female,woman,lesbian,asian,no,master's,$30 - 39k,1,0,3.0833333333333335,4.333333333333333,3.4,0,2.9411764705882355
+843,35,female,woman,lesbian,latinx,no,some college,$40 - 49k,1,0,6.333333333333333,4.166666666666667,1.1,2,1.6470588235294117
+847,37,male,nonbinary,same-gender loving,other,no,some college,$10 - 19k,1,1,6.583333333333333,1,1.2,0,1.588235294117647
+848,23,female,transgender,queer,latinx,no,bachelor,$20 - 29k,1,1,3.5833333333333335,2,2,4,2.5294117647058822
+849,21,female,woman,lesbian,other,no,bachelor,< $10k,1,0,6,3,1,2,NA
+850,23,female,transgender,gay,non-lat white,no,high school / GED,< $10k,1,1,2.75,3.3333333333333335,1.5,0,1.6470588235294117
+852,27,male,man,gay,non-lat white,no,bachelor,$30 - 39k,0,0,5.833333333333333,4.166666666666667,1,0,1
+853,35,male,man,gay,non-lat white,no,high school / GED,$30 - 39k,0,0,5.75,4,1,0,1
+857,52,female,woman,lesbian,latinx,no,some college,$50 - 74k,1,0,4.916666666666667,2,1,0,2.0588235294117645
+858,29,male,man,bisexual,black,no,high school / GED,$20 - 29k,0,1,5.5,4,1,0,NA
+860,28,male,man,bisexual,non-lat white,no,bachelor,$30 - 39k,0,0,5.916666666666667,3.8333333333333335,1,0,1
+861,30,male,man,gay,non-lat white,no,some college,$30 - 39k,0,0,6,3.8333333333333335,1,0,1.2941176470588236
+863,20,male,man,bisexual,non-lat white,no,bachelor,< $10k,0,0,4.083333333333333,4.166666666666667,1.8,2,1.0588235294117647
+864,24,male,man,gay,non-lat white,no,some college,$20 - 29k,0,0,5.583333333333333,3.8333333333333335,1,0,1
+865,36,female,woman,bisexual,non-lat white,no,some college,$40 - 49k,0,0,5.916666666666667,4.333333333333333,1,0,1.6470588235294117
+866,27,male,man,gay,non-lat white,no,some college,$30 - 39k,0,0,6.083333333333333,4.166666666666667,1,0,1
+867,31,male,man,gay,non-lat white,no,some college,$30 - 39k,0,0,6.083333333333333,3.5,1,0,1
+870,28,male,man,gay,non-lat white,no,some college,$30 - 39k,0,0,5.916666666666667,4.333333333333333,1,0,1
+871,38,female,woman,queer,AI/AN,no,bachelor,$40 - 49k,1,1,7,3.1666666666666665,1.1,1,1.588235294117647
+872,32,male,man,bisexual,non-lat white,no,bachelor,$40 - 49k,0,0,6,4.166666666666667,1,0,1
+874,27,male,man,bisexual,non-lat white,no,high school / GED,$20 - 29k,0,0,5.666666666666667,4,1,0,1.3529411764705883
+876,23,male,man,gay,latinx,no,some college,$20 - 29k,0,1,4.916666666666667,2.6666666666666665,1.8,2,NA
+877,26,male,man,gay,non-lat white,no,some college,$30 - 39k,0,0,6.333333333333333,4.166666666666667,1,0,1
+880,34,male,man,bisexual,non-lat white,no,bachelor,$40 - 49k,0,0,5.916666666666667,4.333333333333333,1,0,1
+881,26,male,man,gay,non-lat white,no,some college,$30 - 39k,0,0,5.916666666666667,4.166666666666667,1,0,1
+882,30,male,man,gay,non-lat white,no,some college,$30 - 39k,0,0,6.083333333333333,4,1,1,1
+883,25,male,man,gay,non-lat white,no,some college,$30 - 39k,0,0,5.75,3.5,1,0,1
+884,38,female,woman,bisexual,black,no,some college,$30 - 39k,0,1,5.75,4,1,0,NA
+885,28,male,man,gay,non-lat white,no,some college,$30 - 39k,0,1,5.25,3.6666666666666665,1,0,NA
+886,33,male,man,bisexual,black,no,high school / GED,$20 - 29k,0,0,5.416666666666667,4,1,0,1
+887,30,male,man,gay,non-lat white,no,some college,$30 - 39k,1,0,4.083333333333333,3.1666666666666665,4.1,7,2.1176470588235294
+888,32,female,man,gay,latinx,no,doctorate,$50 - 74k,1,0,3.5,3.3333333333333335,5.2,7,2.5294117647058822
+889,40,female,woman,lesbian,asian,no,master's,> $100k,0,0,4,3.1666666666666665,5.1,5,NA
+890,30,male,man,gay,non-lat white,no,bachelor,$30 - 39k,1,0,5.166666666666667,2.8333333333333335,4,7,2.176470588235294
+892,29,male,man,gay,non-lat white,yes,some college,$30 - 39k,0,0,4.5,3.1666666666666665,3.5,6,2.176470588235294
+893,26,male,man,gay,non-lat white,no,some college,$30 - 39k,0,0,6,3.8333333333333335,1,0,1
+894,43,male,woman,bisexual,latinx,no,some college,$20 - 29k,1,1,6.166666666666667,2.6666666666666665,1.5,7,1.8235294117647058
+895,29,male,man,gay,non-lat white,no,some college,$30 - 39k,1,1,4.333333333333333,2.6666666666666665,3.5,6,1.7058823529411764
+896,29,female,woman,lesbian,other,no,bachelor,$30 - 39k,0,0,3.5,3.1666666666666665,1,1,1.2941176470588236
+899,27,male,man,gay,non-lat white,no,some college,$30 - 39k,0,0,5.583333333333333,4.5,1,0,1
+900,23,male,man,gay,non-lat white,no,some college,$20 - 29k,0,0,5.75,3.5,1,0,1
+901,29,male,man,bisexual,non-lat white,no,bachelor,$40 - 49k,0,0,6,3.8333333333333335,1,0,1
+902,27,male,man,bisexual,non-lat white,no,some college,$20 - 29k,0,0,5.75,4,1,0,1
+904,25,female,nonbinary,lesbian,non-lat white,no,master's,$50 - 74k,0,0,4,2.3333333333333335,2.7,0,1.5294117647058822
+905,27,male,man,bisexual,black,no,some college,$30 - 39k,0,0,6.166666666666667,4.333333333333333,1,0,1
+906,31,female,woman,lesbian,black,no,master's,> $100k,0,0,4.833333333333333,3.6666666666666665,3.4,0,2.235294117647059
+910,30,male,man,gay,non-lat white,no,some college,$30 - 39k,0,0,6,3.3333333333333335,1,0,1
+911,31,male,man,bisexual,non-lat white,no,bachelor,$30 - 39k,0,0,6.25,4,1,0,1
+912,34,male,man,bisexual,non-lat white,no,some college,$30 - 39k,0,1,5.583333333333333,3.6666666666666665,1,0,NA
+913,26,male,man,bisexual,non-lat white,no,some college,$20 - 29k,0,0,6.083333333333333,4,1,0,1
+914,30,male,man,gay,non-lat white,no,some college,$30 - 39k,0,0,6,3.6666666666666665,1,0,1
+915,23,male,man,bisexual,non-lat white,no,some college,$40 - 49k,0,0,5.833333333333333,4.166666666666667,1,0,1
+916,27,male,man,gay,non-lat white,no,some college,$30 - 39k,0,0,5.916666666666667,3.6666666666666665,1,0,1
+917,31,male,man,bisexual,non-lat white,no,bachelor,$40 - 49k,0,0,6.166666666666667,4.5,1,0,1
+918,38,female,woman,bisexual,non-lat white,no,high school / GED,$20 - 29k,0,0,5.333333333333333,3.8333333333333335,1,0,1
+919,33,female,woman,bisexual,non-lat white,no,bachelor,$30 - 39k,0,0,5.5,4.166666666666667,1,0,1.6470588235294117
+920,46,female,woman,lesbian,non-lat white,no,high school / GED,$30 - 39k,0,0,6.25,4,1,0,NA
+921,30,female,woman,gay,non-lat white,no,high school / GED,$20 - 29k,0,0,5.833333333333333,4.166666666666667,1,0,2
+922,23,male,man,bisexual,latinx,no,bachelor,$10 - 19k,0,0,5.416666666666667,2.5,2,5,NA
+923,28,male,man,gay,non-lat white,no,some college,$30 - 39k,0,0,5.833333333333333,4.5,1,0,1
+925,29,male,man,gay,non-lat white,no,some college,$30 - 39k,0,0,5.25,4.333333333333333,1,0,1
+926,36,female,woman,bisexual,non-lat white,no,some college,$20 - 29k,0,0,5.5,3.8333333333333335,1,0,1.2352941176470589
+927,25,male,man,gay,non-lat white,no,some college,$20 - 29k,0,0,5.833333333333333,3.8333333333333335,1,0,1
+928,33,male,man,gay,black,no,some college,$30 - 39k,0,1,6,3.6666666666666665,1,0,NA
+929,31,male,man,bisexual,non-lat white,no,bachelor,$30 - 39k,0,0,5.916666666666667,4.166666666666667,1,0,1
+930,31,male,man,bisexual,non-lat white,no,some college,$40 - 49k,0,1,5.5,4,1,0,NA
+931,29,male,man,bisexual,non-lat white,no,some college,$20 - 29k,0,0,6.083333333333333,4,1,0,1
+932,30,male,man,bisexual,non-lat white,no,bachelor,$30 - 39k,0,0,5.666666666666667,4.333333333333333,1,0,NA
+933,30,male,man,bisexual,non-lat white,no,some college,$20 - 29k,0,0,6,4.333333333333333,1,0,1
+934,25,female,woman,lesbian,non-lat white,no,some college,$40 - 49k,0,0,4.583333333333333,2.3333333333333335,3.4,6,2.3529411764705883
+935,24,female,man,gay,black,no,some college,$75 - 100k,1,0,4.583333333333333,3.3333333333333335,3.4,6,2.764705882352941
+936,40,female,woman,lesbian,latinx,no,master's,$75 - 100k,1,0,3.5,3.5,3.4,0,2.7058823529411766
+937,33,female,man,gay,asian,no,master's,$40 - 49k,0,0,3.6666666666666665,3.5,3.2,7,2.5294117647058822
+938,32,female,man,gay,asian,no,bachelor,$75 - 100k,0,0,4.75,3.8333333333333335,4.5,8,2.9411764705882355
+939,33,female,man,gay,latinx,no,doctorate,> $100k,0,0,3.75,2.1666666666666665,3.4,8,2.176470588235294
+940,37,female,man,gay,asian,no,master's,$30 - 39k,1,0,4.083333333333333,2.8333333333333335,3.4,5,2.4705882352941178
+941,33,female,woman,lesbian,asian,no,doctorate,> $100k,0,0,4.5,3.5,4.4,10,3
+942,37,female,woman,lesbian,asian,no,bachelor,$40 - 49k,1,0,4.5,3.1666666666666665,3.1,7,2.7058823529411766
+943,39,female,woman,lesbian,AI/AN,no,doctorate,$40 - 49k,0,0,3.4166666666666665,3.6666666666666665,2.8,5,2.6470588235294117
+944,24,female,woman,lesbian,AI/AN,no,some college,> $100k,1,0,4.416666666666667,3,4.3,8,2.5294117647058822
+945,23,female,man,gay,asian,no,some college,$50 - 74k,0,0,4.5,4,3.3,4,2.3529411764705883
+946,28,female,man,gay,non-lat white,no,master's,$75 - 100k,1,0,4.416666666666667,2.5,1.9,0,2.4705882352941178
+948,27,female,woman,lesbian,latinx/multi,no,some college,$30 - 39k,0,1,5.166666666666667,3.3333333333333335,1.7,3,NA
+949,27,female,man,gay,asian,no,doctorate,$75 - 100k,1,0,4.666666666666667,3,3.3,0,2.3529411764705883
+950,31,female,man,gay,AI/AN,no,bachelor,> $100k,0,0,3.1666666666666665,3.3333333333333335,3.6,0,2.2941176470588234
+951,24,female,woman,lesbian,asian,no,bachelor,$75 - 100k,0,0,3,4,3.7,0,2.235294117647059
+952,24,female,woman,lesbian,asian,no,bachelor,$75 - 100k,0,0,3,4,3.7,6,2.764705882352941
+953,32,female,man,gay,latinx,no,some college,> $100k,1,0,4.083333333333333,3.1666666666666665,4.5,3,2.8823529411764706
+954,27,female,woman,lesbian,latinx,no,bachelor,$50 - 74k,0,0,4.166666666666667,3.3333333333333335,2.6,0,2.1176470588235294
+955,27,female,man,gay,latinx,no,doctorate,> $100k,1,0,2.9166666666666665,3.6666666666666665,4.4,4,2.823529411764706
+956,30,female,man,gay,AI/AN,no,some college,> $100k,1,0,4.666666666666667,2.8333333333333335,2.6,7,2.3529411764705883
+957,37,female,woman,lesbian,non-lat white,no,doctorate,$30 - 39k,0,0,4.333333333333333,3.3333333333333335,4.1,0,2.5294117647058822
+958,35,female,woman,lesbian,asian,no,master's,> $100k,0,0,3.75,2.8333333333333335,2.8,7,2.7058823529411766
+959,40,female,woman,lesbian,non-lat white,no,some college,$50 - 74k,1,0,4.166666666666667,2.3333333333333335,3.7,0,2.588235294117647
+960,25,female,woman,lesbian,non-lat white,no,master's,$75 - 100k,0,0,4.166666666666667,2.6666666666666665,3.7,6,2.588235294117647
+961,39,female,woman,lesbian,black,no,some college,> $100k,1,0,3.5833333333333335,2.6666666666666665,3.4,0,2.823529411764706
+962,38,female,woman,lesbian,latinx,no,master's,$30 - 39k,1,0,4,4,2.5,8,2.3529411764705883
+963,62,male,man,gay,latinx,yes,bachelor,< $10k,1,0,3.3333333333333335,4.833333333333333,1.2,3,1.2352941176470589
+965,31,female,man,gay,black,no,doctorate,> $100k,0,0,3.6666666666666665,2.3333333333333335,3.9,8,2.588235294117647
+966,39,female,man,gay,AI/AN,no,some college,$75 - 100k,1,0,3.6666666666666665,3,5.1,0,2.823529411764706
+967,33,female,man,gay,latinx,no,bachelor,$30 - 39k,1,0,4.583333333333333,3.3333333333333335,3.1,0,2.7058823529411766
+969,38,female,woman,lesbian,asian,no,bachelor,$50 - 74k,0,0,3.8333333333333335,2.5,3.2,4,2.5294117647058822
+970,28,female,woman,lesbian,latinx,no,master's,$30 - 39k,0,0,3.5833333333333335,2.5,3.2,0,3
+971,23,female,woman,lesbian,AI/AN,no,bachelor,$30 - 39k,1,0,3.8333333333333335,2,4.8,6,2.9411764705882355
+972,19,female,woman,lesbian,black,no,bachelor,< $10k,1,1,6,4.666666666666667,1,2,1.588235294117647
+973,33,female,woman,lesbian,latinx,no,doctorate,> $100k,1,0,4,3,2.9,3,2.3529411764705883
+975,33,female,woman,lesbian,asian,no,high school / GED,$30 - 39k,0,0,6.25,3.8333333333333335,1,0,NA
+976,24,female,transgender,pansexual,non-lat white,no,high school / GED,$20 - 29k,0,0,3.8333333333333335,2.5,2.5,6,NA
+977,27,male,man,bisexual,non-lat white,no,some college,$20 - 29k,0,0,5.916666666666667,4,1,0,1
+978,35,male,man,bisexual,non-lat white,no,some college,$30 - 39k,0,1,5.833333333333333,4.333333333333333,1,0,NA
+979,33,male,man,bisexual,non-lat white,no,bachelor,$40 - 49k,0,0,6.333333333333333,3.6666666666666665,1,0,NA
+980,30,female,woman,bisexual,non-lat white,no,high school / GED,$20 - 29k,0,0,5.75,4,1,0,NA
+981,52,male,man,gay,latinx,yes,some college,$40 - 49k,0,0,5,2.6666666666666665,1,0,NA
+982,28,male,man,gay,non-lat white,no,some college,$30 - 39k,0,0,5.75,4.333333333333333,1,2,1
+983,28,male,man,gay,non-lat white,no,some college,$40 - 49k,0,0,5.5,4.166666666666667,1,0,1
+984,35,female,woman,gay,non-lat white,no,bachelor,$40 - 49k,0,0,6.083333333333333,4.333333333333333,1,0,1
+985,26,male,man,gay,black,no,high school / GED,$20 - 29k,0,0,5.916666666666667,3.8333333333333335,1.4,0,NA
+986,30,male,man,gay,non-lat white,no,some college,$30 - 39k,0,0,5.583333333333333,3.6666666666666665,1,0,1
+987,25,male,man,gay,black,no,high school / GED,$20 - 29k,0,0,5.833333333333333,3.6666666666666665,1,0,1
+988,33,male,man,bisexual,non-lat white,no,some college,$30 - 39k,0,0,5.666666666666667,3.8333333333333335,1,0,1
+989,36,male,man,gay,non-lat white,no,bachelor,$40 - 49k,0,0,5.916666666666667,4,1,0,1
+990,33,male,man,bisexual,non-lat white,no,some college,$30 - 39k,0,0,5.666666666666667,4,1,0,1
+991,30,male,man,gay,non-lat white,no,bachelor,$30 - 39k,0,0,4.083333333333333,2.8333333333333335,4,3,2.3529411764705883
+992,30,male,man,gay,non-lat white,no,some college,$40 - 49k,1,0,5.416666666666667,2.6666666666666665,3.9,5,2
+993,30,male,man,gay,non-lat white,no,some college,$30 - 39k,1,0,5.166666666666667,2.8333333333333335,4.1,3,2.2941176470588234
+994,29,male,man,gay,non-lat white,no,some college,$30 - 39k,1,0,4.166666666666667,3.1666666666666665,3.4,5,1.9411764705882353
+995,29,male,man,bisexual,non-lat white,no,bachelor,$30 - 39k,0,0,6,4.5,1,0,1
+996,37,male,man,bisexual,black,no,some college,$30 - 39k,0,0,5.416666666666667,4,1,0,1
+997,25,male,man,gay,non-lat white,no,some college,$20 - 29k,0,0,5.5,3.6666666666666665,1,0,1
+998,29,male,man,gay,non-lat white,no,high school / GED,$20 - 29k,0,0,5.5,4,1,0,2
+999,33,female,woman,bisexual,non-lat white,no,some college,$30 - 39k,0,0,5.916666666666667,4,1,0,1.2352941176470589
+1000,30,male,man,gay,non-lat white,no,some college,$30 - 39k,0,0,6,4,1,0,1
+1001,27,female,woman,bisexual,black,no,high school / GED,$20 - 29k,0,0,5.5,4,1,0,1.4705882352941178
+1002,31,female,woman,gay,black,no,high school / GED,$20 - 29k,0,0,5.666666666666667,4.166666666666667,1,0,1
+1003,38,female,woman,bisexual,black,no,high school / GED,$20 - 29k,0,0,5.333333333333333,4,1,0,1
+1005,34,female,woman,bisexual,non-lat white,no,some college,$40 - 49k,0,0,5.5,4.166666666666667,1,0,1.5294117647058822
+1006,37,female,woman,lesbian,asian,no,bachelor,> $100k,0,0,3.5,2.3333333333333335,3,7,2.4705882352941178
+1008,31,male,man,gay,non-lat white,no,bachelor,$40 - 49k,0,1,4.833333333333333,3,1.7,1,NA
+1010,23,male,man,gay,latinx,no,bachelor,$30 - 39k,0,0,6,2.3333333333333335,1,1,1.411764705882353
+1011,52,female,nonbinary,bisexual,asian,no,doctorate,> $100k,0,0,5,4.333333333333333,1,1,1.0588235294117647
+1013,42,female,woman,lesbian,latinx/multi,no,doctorate,> $100k,1,1,5.333333333333333,3.5,1.6,0,NA
+1016,47,male,man,gay,non-lat white,no,some college,$50 - 74k,0,0,6.833333333333333,4.333333333333333,1.1,2,1.8823529411764706
+1018,42,female,woman,asexual,non-lat white,no,bachelor,$50 - 74k,1,0,2.4166666666666665,2.8333333333333335,1.1,4,1.1764705882352942
+1021,36,female,woman,lesbian,latinx,no,doctorate,$20 - 29k,1,0,5.333333333333333,3.3333333333333335,2.4,8,3
+1025,25,female,woman,lesbian,asian,no,doctorate,$30 - 39k,1,0,4.583333333333333,2.8333333333333335,3.9,4,2.176470588235294
+1026,36,female,woman,lesbian,AI/AN,no,some college,$40 - 49k,1,0,3.5,3.1666666666666665,4.3,6,2.6470588235294117
+1027,50,male,man,gay,non-lat white,no,doctorate,$50 - 74k,0,0,7,3.8333333333333335,1,2,1
+1030,48,female,woman,lesbian,non-lat white,no,bachelor,$50 - 74k,1,1,6.5,4,1.1,2,1.4705882352941178
+1032,27,female,woman,queer,latinx,no,master's,$75 - 100k,1,0,6.583333333333333,4.833333333333333,1,3,1.1764705882352942
+1033,64,female,woman,lesbian,non-lat white,no,master's,> $100k,0,0,6,3.6666666666666665,1,2,NA
+1034,26,female,woman,lesbian,black,no,some college,$30 - 39k,1,0,4,2.6666666666666665,2.9,6,2.2941176470588234
+1037,29,female,gender nonconforming,asexual,other,no,master's,$40 - 49k,1,1,4.5,4,1,1,2.411764705882353
+1038,40,female,woman,lesbian,non-lat white,no,master's,$75 - 100k,1,1,6.5,4.166666666666667,1,1,1.3529411764705883
+1040,21,male,gender nonconforming,bisexual,latinx/AI,no,high school / GED,< $10k,0,0,5,4.666666666666667,1,2,1.2352941176470589
+1041,36,male,genderqueer,queer,non-lat white,no,master's,$10 - 19k,1,1,5.5,3.3333333333333335,2,1,1.8235294117647058
+1042,53,male,man,gay,non-lat white,no,some college,> $100k,0,0,5.333333333333333,3,1.4,0,1.2352941176470589
+1043,58,male,man,gay,latinx,yes,some college,$10 - 19k,1,1,3.75,3,3.4,0,NA
+1044,54,female,genderqueer,lesbian,non-lat white,no,some college,$50 - 74k,0,0,5,5,1,2,1.7058823529411764
+1045,22,female,woman,bisexual,latinx,no,some college,< $10k,1,0,6.916666666666667,4,1,1,1.3529411764705883
+1048,35,male,man,gay,latinx,no,bachelor,$75 - 100k,1,0,3.8333333333333335,1.6666666666666667,1,2,2
+1049,27,male,man,gay,latinx,no,master's,> $100k,0,0,6.333333333333333,4.333333333333333,1,0,1.2941176470588236
+1052,27,female,nonbinary,queer,latinx,no,some college,$10 - 19k,0,0,2.5833333333333335,1.5,1.5,5,3.176470588235294
+1053,21,female,transgender,gay,non-lat white,no,bachelor,$20 - 29k,0,1,5.166666666666667,3.3333333333333335,1.7,4,NA
+1055,60,prefer not to answer,woman,lesbian,latinx,no,some college,$10 - 19k,1,1,6,4.166666666666667,1.1,2,1.2352941176470589
+1056,27,female,woman,lesbian,non-lat white,no,bachelor,$30 - 39k,1,0,6.083333333333333,2.5,1,3,1.3529411764705883
+1061,28,female,transgender,queer,non-lat white,no,some college,$20 - 29k,1,1,3.75,4,1,2,1.2352941176470589
+1062,19,female,nonbinary,bisexual,latinx,no,bachelor,< $10k,0,0,4.083333333333333,3.6666666666666665,1,0,NA
+1066,44,female,woman,bisexual,non-lat white,no,bachelor,$50 - 74k,1,0,5.5,3,1,1,1.1176470588235294
+1067,43,female,woman,lesbian,latinx,no,some college,$50 - 74k,0,1,5.25,1.5,1,0,NA
+1070,39,male,man,gay,non-lat white,no,high school / GED,$10 - 19k,0,1,5.166666666666667,3.1666666666666665,1.5,0,NA
+1071,23,female,transgender,gay,latinx/multi,no,some college,< $10k,1,1,4.583333333333333,4,2.8,2,2.411764705882353
+1072,32,female,woman,lesbian,non-lat white,no,master's,$75 - 100k,1,0,3.4166666666666665,2.5,3.9,0,2.588235294117647
+1074,29,male,genderqueer,gay,latinx/multi,no,some college,$10 - 19k,1,1,4.416666666666667,3.8333333333333335,1,1,NA
+1075,21,female,gender nonconforming,bisexual,latinx,no,bachelor,< $10k,0,1,5.5,3.3333333333333335,1,0,2.0588235294117645
+1076,53,male,man,gay,non-lat white,no,some college,$50 - 74k,0,1,4.833333333333333,4.333333333333333,1.1,0,1.8235294117647058
+1079,25,female,woman,lesbian,non-lat white,no,bachelor,$30 - 39k,0,1,5.083333333333333,2.5,1.3,0,2.176470588235294
+1082,26,female,woman,lesbian,latinx,no,some college,$20 - 29k,1,0,4.5,4,1,2,1.7058823529411764
+1084,26,female,gender nonconforming,queer,latinx/AI,no,bachelor,$30 - 39k,0,0,5.666666666666667,3.6666666666666665,1.1,2,NA
+1085,29,male,man,gay,black,no,some college,$10 - 19k,0,0,5.166666666666667,4,1,0,2.9411764705882355
+1091,26,male,man,gay,non-lat white,no,bachelor,$20 - 29k,0,0,6.083333333333333,3.5,1.5,4,NA
+1092,70,female,woman,lesbian,non-lat white,no,master's,$50 - 74k,0,0,6.5,4,1,0,1
+1093,45,male,man,gay,latinx/multi,yes,some college,$50 - 74k,1,0,5.916666666666667,3,1.5,0,1.2941176470588236
+1095,42,female,woman,queer,non-lat white,no,master's,$50 - 74k,1,1,1.8333333333333333,4,1.2,1,NA
+1098,30,male,man,gay,latinx,no,high school / GED,$20 - 29k,0,0,5.916666666666667,3.6666666666666665,2,6,NA
+1099,21,female,woman,same-gender loving,other,no,bachelor,$10 - 19k,1,1,5.416666666666667,3,1,6,2
+1101,37,female,woman,gay,latinx/multi,no,master's,$50 - 74k,1,0,6.833333333333333,3.8333333333333335,1,0,1.8235294117647058
+1103,27,male,man,gay,non-lat white,no,some college,$30 - 39k,0,0,5.166666666666667,3.3333333333333335,3.3,0,2.6470588235294117
+1104,23,male,man,gay,black,no,bachelor,$10 - 19k,0,0,6.166666666666667,3.5,1,0,NA
+1105,29,male,man,gay,non-lat white,no,some college,$30 - 39k,1,0,5.083333333333333,3.1666666666666665,3.6,0,2.4705882352941178
+1106,54,male,nonbinary,queer,non-lat white,no,some college,$20 - 29k,1,0,3.25,3,1,1,1
+1107,28,male,man,gay,non-lat white,no,some college,$30 - 39k,1,0,4,2.8333333333333335,3.5,0,2.1176470588235294
+1108,29,male,man,gay,non-lat white,no,some college,$30 - 39k,1,0,5,3,3.6,0,2.0588235294117645
+1109,30,male,man,gay,non-lat white,no,some college,$30 - 39k,0,0,6.083333333333333,3.8333333333333335,1,0,1
+1111,26,male,man,bisexual,non-lat white,no,some college,$20 - 29k,0,0,5.833333333333333,4,1,0,1
+1112,35,male,man,bisexual,non-lat white,no,bachelor,$40 - 49k,0,0,6,4.333333333333333,1,0,1
+1113,28,male,man,gay,non-lat white,no,some college,$20 - 29k,0,0,6,4.166666666666667,1,0,1
+1114,44,male,man,gay,non-lat white,no,doctorate,> $100k,1,0,6.583333333333333,3.8333333333333335,1,0,2.2941176470588234
+1115,28,male,man,bisexual,non-lat white,no,some college,$30 - 39k,0,0,5.916666666666667,4.333333333333333,1,0,1
+1117,43,female,woman,lesbian,non-lat white,no,master's,< $10k,1,0,5.25,2.1666666666666665,1,2,1.8235294117647058
+1118,30,female,woman,bisexual,non-lat white,no,some college,$30 - 39k,0,0,5.75,3.8333333333333335,1,0,1
+1119,24,male,man,gay,non-lat white,no,some college,$20 - 29k,0,0,5.75,4,1,0,1.2941176470588236
+1120,28,female,woman,bisexual,non-lat white,no,high school / GED,$20 - 29k,0,0,5.333333333333333,4,1,0,1.2941176470588236
+1122,31,female,woman,gay,non-lat white,no,some college,$20 - 29k,0,0,5.75,4.333333333333333,1,0,1
+1123,33,female,woman,bisexual,non-lat white,no,some college,$40 - 49k,0,0,5.5,4,1,0,1
+1124,32,female,woman,bisexual,non-lat white,no,some college,$30 - 39k,0,0,5.916666666666667,3.6666666666666665,1,0,1
+1125,30,male,man,bisexual,non-lat white,no,high school / GED,$20 - 29k,0,0,5.416666666666667,4,1,0,1
+1126,25,male,man,bisexual,non-lat white,no,some college,$50 - 74k,0,0,6.25,3.6666666666666665,1,0,NA
+1127,28,female,woman,bisexual,non-lat white,no,some college,$20 - 29k,0,0,6.083333333333333,4.5,1,0,1
+1128,22,male,man,gay,black,no,bachelor,$10 - 19k,0,0,6.083333333333333,3.6666666666666665,1.5,0,NA
+1129,31,male,man,gay,non-lat white,no,high school / GED,$20 - 29k,0,0,5,4.166666666666667,1,0,1
+1130,24,male,man,gay,non-lat white,no,some college,$20 - 29k,0,0,5.666666666666667,4,1,0,1
+1131,34,male,man,gay,non-lat white,no,some college,$30 - 39k,0,0,5.5,3,1,0,1
+1132,32,female,woman,lesbian,asian,no,bachelor,$40 - 49k,0,0,4,3.5,1,0,NA
+1133,26,male,man,gay,non-lat white,no,high school / GED,$20 - 29k,0,1,5.083333333333333,4,1,0,1
+1136,37,male,man,gay,non-lat white,no,some college,$30 - 39k,0,0,6,4.333333333333333,1,0,1
+1137,25,female,woman,bisexual,non-lat white,no,some college,$20 - 29k,0,0,5.833333333333333,3.6666666666666665,1,0,1
+1138,39,male,transgender,lesbian,non-lat white,no,bachelor,$50 - 74k,0,0,5.75,4.666666666666667,1,1,1
+1139,33,female,woman,lesbian,non-lat white,no,master's,$40 - 49k,0,0,7,3.5,2.3,5,1
+1141,27,female,woman,bisexual,non-lat white,no,bachelor,$40 - 49k,0,0,6,3.6666666666666665,1,0,1
+1142,32,female,woman,gay,non-lat white,no,some college,$20 - 29k,0,0,6.166666666666667,4.166666666666667,1,0,1
+1143,29,female,nonbinary,asexual,non-lat white,no,some college,< $10k,0,1,2.8333333333333335,2,1,1,1.1764705882352942
+1144,29,female,woman,gay,non-lat white,no,high school / GED,$20 - 29k,0,1,5.25,4,1,0,NA
+1145,36,female,woman,gay,latinx/multi,no,bachelor,$10 - 19k,1,0,5.666666666666667,3.1666666666666665,1,0,3
+1146,24,male,man,gay,black,no,high school / GED,$20 - 29k,0,0,5.666666666666667,4,1,0,1.3529411764705883
+1148,23,male,man,gay,non-lat white,no,bachelor,$20 - 29k,0,1,5.833333333333333,4.5,1,0,NA
+1150,43,female,woman,lesbian,latinx,no,high school / GED,$75 - 100k,1,0,5.333333333333333,4,1,1,1.1764705882352942
+1151,28,male,man,gay,latinx,yes,bachelor,$20 - 29k,0,0,5.166666666666667,4.666666666666667,1,1,1.1176470588235294
+1152,75,male,man,gay,non-lat white,no,some college,> $100k,0,0,4.416666666666667,2.6666666666666665,1,0,NA
+1158,25,male,nonbinary,queer,latinx/multi,no,high school / GED,< $10k,1,1,5.833333333333333,2.3333333333333335,1.8,5,1.9411764705882353
+1159,49,female,woman,lesbian,latinx/multi,no,some college,$40 - 49k,0,1,6.416666666666667,3,1,2,NA
+1160,32,female,woman,bisexual,non-lat white,no,master's,$10 - 19k,1,0,5.5,3.6666666666666665,1.8,8,1
+1163,29,male,man,gay,black,no,master's,$75 - 100k,0,0,4.916666666666667,3,1.2,0,NA
+1164,27,male,man,pansexual,latinx,no,master's,$40 - 49k,0,0,6,4.166666666666667,1.5,1,2
+1165,22,female,transgender,bisexual,latinx/AI,no,some college,$10 - 19k,1,0,4.916666666666667,4,1,1,1.5294117647058822
+1167,40,female,transgender,gay,non-lat white,no,bachelor,$75 - 100k,0,1,6.583333333333333,2.8333333333333335,1,1,1
+1168,31,female,woman,lesbian,black,no,bachelor,$50 - 74k,1,1,4.916666666666667,3.3333333333333335,1.5,3,1.5294117647058822
+1169,27,male,man,queer,latinx,no,master's,$50 - 74k,0,0,6.166666666666667,4,1.8,1,2.7058823529411766
+1171,60,male,man,gay,latinx/multi,no,master's,> $100k,0,0,5.916666666666667,5,1,0,1.1764705882352942
+1172,53,male,man,queer,black,no,some college,< $10k,1,1,2.5833333333333335,1,1.4,5,NA
+1173,25,female,woman,bisexual,non-lat white,no,some college,$20 - 29k,0,0,5.833333333333333,4.166666666666667,1,0,1
+1175,39,female,woman,same-gender loving,latinx,no,master's,$40 - 49k,0,0,6.583333333333333,4,1.1,1,1.1764705882352942
+1180,36,male,man,bisexual,black,no,some college,$40 - 49k,0,0,5.916666666666667,3.3333333333333335,1,0,1.2352941176470589
+1181,22,female,woman,lesbian,asian,no,bachelor,$10 - 19k,0,0,5.75,3.8333333333333335,1,0,NA
+1185,62,female,woman,lesbian,latinx,no,master's,$10 - 19k,1,0,5.75,4.333333333333333,2,2,1.588235294117647
+1186,36,female,woman,bisexual,latinx,no,master's,$50 - 74k,1,0,7,3.6666666666666665,1,1,NA
+1188,42,male,man,gay,non-lat white,no,bachelor,< $10k,0,1,3.0833333333333335,2.6666666666666665,3.5,9,NA
+1191,30,female,woman,lesbian,latinx,no,bachelor,$40 - 49k,1,0,5.916666666666667,2.5,1.2,1,1.2941176470588236
+1192,57,female,woman,gay,AI/AN,no,bachelor,$50 - 74k,1,0,6.666666666666667,4,1,0,1
+1194,24,female,nonbinary,queer,non-lat white,no,master's,$20 - 29k,0,1,6.166666666666667,5,1,1,NA
+1196,22,female,nonbinary,bisexual,non-lat white,no,bachelor,< $10k,0,0,6,3.3333333333333335,1,2,1
+1199,22,male,nonbinary,bisexual,latinx,no,bachelor,< $10k,1,1,5.583333333333333,1.6666666666666667,1,1,NA
+1201,30,female,woman,bisexual,non-lat white,no,high school / GED,$20 - 29k,0,1,6.166666666666667,4.166666666666667,1,0,NA
+1210,23,female,woman,bisexual,other,no,bachelor,$40 - 49k,0,0,5.916666666666667,3.5,1,2,1.1176470588235294
+1212,38,female,woman,lesbian,non-lat white,no,some college,$50 - 74k,0,0,6,4.166666666666667,1.1,0,1.1176470588235294
+1214,32,female,woman,lesbian,asian,no,doctorate,$50 - 74k,0,1,7,4,1,0,1.0588235294117647
+1218,20,prefer not to answer,nonbinary,gay,AI/AN,no,high school / GED,$10 - 19k,1,1,2.3333333333333335,2.5,2.3,3,3.764705882352941
+1220,22,female,nonbinary,asexual,latinx/multi,no,some college,< $10k,1,1,4.75,2.5,1.2,7,NA
+1222,37,female,woman,lesbian,non-lat white,no,some college,$40 - 49k,1,0,6,3,1,1,1.2352941176470589
+1223,49,female,woman,lesbian,latinx,no,some college,$30 - 39k,1,1,4.5,3.1666666666666665,1.2,0,2.2941176470588234
+1225,30,male,man,gay,non-lat white,yes,master's,$50 - 74k,1,1,6.083333333333333,3.5,3.5,4,NA
+1226,31,female,gender nonconforming,lesbian,black,no,bachelor,$20 - 29k,0,0,3.5,2.5,1,2,2
+1228,27,female,woman,lesbian,latinx/multi,no,bachelor,$10 - 19k,0,0,5.416666666666667,1.6666666666666667,1.4,0,1.5294117647058822
+1229,34,female,woman,heteroflexible,non-lat white,no,master's,$50 - 74k,1,0,7,2.1666666666666665,1.6,0,1
+1230,35,female,woman,heteroflexible,non-lat white,no,bachelor,> $100k,1,0,6.25,1.1666666666666667,1.2,5,1.6470588235294117
+1231,24,female,woman,bisexual,latinx,no,some college,$30 - 39k,1,1,4.166666666666667,3.5,1,0,1
+1233,26,female,nonbinary,pansexual,non-lat white,no,bachelor,< $10k,1,1,5.833333333333333,1.6666666666666667,1.3,1,1.1764705882352942
+1234,19,female,transgender,pansexual,other,no,high school / GED,< $10k,0,0,2.75,2,1,0,4
+1241,64,male,man,gay,non-lat white,no,master's,$10 - 19k,0,0,5.916666666666667,3.8333333333333335,1,0,NA
+1243,25,female,woman,lesbian,non-lat white,no,master's,$30 - 39k,0,1,6.25,2.3333333333333335,1.5,2,1.3529411764705883
+1244,60,male,man,gay,non-lat white,no,bachelor,> $100k,1,0,6.166666666666667,4.5,1,3,NA
+1250,21,female,woman,queer,latinx/multi,no,bachelor,< $10k,1,0,5.083333333333333,2,1.8,1,1
+1255,31,male,gender nonconforming,gay,latinx,yes,some college,$10 - 19k,1,1,3.8333333333333335,4,1.3,2,1
+1260,40,female,woman,bisexual,AI/AN,no,master's,> $100k,0,0,5.75,2.1666666666666665,1,0,1
+1262,67,female,woman,lesbian,non-lat white,no,master's,$10 - 19k,1,0,5.416666666666667,4,1,2,1
+1263,21,female,woman,bisexual,asian,no,bachelor,< $10k,1,1,4.083333333333333,3.6666666666666665,2.4,9,1.9411764705882353
+1266,34,male,man,gay,black,yes,bachelor,$50 - 74k,0,0,4,3,2.5,0,3.6470588235294117
+1268,23,female,gender nonconforming,lesbian,non-lat white,no,bachelor,$10 - 19k,1,0,5.083333333333333,2.6666666666666665,1.4,4,2.764705882352941
+1270,33,female,woman,lesbian,asian,no,bachelor,$30 - 39k,1,0,4.5,3.5,3.5,5,2.9411764705882355
+1273,50,male,man,gay,non-lat white,no,some college,$40 - 49k,0,0,6,4,1.4,1,1
+1276,32,female,woman,lesbian,non-lat white,no,some college,$75 - 100k,0,0,7,4,1,1,1.0588235294117647
+1277,44,male,man,gay,non-lat white,no,bachelor,$40 - 49k,1,0,4.75,3.6666666666666665,1,2,2.0588235294117645
+1291,33,male,man,gay,non-lat white,no,bachelor,$75 - 100k,0,0,7,3.6666666666666665,1.2,4,1.0588235294117647
+1294,20,female,woman,pansexual,latinx,no,bachelor,< $10k,1,1,5.833333333333333,2.5,2,4,NA
+1298,32,female,woman,bisexual,non-lat white,no,some college,$40 - 49k,0,1,5.833333333333333,4.333333333333333,1,0,NA
+1301,34,female,gender nonconforming,queer,latinx/multi,no,bachelor,$30 - 39k,1,0,6.25,3.5,1.8,10,NA
+1303,28,female,woman,lesbian,non-lat white,no,bachelor,$50 - 74k,0,0,4.666666666666667,2.8333333333333335,1.9,0,2.823529411764706
+1307,18,female,man,gay,latinx,no,some high school,$30 - 39k,0,0,4.583333333333333,2.5,1,0,NA
+1308,38,female,nonbinary,queer,other,no,some college,$10 - 19k,1,0,6.333333333333333,4,1.3,0,NA
+1315,22,male,transgender,queer,other,no,high school / GED,< $10k,1,0,1.25,1.8333333333333333,1.9,7,2.588235294117647
+1319,30,female,woman,bisexual,non-lat white,no,bachelor,$50 - 74k,0,1,4.916666666666667,3,1.4,0,NA
+1322,20,female,gender nonconforming,queer,latinx,no,bachelor,< $10k,0,0,5.666666666666667,2.8333333333333335,1,0,2.9411764705882355
+1327,40,female,gender nonconforming,lesbian,latinx,no,some college,$40 - 49k,0,0,6.416666666666667,4,1,1,1.4705882352941178
+1330,34,male,man,gay,latinx,no,master's,$50 - 74k,0,0,6,3,1,1,1.588235294117647
+1335,24,female,woman,bisexual,latinx,no,master's,$20 - 29k,0,0,4.666666666666667,2.1666666666666665,1,1,2.0588235294117645
+1336,20,female,nonbinary,lesbian,latinx/multi,no,some college,$30 - 39k,1,0,5.666666666666667,2,1.1,5,2.764705882352941
+1338,18,female,woman,lesbian,latinx/multi,no,bachelor,< $10k,0,0,6.75,3.3333333333333335,1,1,1.2941176470588236
+1341,53,male,man,gay,latinx,no,some college,$10 - 19k,0,1,6.666666666666667,2.8333333333333335,1,2,NA
+1342,25,female,nonbinary,bisexual,latinx,no,high school / GED,< $10k,1,1,5.666666666666667,1.3333333333333333,2.1,6,NA
+1343,23,male,man,gay,latinx,no,bachelor,$20 - 29k,1,1,3.9166666666666665,2,1,1,2.5294117647058822
+1344,27,male,man,gay,latinx,no,some college,$50 - 74k,0,0,6.75,5,1,2,NA
+1349,18,female,woman,lesbian,non-lat white,no,some high school,$50 - 74k,0,1,5.833333333333333,3,1.5,1,NA
+1352,19,female,nonbinary,pansexual,non-lat white,no,high school / GED,< $10k,1,1,4.75,2,2.7,7,1.1764705882352942
+1353,21,other,nonbinary,queer,latinx,unsure,some college,$20 - 29k,1,0,5.416666666666667,3.3333333333333335,1.1,4,2.5294117647058822
+1357,32,female,woman,bisexual,non-lat white,no,bachelor,$30 - 39k,0,0,5.5,4.166666666666667,1,0,1
+1358,27,female,woman,bisexual,black,no,high school / GED,$30 - 39k,0,0,6,3,1,0,1.4705882352941178
+1361,25,female,woman,gay,non-lat white,no,high school / GED,$30 - 39k,0,0,5.5,4,1,0,1
+1365,25,female,woman,lesbian,non-lat white,no,some college,< $10k,1,0,2.6666666666666665,1.1666666666666667,2.4,8,1.2352941176470589
+1366,48,male,man,gay,latinx,no,master's,$50 - 74k,1,0,6.666666666666667,4,1,0,1.1176470588235294
+1374,27,male,man,bisexual,latinx,no,some college,$20 - 29k,1,1,4.416666666666667,3.3333333333333335,1.5,1,1.5294117647058822
+1379,29,female,woman,pansexual,non-lat white,no,some college,$20 - 29k,1,0,4.666666666666667,3.6666666666666665,1,1,1.0588235294117647
+1380,21,female,woman,pansexual,latinx,no,some college,$20 - 29k,0,1,5,3.5,2.2,3,NA
+1382,24,female,woman,pansexual,non-lat white,no,bachelor,$20 - 29k,0,0,6.916666666666667,3.8333333333333335,1,1,NA
+1383,68,female,woman,lesbian,non-lat white,no,bachelor,$75 - 100k,1,0,6.75,2.6666666666666665,1,4,1
+1388,29,female,woman,bisexual,non-lat white,no,master's,$10 - 19k,1,0,6.166666666666667,4,1,2,1.1176470588235294
+1389,30,female,woman,bisexual,non-lat white,no,high school / GED,$20 - 29k,0,0,5.833333333333333,4.166666666666667,1,0,1
+1390,19,female,woman,lesbian,latinx,no,some college,< $10k,0,0,6.333333333333333,4.166666666666667,1.1,0,1
+1391,28,male,man,gay,non-lat white,no,high school / GED,$30 - 39k,0,0,5.666666666666667,4,1,0,1
+1392,18,female,transgender,bisexual,latinx/multi,no,some high school,< $10k,0,0,5.916666666666667,2.5,3.7,0,2.3529411764705883
+1393,33,female,woman,gay,non-lat white,no,high school / GED,$20 - 29k,0,0,6,4.333333333333333,1,0,1
+1394,26,female,woman,bisexual,non-lat white,no,some college,$20 - 29k,0,0,5.916666666666667,4.166666666666667,1,0,1
+1395,23,female,transgender,queer,latinx,no,bachelor,$20 - 29k,1,0,2.25,2.8333333333333335,1.3,1,NA
+1396,37,female,gender nonconforming,bisexual,other,no,bachelor,$30 - 39k,1,0,7,3,1,5,1.1764705882352942
+1397,34,female,genderqueer,pansexual,latinx,no,master's,$10 - 19k,1,0,6,2.5,1.1,2,NA
+1399,30,female,woman,lesbian,black,no,some college,$30 - 39k,0,0,4.666666666666667,3,1,2,2.0588235294117645
+1401,27,female,woman,gay,non-lat white,no,some college,$30 - 39k,0,0,5.583333333333333,4.333333333333333,1,0,1.3529411764705883
+1402,25,female,woman,bisexual,non-lat white,no,bachelor,$10 - 19k,0,0,5.5,2.3333333333333335,1,0,1.1764705882352942
+1404,26,female,woman,gay,non-lat white,no,high school / GED,$20 - 29k,0,0,5.75,4.166666666666667,1,0,1.3529411764705883
+1406,35,female,woman,lesbian,latinx,no,some college,$40 - 49k,1,0,7,2.8333333333333335,2.3,4,1.411764705882353
+1407,24,female,woman,gay,non-lat white,no,bachelor,$10 - 19k,0,0,5.583333333333333,4,1,0,1
+1408,34,female,woman,bisexual,non-lat white,no,some college,$30 - 39k,0,0,5.833333333333333,4.166666666666667,1,0,1.4705882352941178
+1409,28,male,man,bisexual,non-lat white,no,master's,$50 - 74k,1,1,6,3.1666666666666665,1,1,NA
+1410,26,male,man,gay,latinx/multi,no,doctorate,> $100k,0,0,6.083333333333333,5,1,1,2.2941176470588234
+1411,18,male,nonbinary,gay,latinx,no,high school / GED,< $10k,0,1,2.75,2.8333333333333335,1.8,1,NA
+1412,51,male,man,gay,non-lat white,no,master's,$10 - 19k,1,0,4.416666666666667,1.5,1.5,7,1.1176470588235294
+1413,52,male,genderqueer,gay,latinx,yes,master's,$10 - 19k,1,1,3.5833333333333335,5,1.9,1,1.0588235294117647
+1415,40,male,man,gay,latinx,no,high school / GED,$40 - 49k,1,1,6.666666666666667,3,1,1,1.588235294117647
+1417,36,female,woman,bisexual,non-lat white,no,bachelor,$40 - 49k,0,0,5.916666666666667,4.166666666666667,1,0,1
+1418,25,male,man,gay,latinx,no,bachelor,$30 - 39k,0,1,5.416666666666667,1.8333333333333333,1,3,1.9411764705882353
+1419,28,female,woman,bisexual,latinx,no,some college,$40 - 49k,0,0,6.5,3.1666666666666665,1.5,1,1.1764705882352942
+1423,22,male,gender nonconforming,pansexual,non-lat white,no,bachelor,< $10k,0,1,4.166666666666667,3.3333333333333335,1.9,2,NA
+1425,26,male,man,gay,latinx,no,bachelor,$20 - 29k,1,1,4.333333333333333,3.3333333333333335,1.4,1,2.4705882352941178
+1432,44,female,woman,bisexual,non-lat white,no,master's,$50 - 74k,0,0,5.583333333333333,4.166666666666667,1,1,1.1764705882352942
+1433,36,male,man,gay,latinx,yes,bachelor,$50 - 74k,0,0,4.166666666666667,3.3333333333333335,1.5,6,1
+1434,20,male,man,gay,latinx,no,bachelor,< $10k,0,0,7,4.166666666666667,1,0,1.1764705882352942
+1435,19,female,woman,bisexual,non-lat white,no,high school / GED,< $10k,1,0,4.916666666666667,3.3333333333333335,1.6,1,1.1764705882352942
+1437,36,female,transgender,heterosexual,non-lat white,yes,some college,$40 - 49k,0,1,7,5,1.1,4,1.1764705882352942
+1438,43,female,woman,bisexual,non-lat white,no,bachelor,$20 - 29k,1,1,5.416666666666667,1.6666666666666667,2.5,8,1.9411764705882353
+1442,20,female,woman,bisexual,latinx/multi,no,bachelor,< $10k,0,0,7,5,1,1,1
+1448,33,male,man,gay,non-lat white,no,bachelor,$30 - 39k,0,0,6,4.333333333333333,1,0,1
+1449,33,female,woman,bisexual,non-lat white,no,high school / GED,$20 - 29k,0,0,6,3.8333333333333335,1,0,1.4705882352941178
+1450,28,female,woman,pansexual,latinx/multi,no,some high school,< $10k,1,0,5.5,1,2,2,1.2352941176470589
+1452,35,female,woman,bisexual,black,no,bachelor,$40 - 49k,0,0,5.75,4,1,0,1
+1453,27,female,woman,gay,latinx,no,master's,$30 - 39k,0,0,3.5,2,1,1,1.1176470588235294
+1454,29,female,woman,gay,black,no,some college,$20 - 29k,0,0,5.5,4,1,0,1.2352941176470589
+1455,31,female,woman,bisexual,black,no,some college,$20 - 29k,0,0,6.083333333333333,3.8333333333333335,1,0,1
+1457,28,female,woman,bisexual,latinx,no,bachelor,$40 - 49k,1,1,6.25,2.3333333333333335,1,2,1.8235294117647058
+1458,20,male,man,gay,latinx/multi,no,some college,< $10k,0,0,5,2.1666666666666665,1.6,2,2.0588235294117645
+1460,28,male,man,bisexual,non-lat white,no,high school / GED,$30 - 39k,0,1,5.5,4,1,0,NA
+1463,18,female,transgender,pansexual,non-lat white,no,some high school,< $10k,1,0,3.5833333333333335,4,1.5,5,2.7058823529411766
+1467,25,female,nonbinary,pansexual,non-lat white,no,bachelor,$20 - 29k,1,0,1.8333333333333333,1.3333333333333333,2.2,5,2.176470588235294
+1468,36,female,woman,lesbian,other,no,master's,$30 - 39k,0,0,7,4.5,1.1,1,1
+1471,18,female,woman,bisexual,latinx,no,bachelor,< $10k,0,0,5.916666666666667,3.8333333333333335,1,2,1
+1474,23,female,woman,lesbian,non-lat white,no,master's,$40 - 49k,0,0,7,3.3333333333333335,1,3,1
+1475,29,female,woman,bisexual,non-lat white,no,some college,$20 - 29k,0,1,5.666666666666667,2.8333333333333335,2.3,7,1.7647058823529411
+1478,33,female,woman,bisexual,non-lat white,no,some college,$30 - 39k,0,0,5.583333333333333,4.166666666666667,1,0,1.4705882352941178
+1479,34,female,woman,bisexual,black,no,some college,$30 - 39k,0,0,6.083333333333333,4,1,0,1
+1480,34,male,man,gay,latinx,no,bachelor,$40 - 49k,0,0,6.166666666666667,4.5,1,0,1
+1481,25,male,man,gay,black,no,high school / GED,$20 - 29k,0,0,5.416666666666667,4.333333333333333,1,0,1.2352941176470589
+1482,27,male,man,gay,non-lat white,no,some college,$30 - 39k,0,0,5.583333333333333,4,1.5,0,1
+1485,28,female,woman,bisexual,black,no,high school / GED,$20 - 29k,0,0,5.833333333333333,4,1,0,1.3529411764705883
+1486,24,male,man,gay,non-lat white,no,bachelor,$10 - 19k,0,0,5.583333333333333,3,1,0,1.588235294117647
+1487,31,male,man,bisexual,non-lat white,no,some college,$40 - 49k,0,1,5.666666666666667,3.6666666666666665,1,1,NA
+1488,27,female,woman,bisexual,black,no,some college,$20 - 29k,0,0,6,4.166666666666667,1,0,1
+1489,29,male,genderqueer,queer,non-lat white,no,master's,$30 - 39k,1,0,4.75,1.8333333333333333,1.1,0,1.2352941176470589
+1490,28,female,woman,bisexual,latinx,no,bachelor,$20 - 29k,0,0,6.416666666666667,4.833333333333333,1,0,1.2352941176470589
+1491,35,female,woman,bisexual,non-lat white,no,some college,$20 - 29k,0,1,5.416666666666667,3.8333333333333335,1,0,NA
+1495,54,male,man,gay,latinx,no,bachelor,$50 - 74k,0,0,5.833333333333333,2.8333333333333335,1.2,4,1.4705882352941178
+1496,39,male,man,gay,latinx,no,some college,$30 - 39k,0,0,6.916666666666667,4.5,1,2,1.588235294117647
+1503,27,male,man,gay,latinx/multi,no,bachelor,< $10k,0,0,4.416666666666667,2.8333333333333335,1,1,1.5294117647058822
+1504,43,male,man,gay,latinx,no,bachelor,$40 - 49k,1,0,7,5,1,1,1
+1506,55,female,woman,lesbian,latinx/multi,no,some college,$50 - 74k,1,0,5.75,2.5,1,1,2.588235294117647
+1507,27,female,woman,lesbian,black,no,bachelor,< $10k,0,0,4.333333333333333,4.166666666666667,1,0,NA
+1508,24,male,man,gay,non-lat white,no,bachelor,< $10k,1,0,6.083333333333333,3.1666666666666665,1,2,1.2352941176470589
+1512,32,female,woman,lesbian,latinx,no,high school / GED,$20 - 29k,1,1,6.083333333333333,2,2.6,4,NA
+1514,52,female,woman,heterosexual,latinx/multi,no,some college,$50 - 74k,0,0,7,3.5,1,2,1.0588235294117647
+1522,40,male,man,gay,latinx,no,bachelor,$40 - 49k,1,0,2.6666666666666665,3.5,1.4,8,2.1176470588235294
+1523,33,female,woman,bisexual,non-lat white,no,some college,$30 - 39k,0,0,5.75,3.5,1,0,NA
+1525,26,male,man,gay,non-lat white,no,some college,$30 - 39k,0,0,6,4.166666666666667,1,0,1
+1528,24,male,man,gay,non-lat white,no,some college,$30 - 39k,0,0,6.083333333333333,4,1,0,NA
+1531,29,female,woman,gay,non-lat white,no,some college,$30 - 39k,0,0,5.833333333333333,4.166666666666667,1,0,2
+1534,32,female,woman,bisexual,non-lat white,no,high school / GED,$20 - 29k,0,0,5.583333333333333,4.166666666666667,1,0,1
+1536,27,female,woman,lesbian,non-lat white,no,some college,< $10k,1,1,7,3,1.5,1,NA
+1538,27,female,woman,bisexual,non-lat white,no,high school / GED,$20 - 29k,0,0,5.666666666666667,3,1.1,2,NA
+1540,32,female,woman,lesbian,black,no,high school / GED,$30 - 39k,0,1,5.916666666666667,3.8333333333333335,1,0,1.2352941176470589
+1541,33,female,woman,bisexual,non-lat white,no,bachelor,$30 - 39k,0,0,6,4,1,0,1.1764705882352942
+1543,28,female,woman,gay,non-lat white,no,high school / GED,$20 - 29k,0,0,5.5,4,1,0,1.0588235294117647
+1544,27,male,man,gay,non-lat white,no,some college,$20 - 29k,0,0,5.666666666666667,4,1,0,NA
+1547,31,male,man,gay,non-lat white,no,some college,$20 - 29k,0,0,6,4.5,1,0,1
+1548,35,female,woman,bisexual,non-lat white,no,some college,$20 - 29k,0,0,6.083333333333333,4.166666666666667,1,0,1.1764705882352942
+1552,33,male,man,gay,latinx/multi,no,high school / GED,$20 - 29k,0,0,6.416666666666667,2.6666666666666665,1,0,1
+1553,21,male,man,gay,latinx,no,bachelor,$10 - 19k,0,1,5.833333333333333,3.5,1,4,1.2941176470588236
+1555,30,male,man,gay,black,no,some college,$30 - 39k,0,0,6.333333333333333,3.8333333333333335,1,1,1.2352941176470589
+1556,36,female,woman,bisexual,non-lat white,no,bachelor,$30 - 39k,0,0,6,4.333333333333333,1,0,1.2352941176470589
+1557,29,female,woman,bisexual,non-lat white,no,bachelor,$20 - 29k,0,0,6.166666666666667,3.8333333333333335,1,0,1.1176470588235294
+1558,31,female,woman,bisexual,non-lat white,no,some college,$30 - 39k,0,1,5.416666666666667,3.5,1,0,NA
+1559,27,female,woman,bisexual,non-lat white,no,some college,$20 - 29k,0,0,6.416666666666667,4.333333333333333,1,0,1
+1561,29,male,man,gay,non-lat white,no,high school / GED,$20 - 29k,0,0,5.333333333333333,3.6666666666666665,1,0,2.0588235294117645
+1562,38,male,man,bisexual,latinx,no,bachelor,$50 - 74k,0,0,6,3.8333333333333335,1.5,4,NA
+1563,25,male,man,gay,non-lat white,no,some college,$20 - 29k,0,0,4.166666666666667,2.3333333333333335,1,0,1.411764705882353
+1566,23,female,woman,lesbian,latinx/AI,no,high school / GED,$10 - 19k,0,0,7,4.666666666666667,1.1,2,NA
+1567,29,female,nonbinary,pansexual,black,no,bachelor,$40 - 49k,1,0,3.4166666666666665,2.8333333333333335,1,2,1.4705882352941178
+1570,20,male,man,bisexual,latinx,no,bachelor,< $10k,1,0,4.75,1.5,1,1,NA
+1573,33,female,woman,bisexual,latinx,no,bachelor,$30 - 39k,0,0,6.083333333333333,4.5,1,0,1
+1574,25,male,man,gay,non-lat white,no,bachelor,$10 - 19k,0,0,5.333333333333333,3.8333333333333335,1,0,1
+1577,31,male,man,gay,non-lat white,no,some college,$30 - 39k,0,0,6,4.333333333333333,1,0,1.7058823529411764
+1578,24,male,man,gay,non-lat white,no,bachelor,$10 - 19k,0,0,5.333333333333333,3.6666666666666665,1,0,1.2941176470588236
+1579,33,female,woman,bisexual,latinx,no,some college,$20 - 29k,0,0,6.25,4.5,1,0,1
+1581,20,female,woman,pansexual,latinx,no,bachelor,< $10k,1,0,6.25,2.8333333333333335,2,1,1.588235294117647
+1590,20,female,man,gay,latinx/multi,no,high school / GED,< $10k,1,1,2.1666666666666665,1,2.5,7,2.1176470588235294
+1591,34,female,woman,bisexual,black,no,some college,$20 - 29k,0,0,6,4.166666666666667,1,0,1
+1593,28,male,man,gay,non-lat white,no,some college,$20 - 29k,0,0,5.833333333333333,4.166666666666667,1,0,1.2352941176470589
+1596,32,female,woman,lesbian,latinx,no,high school / GED,$30 - 39k,0,0,4.416666666666667,3.1666666666666665,1,0,1.7058823529411764
+1597,26,female,woman,bisexual,non-lat white,no,some college,$30 - 39k,0,1,6.083333333333333,3.8333333333333335,2,6,NA
+1598,25,male,man,gay,non-lat white,no,some college,$20 - 29k,0,0,5.833333333333333,4,1,0,1.411764705882353
+1599,29,female,woman,bisexual,non-lat white,no,bachelor,$30 - 39k,0,0,6,4,1,0,1
+1600,32,male,man,gay,black,no,high school / GED,$20 - 29k,0,0,5.666666666666667,4,1,0,1.2352941176470589
+1601,27,male,man,gay,non-lat white,no,some college,$20 - 29k,0,0,5.25,4.166666666666667,1,0,1.1176470588235294
+1605,21,male,man,gay,non-lat white,no,bachelor,$20 - 29k,0,0,6.916666666666667,4,1,2,NA
+1607,18,female,woman,bisexual,latinx,no,some high school,$10 - 19k,1,0,2.5833333333333335,2.8333333333333335,1,3,NA
+1611,18,female,woman,bisexual,asian,no,some high school,$75 - 100k,0,1,5,3,1,0,NA
+1615,22,female,woman,bisexual,latinx,no,some high school,< $10k,0,0,5.333333333333333,2.3333333333333335,1.3,0,1
+1616,33,male,man,gay,black,no,some college,$20 - 29k,0,0,6.333333333333333,4.333333333333333,1.5,0,NA
+1617,30,female,woman,bisexual,latinx/multi,no,bachelor,$40 - 49k,0,0,6.166666666666667,4.333333333333333,1,0,1
+1618,29,female,woman,bisexual,non-lat white,no,bachelor,$30 - 39k,0,0,6.083333333333333,4,1,0,1
+1619,37,male,man,gay,black,no,some college,$30 - 39k,0,0,6.083333333333333,4.5,1,0,1.2352941176470589
+1620,31,female,woman,bisexual,black,no,some college,$30 - 39k,0,0,6.583333333333333,4.333333333333333,1,0,1
+1621,27,female,woman,bisexual,latinx,no,some college,$30 - 39k,0,0,6,4.333333333333333,1,0,1
+1622,32,male,man,gay,non-lat white,no,bachelor,$40 - 49k,0,0,6.166666666666667,4.5,1,0,NA
+1624,48,female,woman,lesbian,black,no,high school / GED,$50 - 74k,0,1,4.75,2.6666666666666665,1,0,1.3529411764705883
+1625,34,female,woman,bisexual,black,no,bachelor,$30 - 39k,0,0,6.166666666666667,4.833333333333333,1,0,1
+1626,32,female,woman,bisexual,non-lat white,no,some college,$30 - 39k,0,0,5.583333333333333,3.6666666666666665,1,0,1.1176470588235294
+1627,28,male,man,gay,non-lat white,no,bachelor,$30 - 39k,0,0,5.833333333333333,3.6666666666666665,1,0,1
+1628,24,male,man,gay,non-lat white,no,some college,$20 - 29k,0,0,5.5,4.166666666666667,1,0,1.1764705882352942
+1630,30,female,woman,gay,non-lat white,no,high school / GED,$20 - 29k,0,0,6,3.5,1,0,1.6470588235294117
+1631,28,male,man,bisexual,black,no,high school / GED,$20 - 29k,0,0,5.666666666666667,3.6666666666666665,1,0,1.9411764705882353
+1632,33,female,woman,bisexual,non-lat white,no,some college,$20 - 29k,0,0,5.583333333333333,4,1,0,1
+1633,31,female,woman,bisexual,non-lat white,no,bachelor,$30 - 39k,0,0,6.083333333333333,4,1,0,1
+1634,35,male,man,gay,non-lat white,no,bachelor,$30 - 39k,0,0,5.5,4,1,0,1.9411764705882353
+1635,37,male,man,gay,non-lat white,no,some college,$30 - 39k,0,0,6.25,4.5,1,0,1.2352941176470589
+1636,27,female,woman,bisexual,black,no,bachelor,$40 - 49k,0,0,6,3.8333333333333335,1,0,1
+1637,29,female,woman,bisexual,black,no,some college,$20 - 29k,0,0,5.833333333333333,4.5,1,0,1
+1640,18,female,woman,pansexual,latinx/multi,no,some high school,$50 - 74k,1,0,6.416666666666667,2.6666666666666665,1,3,2.764705882352941
+1643,31,female,woman,bisexual,non-lat white,no,some college,$10 - 19k,0,0,5.5,4.166666666666667,1,0,1
+1644,32,male,man,gay,non-lat white,no,high school / GED,$20 - 29k,0,0,5.583333333333333,4.166666666666667,1,0,1
+1645,23,female,woman,gay,non-lat white,no,bachelor,< $10k,0,0,6,4,1,0,1
+1646,28,female,woman,bisexual,black,no,some college,$30 - 39k,0,0,6,3.8333333333333335,1,0,1.1764705882352942
+1648,22,male,man,gay,non-lat white,no,bachelor,$10 - 19k,0,0,5.75,3.6666666666666665,1,0,1
+1649,32,male,man,gay,black,no,bachelor,$30 - 39k,0,0,5.833333333333333,4.333333333333333,1,0,1.2352941176470589
+1650,26,female,woman,bisexual,non-lat white,no,some college,$20 - 29k,0,0,5.833333333333333,3.6666666666666665,1,0,NA
+1652,29,female,woman,bisexual,non-lat white,no,some college,$30 - 39k,0,0,6.25,4,1,0,1
+1653,33,female,woman,gay,non-lat white,no,some college,$20 - 29k,0,1,5.666666666666667,4,1,0,NA
+1654,33,male,man,gay,black,no,bachelor,$40 - 49k,0,0,6.333333333333333,3.6666666666666665,1,0,1
+1655,34,female,woman,queer,latinx,no,bachelor,$50 - 74k,1,0,7,4.166666666666667,1.2,0,1.588235294117647
+1657,42,female,woman,lesbian,latinx,no,some college,$10 - 19k,1,0,5.25,3.1666666666666665,1.3,2,2.2941176470588234
+1659,30,male,man,gay,non-lat white,no,some college,$30 - 39k,0,0,5.583333333333333,3.8333333333333335,1,0,2
+1660,28,male,man,gay,black,no,high school / GED,$20 - 29k,0,0,5.416666666666667,4.5,1,0,1
+1661,35,female,woman,bisexual,non-lat white,no,some college,$10 - 19k,0,0,5.416666666666667,4,1,0,1
+1662,33,female,woman,bisexual,latinx,no,bachelor,$40 - 49k,0,0,6.5,4.333333333333333,1,0,1.1764705882352942
+1663,30,female,woman,gay,non-lat white,no,some college,$20 - 29k,0,0,5.5,3.8333333333333335,1,0,1.2352941176470589
+1664,26,female,woman,bisexual,black,no,bachelor,$30 - 39k,0,0,6,4.666666666666667,1,0,1
+1675,18,female,woman,pansexual,non-lat white,no,some high school,< $10k,0,0,4.166666666666667,3.8333333333333335,1,1,1
+1679,19,female,nonbinary,bisexual,non-lat white,no,high school / GED,< $10k,1,0,5.416666666666667,2.5,3.5,8,NA
+1680,39,male,man,gay,non-lat white,no,doctorate,> $100k,1,1,7,5,1.2,0,1.5294117647058822
+1683,56,male,man,gay,non-lat white,no,some college,$50 - 74k,0,0,1.9166666666666667,3,1.6,0,2
+1685,26,female,woman,gay,latinx,no,some college,$30 - 39k,0,0,6.166666666666667,4.5,2,1,1.2941176470588236
+1689,20,female,man,gay,latinx,no,some college,$20 - 29k,0,0,4.5,3.1666666666666665,1.6,0,1.8823529411764706
+1692,63,male,man,gay,non-lat white,no,bachelor,> $100k,1,0,5.666666666666667,4,1.3,1,1.0588235294117647
+1693,31,male,transgender,gay,non-lat white,yes,bachelor,$40 - 49k,0,1,6,2.8333333333333335,1.2,2,NA
+1694,42,female,woman,lesbian,non-lat white,no,master's,$40 - 49k,1,0,6.666666666666667,3.3333333333333335,1.6,6,1
+1698,26,male,man,gay,asian,no,bachelor,$40 - 49k,0,0,2.6666666666666665,3.3333333333333335,2.5,7,NA
+1699,39,female,transgender,heterosexual,latinx,no,high school / GED,$40 - 49k,0,0,4.5,2.3333333333333335,1,0,1.1764705882352942
+1702,19,female,gender nonconforming,queer,latinx,no,bachelor,< $10k,1,1,6.166666666666667,3.5,1,3,2.3529411764705883
+1703,25,male,nonbinary,pansexual,latinx,yes,some college,$10 - 19k,1,1,3.0833333333333335,3.5,1.2,4,1.7058823529411764
+1704,18,female,nonbinary,pansexual,latinx,no,high school / GED,< $10k,1,1,2.25,3.5,2,6,2.235294117647059
+1705,58,male,man,gay,non-lat white,no,bachelor,$50 - 74k,1,0,5.833333333333333,2.8333333333333335,1.5,2,1
+1706,23,female,woman,bisexual,latinx,no,bachelor,$30 - 39k,1,0,5.416666666666667,2,1.2,0,1.0588235294117647
+1708,32,male,transgender,pansexual,latinx/multi,no,some college,< $10k,1,1,4.416666666666667,2.3333333333333335,1,2,3.9411764705882355
+1709,32,male,genderqueer,pansexual,latinx,no,some college,$10 - 19k,1,0,6.5,1.8333333333333333,1.3,0,2.5294117647058822
+1711,18,male,man,gay,non-lat white,no,bachelor,< $10k,0,0,5,2.8333333333333335,1,1,1.8235294117647058
+1712,23,female,woman,queer,latinx,no,bachelor,$10 - 19k,1,0,3.5,3.5,1,0,1
+1713,77,male,man,heterosexual,non-lat white,no,master's,$50 - 74k,0,0,6,2.3333333333333335,1,1,1.411764705882353
+1715,23,male,man,gay,latinx,no,some college,< $10k,0,0,5.583333333333333,3,1,0,1
+1718,32,male,man,gay,non-lat white,no,high school / GED,$30 - 39k,0,1,4.833333333333333,2.3333333333333335,1.8,4,1.5294117647058822
+1722,22,male,man,gay,black,no,bachelor,$10 - 19k,0,0,5.916666666666667,4,1,0,NA
+1725,18,female,nonbinary,asexual,latinx/multi,no,some high school,< $10k,1,1,4.75,3.3333333333333335,1,1,NA
+1726,29,female,woman,bisexual,latinx,no,bachelor,$30 - 39k,0,0,5.916666666666667,4.666666666666667,1,0,1
+1727,26,male,man,gay,black,no,some college,$20 - 29k,0,0,5.75,4.333333333333333,1,0,1.2941176470588236
+1728,28,female,woman,bisexual,non-lat white,no,bachelor,$30 - 39k,0,0,5.916666666666667,3,1,0,1
+1729,34,female,woman,bisexual,black,no,bachelor,$40 - 49k,0,0,6.166666666666667,4.666666666666667,1,0,1.2941176470588236
+1731,31,male,man,gay,latinx,no,bachelor,$40 - 49k,0,0,6.166666666666667,3.8333333333333335,1,0,1
+1734,30,female,woman,bisexual,non-lat white,no,bachelor,$40 - 49k,0,0,5.916666666666667,4.333333333333333,1,0,1
+1735,36,female,woman,lesbian,latinx/multi,no,some college,$20 - 29k,1,0,3.6666666666666665,3,2.2,3,NA
+1737,24,female,nonbinary,queer,other,no,bachelor,$10 - 19k,0,1,4.416666666666667,3.3333333333333335,1,1,1.0588235294117647
+1738,22,female,woman,bisexual,latinx/multi,no,master's,< $10k,1,1,5.75,2,1.3,2,2.235294117647059
+1741,34,female,woman,bisexual,latinx,no,bachelor,$30 - 39k,0,0,6.25,4.5,1,0,1
+1742,32,female,woman,bisexual,black,no,some college,$30 - 39k,0,0,6.416666666666667,4.333333333333333,1,0,1
+1743,27,male,man,gay,non-lat white,no,high school / GED,$20 - 29k,0,0,5.75,4.166666666666667,1,0,1.588235294117647
+1744,33,female,woman,bisexual,non-lat white,no,some college,$20 - 29k,0,0,5.666666666666667,4.166666666666667,1,0,1.1764705882352942
+1745,29,female,woman,bisexual,latinx,no,bachelor,$30 - 39k,1,0,4.416666666666667,4,1.2,2,1
+1746,30,female,woman,gay,non-lat white,no,high school / GED,$20 - 29k,0,0,5.333333333333333,4.5,1,0,1
+1747,25,female,woman,gay,non-lat white,no,some college,$20 - 29k,0,0,5.416666666666667,3.6666666666666665,1,0,NA
+1749,31,female,woman,bisexual,black,no,bachelor,$40 - 49k,0,0,6.166666666666667,4.166666666666667,1,0,1
+1751,24,male,man,gay,black,no,bachelor,$10 - 19k,0,0,6,4.333333333333333,1,0,NA
+1753,30,female,woman,bisexual,non-lat white,no,some college,$30 - 39k,0,1,5.833333333333333,4,1,0,NA
+1754,32,female,woman,lesbian,non-lat white,no,bachelor,$20 - 29k,1,1,5.166666666666667,2.1666666666666665,1.5,2,1.411764705882353
+1755,20,male,man,gay,non-lat white,no,some college,< $10k,0,0,6.166666666666667,3.8333333333333335,1,0,1
+1756,22,male,man,gay,non-lat white,no,bachelor,< $10k,0,0,5.916666666666667,4.333333333333333,1,0,NA
+1760,37,female,gender nonconforming,asexual,non-lat white,no,master's,$40 - 49k,1,1,3.1666666666666665,2.8333333333333335,1,3,1.9411764705882353
+1763,21,female,nonbinary,asexual,non-lat white,no,some college,< $10k,1,0,4.333333333333333,3,1.4,6,2.176470588235294
+1766,27,male,man,gay,non-lat white,no,master's,$50 - 74k,0,0,5.583333333333333,4.5,1.2,4,1.411764705882353
+1767,34,male,man,gay,latinx,no,bachelor,$20 - 29k,0,0,7,4.333333333333333,1,1,1.0588235294117647
+1768,26,female,woman,lesbian,latinx,no,some college,$10 - 19k,0,0,6.666666666666667,4,1,0,1
+1769,28,female,woman,pansexual,non-lat white,no,high school / GED,< $10k,1,0,4.666666666666667,1,1.5,1,2.588235294117647
+1770,27,female,woman,bisexual,asian,no,doctorate,$50 - 74k,1,1,5.5,3.1666666666666665,1.7,4,NA
+1774,40,female,woman,bisexual,non-lat white,no,master's,$50 - 74k,1,0,5.583333333333333,2.1666666666666665,1,1,NA
+1775,44,female,woman,pansexual,other,no,master's,$30 - 39k,1,1,5.166666666666667,2,1.3,2,2.0588235294117645
+1776,43,male,man,gay,latinx,no,high school / GED,$30 - 39k,0,0,3.25,3.1666666666666665,1.9,6,NA
+1777,30,female,transgender,pansexual,non-lat white,no,some college,$10 - 19k,1,0,3,2.3333333333333335,1.8,3,1.1176470588235294
+1778,36,female,woman,lesbian,non-lat white,no,some college,$40 - 49k,0,0,5.916666666666667,4.333333333333333,1,0,1.0588235294117647
+1779,29,male,man,gay,non-lat white,no,high school / GED,$30 - 39k,0,0,5.666666666666667,3.6666666666666665,1,0,1.1764705882352942
+1780,26,male,genderqueer,pansexual,black,no,high school / GED,$20 - 29k,1,0,4.083333333333333,2.8333333333333335,1,0,1.411764705882353
+1781,32,female,woman,bisexual,non-lat white,no,some college,$30 - 39k,0,0,5.583333333333333,4.333333333333333,1,0,1.2352941176470589
+1782,28,male,man,gay,non-lat white,no,high school / GED,$20 - 29k,0,0,5.666666666666667,4.166666666666667,1,0,1.6470588235294117
+1783,30,female,woman,bisexual,black,no,some college,$20 - 29k,0,0,6.5,4.166666666666667,1,0,1.1764705882352942
+1786,28,female,woman,bisexual,latinx,no,bachelor,$40 - 49k,0,0,6.083333333333333,4.5,1,0,1
+1787,27,male,man,gay,black,no,some college,$20 - 29k,0,0,5.916666666666667,4.5,1,0,1.2352941176470589
+1790,29,male,man,bisexual,latinx,no,master's,$30 - 39k,0,1,5.333333333333333,3.6666666666666665,1,1,1.8235294117647058
+1793,41,male,man,queer,other,no,bachelor,$50 - 74k,1,1,4.25,3.1666666666666665,1,3,NA
+1798,26,female,woman,bisexual,non-lat white,no,some college,< $10k,0,0,5.916666666666667,2,1,1,1
+1799,32,female,woman,pansexual,non-lat white,no,bachelor,$10 - 19k,1,1,7,4,1,1,1.2941176470588236
+1800,32,female,woman,bisexual,black,no,bachelor,$40 - 49k,0,0,5.916666666666667,4,1,0,1
+1801,21,female,woman,pansexual,latinx,no,some college,< $10k,1,0,6.5,2.8333333333333335,1.5,5,1
+1804,25,male,man,gay,black,no,some college,$20 - 29k,0,0,6.083333333333333,4.166666666666667,1,0,1.2352941176470589
+1805,33,female,woman,bisexual,non-lat white,no,high school / GED,$20 - 29k,0,0,5.916666666666667,4,1,0,1.411764705882353
+1806,33,female,woman,bisexual,latinx,no,bachelor,$40 - 49k,0,0,6.333333333333333,3.8333333333333335,1,0,1
+1808,31,female,woman,bisexual,non-lat white,no,bachelor,$40 - 49k,0,0,5.916666666666667,4.5,1,0,1
+1809,26,female,woman,gay,non-lat white,no,some college,$20 - 29k,0,0,5.75,4,1,0,1
+1810,26,male,man,gay,non-lat white,no,master's,$30 - 39k,0,0,4.666666666666667,4.166666666666667,1.1,5,1.2352941176470589
+1812,35,male,man,gay,latinx,no,some college,$30 - 39k,1,1,5.083333333333333,3.6666666666666665,1.6,1,NA
+1813,38,female,woman,bisexual,latinx/multi,no,bachelor,$75 - 100k,1,0,5.166666666666667,2,1,0,NA
+1814,27,female,woman,bisexual,latinx,no,master's,< $10k,1,0,4,2.6666666666666665,1,1,1.411764705882353
+1816,21,female,woman,gay,non-lat white,no,master's,$10 - 19k,0,0,4.916666666666667,3.3333333333333335,1,0,1.6470588235294117
+1822,30,female,woman,bisexual,black,no,bachelor,$30 - 39k,0,0,6.25,4.166666666666667,1,0,1
+1823,28,female,woman,bisexual,non-lat white,no,some college,$20 - 29k,0,0,6.5,4.833333333333333,1,0,1
+1829,39,female,gender nonconforming,bisexual,other,no,bachelor,$40 - 49k,1,0,5.833333333333333,2.6666666666666665,1,1,2
+1830,18,female,woman,bisexual,non-lat white,no,bachelor,$30 - 39k,1,1,5,3,1,1,2.3529411764705883
+1831,22,female,woman,pansexual,non-lat white,no,some college,$10 - 19k,0,1,4.416666666666667,1.5,2.3,3,2.2941176470588234
+1833,18,female,woman,lesbian,non-lat white,no,high school / GED,< $10k,0,0,3.3333333333333335,2.5,1.3,1,1.8235294117647058
+1835,28,female,woman,bisexual,black,no,some college,$30 - 39k,0,0,6.25,3.8333333333333335,1,0,1
+1836,35,female,woman,bisexual,latinx,no,bachelor,$40 - 49k,0,0,6.333333333333333,4.333333333333333,1,0,1
+1837,33,female,woman,bisexual,non-lat white,no,bachelor,$30 - 39k,0,0,6.25,4,1,0,1
+1838,18,female,nonbinary,lesbian,latinx,no,high school / GED,< $10k,1,1,3.0833333333333335,4.166666666666667,1.2,1,NA
+1839,30,male,man,gay,black,no,bachelor,$30 - 39k,0,0,6.166666666666667,4,1,0,1
+1840,29,female,woman,bisexual,black,no,bachelor,$20 - 29k,0,0,6.166666666666667,4.333333333333333,1,0,1
+1841,23,male,nonbinary,queer,latinx,no,some college,$30 - 39k,1,1,2.9166666666666665,1.5,2.2,3,4
+1843,33,female,woman,bisexual,latinx,no,bachelor,$30 - 39k,0,0,6.083333333333333,4,1,0,1.0588235294117647
+1845,18,female,woman,pansexual,latinx/multi,no,some college,$75 - 100k,1,0,5.916666666666667,2.3333333333333335,1,0,1
+1849,19,female,gender nonconforming,queer,latinx/multi,no,bachelor,< $10k,1,1,5.416666666666667,3,1,2,2.3529411764705883
+1851,31,female,woman,pansexual,latinx,no,some college,$10 - 19k,1,0,5.333333333333333,2.5,1.9,5,2.1176470588235294
+1852,18,female,nonbinary,queer,black,no,bachelor,$10 - 19k,1,1,5.416666666666667,1.6666666666666667,1,1,2.8823529411764706
+1859,21,female,woman,lesbian,latinx,no,bachelor,< $10k,0,0,5.583333333333333,2.5,1.1,3,1.3529411764705883
+1861,44,female,woman,bisexual,non-lat white,no,some college,$30 - 39k,0,0,6.75,3.3333333333333335,1.2,0,1.3529411764705883
+1863,21,female,woman,bisexual,non-lat white,no,master's,$10 - 19k,0,0,6.166666666666667,3,1.5,4,NA
+1866,26,female,woman,gay,non-lat white,no,some college,$20 - 29k,0,0,5.666666666666667,3.6666666666666665,1,0,1
+1868,34,male,man,gay,non-lat white,no,high school / GED,$30 - 39k,0,0,5.666666666666667,3.6666666666666665,1,0,1.1176470588235294
+1869,30,male,man,gay,black,no,some college,$30 - 39k,0,1,5.583333333333333,4.333333333333333,1,0,NA
+1870,20,female,woman,lesbian,black,no,bachelor,$30 - 39k,1,0,4.75,4.5,1,2,NA
+1871,40,female,woman,lesbian,non-lat white,no,high school / GED,$40 - 49k,0,0,6,3.8333333333333335,1,1,1.5294117647058822
+1872,29,female,woman,bisexual,black,no,bachelor,$30 - 39k,0,0,5.916666666666667,3.8333333333333335,1,0,1.1764705882352942
+1873,24,male,man,gay,non-lat white,no,bachelor,< $10k,0,0,5.916666666666667,4,1,0,NA
+1875,32,female,woman,bisexual,non-lat white,no,bachelor,$40 - 49k,0,0,6.166666666666667,4.5,1,0,1
+1876,26,male,man,gay,black,no,bachelor,$20 - 29k,0,0,6,4.5,1,0,1.1764705882352942
+1877,37,male,man,bisexual,non-lat white,no,some college,$40 - 49k,0,0,5.666666666666667,4.333333333333333,1,0,1
+1878,31,female,woman,bisexual,latinx,no,bachelor,$40 - 49k,0,0,5.583333333333333,4.333333333333333,1,1,1
+1879,27,female,woman,bisexual,black,no,some college,$20 - 29k,0,0,5.583333333333333,4,1,0,1
+1880,35,female,woman,bisexual,non-lat white,no,some college,$20 - 29k,0,0,5.583333333333333,4,1,0,1
+1881,25,female,woman,bisexual,black,no,some college,$20 - 29k,0,0,5.666666666666667,3.6666666666666665,1,0,1.1764705882352942
+1882,32,male,man,gay,latinx,no,bachelor,$30 - 39k,0,0,5.333333333333333,4.166666666666667,1,0,1
+1883,25,female,woman,gay,non-lat white,no,some college,$20 - 29k,0,0,6.333333333333333,3.6666666666666665,1,0,1
+1884,34,female,woman,bisexual,latinx,no,bachelor,$40 - 49k,0,0,6.083333333333333,3.8333333333333335,1,0,1
+1886,28,female,woman,bisexual,black,no,bachelor,$30 - 39k,0,0,5.833333333333333,4,1,0,1
+1887,22,female,woman,gay,non-lat white,no,bachelor,< $10k,0,0,5.416666666666667,3.8333333333333335,1,0,1
+1888,34,female,woman,bisexual,latinx,no,bachelor,< $10k,1,0,6.916666666666667,1.6666666666666667,1.1,3,2.0588235294117645
+1889,34,male,transgender,lesbian,non-lat white,no,master's,$50 - 74k,1,0,4.916666666666667,3.3333333333333335,2,10,2.5294117647058822
+1890,19,female,nonbinary,pansexual,latinx/multi,no,bachelor,< $10k,1,1,5.416666666666667,3.1666666666666665,2.6,4,NA
+1892,23,female,nonbinary,queer,black,no,doctorate,< $10k,0,0,6.25,3.1666666666666665,1,3,1.6470588235294117
+1893,34,female,gender nonconforming,asexual,non-lat white,no,some college,$20 - 29k,1,1,2.1666666666666665,3.3333333333333335,1.7,1,NA
+1897,22,female,gender nonconforming,lesbian,latinx/multi,no,bachelor,> $100k,1,0,6.583333333333333,3.1666666666666665,1.1,1,1
+1898,19,male,gender nonconforming,bisexual,latinx,no,bachelor,$10 - 19k,0,0,5.666666666666667,3,2.7,4,1.8823529411764706
+1899,39,male,transgender,heterosexual,non-lat white,no,some college,> $100k,0,0,7,3.3333333333333335,1,1,1
+1900,20,female,woman,queer,latinx,no,bachelor,< $10k,1,0,4.5,1.8333333333333333,1.2,3,1
+1902,18,female,transgender,bisexual,latinx/multi,no,some high school,$50 - 74k,1,0,6.166666666666667,2.5,1.3,2,2
+1904,29,female,woman,lesbian,non-lat white,no,bachelor,$40 - 49k,0,0,5.166666666666667,2.8333333333333335,1.5,2,2.0588235294117645
+1905,20,female,woman,pansexual,latinx/multi,no,bachelor,< $10k,0,0,5,1.6666666666666667,1,2,1
+1910,29,female,woman,bisexual,black,no,bachelor,$20 - 29k,0,0,6.083333333333333,4.333333333333333,1,0,1
+1913,36,female,woman,lesbian,latinx,no,master's,< $10k,0,0,7,4.666666666666667,1,2,1.1764705882352942
+1914,21,female,woman,pansexual,latinx,no,some college,< $10k,0,0,7,2.1666666666666665,1,3,1.411764705882353
+1915,29,female,woman,lesbian,latinx,no,high school / GED,$30 - 39k,0,0,7,3,1,0,1
+1916,30,female,woman,bisexual,latinx,no,master's,$50 - 74k,0,0,5.5,4,1,0,NA
+1917,26,female,woman,lesbian,latinx,NA,bachelor,$50 - 74k,1,1,5.833333333333333,4,1,1,NA
+1920,23,female,nonbinary,queer,latinx,no,high school / GED,< $10k,0,0,4.916666666666667,1.8333333333333333,1,1,1.411764705882353
+1925,24,female,woman,lesbian,non-lat white,no,some college,$30 - 39k,1,0,5.833333333333333,1.6666666666666667,2,2,1.3529411764705883
+1926,24,female,woman,lesbian,latinx,no,bachelor,$30 - 39k,1,1,4.833333333333333,3.8333333333333335,1,4,1.1176470588235294
+1929,20,female,woman,bisexual,non-lat white,no,bachelor,$10 - 19k,1,0,5.75,3.3333333333333335,1,2,1
+1932,34,female,genderqueer,lesbian,other,no,some college,$30 - 39k,0,0,5.916666666666667,4.666666666666667,1.3,7,1.4705882352941178
+1933,22,female,transgender,gay,latinx,no,high school / GED,$10 - 19k,1,0,5.583333333333333,2.8333333333333335,1,0,NA
+1934,18,female,woman,bisexual,latinx/multi,no,some college,$10 - 19k,0,1,4,2.8333333333333335,1.2,4,NA
+1939,35,male,transgender,lesbian,non-lat white,no,master's,$75 - 100k,1,0,5.75,3.1666666666666665,2,10,3
+1940,32,male,man,gay,latinx,no,some college,$20 - 29k,0,0,4.083333333333333,2.3333333333333335,1.3,2,NA
+1943,36,male,man,gay,non-lat white,no,bachelor,$50 - 74k,0,0,6.416666666666667,4,1,1,1.2352941176470589
+1944,19,female,woman,pansexual,latinx,no,high school / GED,< $10k,1,0,4.916666666666667,1,1,1,2
+1945,39,female,woman,bisexual,non-lat white,no,master's,$50 - 74k,1,1,5.333333333333333,3,1.5,1,NA
+1947,27,male,man,gay,other,no,bachelor,$75 - 100k,1,0,6.416666666666667,5,1,1,1
+1949,40,female,woman,queer,latinx/multi,no,master's,$30 - 39k,1,0,5,4,1,1,NA
+1952,43,female,woman,bisexual,latinx,yes,high school / GED,$30 - 39k,0,1,4.416666666666667,3,2.5,6,1.6470588235294117
+1953,20,female,nonbinary,queer,latinx/multi,no,bachelor,< $10k,0,0,5.25,3.6666666666666665,1.5,2,1.8823529411764706
+1954,26,male,man,gay,black,no,high school / GED,$30 - 39k,0,0,6.416666666666667,4,1,0,1.1764705882352942
+1958,26,female,woman,lesbian,non-lat white,no,some college,$30 - 39k,0,0,5.833333333333333,4,1,0,1
+1959,31,female,woman,gay,non-lat white,no,high school / GED,$20 - 29k,0,0,5.416666666666667,4.333333333333333,1,0,1
+1960,29,female,woman,bisexual,black,no,bachelor,$30 - 39k,0,0,6.083333333333333,4.166666666666667,1,0,1.2352941176470589
+1961,31,female,woman,bisexual,black,no,bachelor,$40 - 49k,0,0,6.083333333333333,4,1,1,1.1764705882352942
+1962,27,female,woman,bisexual,latinx,no,bachelor,$20 - 29k,0,0,6,4,1,0,1
+1963,34,male,transgender,lesbian,non-lat white,no,master's,$50 - 74k,1,0,5.75,3.1666666666666665,2,10,2.9411764705882355
+1964,50,female,woman,lesbian,latinx,no,some high school,$50 - 74k,1,1,6.75,4,1,1,NA
+1965,29,female,woman,bisexual,latinx,no,some college,$30 - 39k,0,0,5.916666666666667,4,1,0,1
+1967,30,female,woman,lesbian,asian,no,bachelor,$40 - 49k,0,0,5.916666666666667,4,1.5,0,1.1764705882352942
+1968,20,male,man,bisexual,non-lat white,no,some college,< $10k,0,0,6.333333333333333,3.3333333333333335,1,1,1.2352941176470589
+1969,33,female,woman,pansexual,latinx,no,some college,$10 - 19k,1,0,4.083333333333333,3.5,1.3,4,1.1176470588235294
+1975,33,female,nonbinary,asexual,non-lat white,no,bachelor,$75 - 100k,1,1,3.75,2.3333333333333335,1,1,1.8823529411764706
+1976,63,male,man,gay,latinx/multi,yes,some college,$20 - 29k,0,0,3.9166666666666665,2,1,3,1.8235294117647058
+1978,22,female,woman,lesbian,asian,no,bachelor,< $10k,0,0,4.583333333333333,3.5,1.3,2,NA
+1979,38,female,woman,lesbian,latinx,no,bachelor,$40 - 49k,1,1,5.083333333333333,3,2.7,3,2.8823529411764706
+1980,28,male,woman,gay,non-lat white,no,bachelor,$40 - 49k,0,0,6.25,3.3333333333333335,1.5,0,2
+1981,44,female,woman,lesbian,non-lat white,no,bachelor,$50 - 74k,1,0,6.833333333333333,3.8333333333333335,1.1,2,1.3529411764705883
+1984,48,female,woman,lesbian,non-lat white,no,master's,$75 - 100k,0,0,6.583333333333333,4,1.1,2,2
+1986,28,female,man,lesbian,non-lat white,no,some college,$50 - 74k,0,0,5.5,3,2,0,NA
+1990,33,female,nonbinary,queer,non-lat white,no,doctorate,$75 - 100k,1,1,5.583333333333333,4.333333333333333,1.2,5,1.2941176470588236
+1991,30,female,woman,bisexual,black,no,bachelor,$30 - 39k,0,0,6.25,4,1,0,1
+1994,61,male,transgender,lesbian,non-lat white,no,some college,$50 - 74k,0,0,5.083333333333333,3,1.5,1,1.1176470588235294
+1998,34,female,woman,lesbian,non-lat white,no,some college,$75 - 100k,0,0,5.916666666666667,3.1666666666666665,1.5,0,2.411764705882353
+2000,52,male,gender nonconforming,bisexual,latinx,no,some college,$10 - 19k,1,0,1,2,1,0,1
+2002,28,male,man,gay,non-lat white,no,some college,$40 - 49k,0,1,6.083333333333333,3.8333333333333335,1,0,NA
+2003,33,male,man,gay,latinx,no,high school / GED,$30 - 39k,0,0,5.416666666666667,3.8333333333333335,2,4,1.2941176470588236
+2004,25,male,man,gay,non-lat white,no,bachelor,$30 - 39k,0,0,6.166666666666667,4.166666666666667,1.5,0,1.2941176470588236
+2005,36,female,woman,lesbian,latinx,no,high school / GED,$40 - 49k,0,0,6.25,4.166666666666667,1,0,1.2352941176470589
+2006,28,male,man,gay,non-lat white,no,some college,$40 - 49k,1,0,5.5,3,2.5,2,2.0588235294117645
+2008,36,female,transgender,heterosexual,non-lat white,no,bachelor,$50 - 74k,1,0,4.25,4.333333333333333,1.5,0,1.411764705882353
+2010,37,male,man,gay,non-lat white,no,some college,$30 - 39k,1,1,4.75,3,1.5,1,NA
+2011,21,female,woman,lesbian,non-lat white,no,bachelor,$10 - 19k,1,1,5.583333333333333,3.3333333333333335,1.1,2,NA
+2012,32,female,woman,lesbian,latinx,no,some college,$10 - 19k,0,0,5.083333333333333,2.6666666666666665,1.2,8,NA
+2014,30,male,transgender,lesbian,non-lat white,yes,bachelor,$75 - 100k,1,0,5.916666666666667,2.6666666666666665,2,10,3
+2021,20,female,woman,lesbian,latinx/multi,no,high school / GED,< $10k,1,1,4.666666666666667,4,1,3,1.411764705882353
+2022,26,female,woman,bisexual,non-lat white,no,bachelor,$20 - 29k,1,0,5.833333333333333,3.3333333333333335,1,2,1
+2030,39,female,woman,gay,non-lat white,no,master's,$20 - 29k,1,1,4.916666666666667,2.5,1,2,2.2941176470588234
+2032,19,female,woman,lesbian,latinx/multi,no,some college,< $10k,1,0,4.083333333333333,3.3333333333333335,3,4,1.9411764705882353
+2034,21,male,man,gay,latinx,no,some college,< $10k,0,0,5,4.166666666666667,1,4,1
+2035,39,female,woman,bisexual,latinx/AI,no,master's,$40 - 49k,0,0,6.416666666666667,3.6666666666666665,2,1,1
+2037,29,female,transgender,not listed,non-lat white,no,bachelor,< $10k,0,0,7,1,1,2,1
+2040,30,male,man,bisexual,non-lat white,no,some college,$40 - 49k,0,0,6.25,4,1,0,NA
+2042,44,female,woman,lesbian,latinx,no,bachelor,$40 - 49k,1,0,6.666666666666667,4,1,0,1.1176470588235294
+2043,23,male,transgender,bisexual,latinx/multi,no,high school / GED,< $10k,1,1,5,4.333333333333333,3,6,1.3529411764705883
+2055,20,female,woman,pansexual,non-lat white,no,bachelor,$20 - 29k,0,1,6.166666666666667,2.6666666666666665,1.1,1,1.7647058823529411
+2056,23,male,man,lesbian,black,unsure,high school / GED,$40 - 49k,0,0,4.5,3.1666666666666665,2.8,3,2.9411764705882355
+2057,26,male,transgender,bisexual,latinx/multi,no,some college,$40 - 49k,1,0,4.416666666666667,3.8333333333333335,2.4,3,2.1176470588235294
