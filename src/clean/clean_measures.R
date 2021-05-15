@@ -49,7 +49,7 @@ scop_eds <- scop %>%
   left_join(scop_hiv)
 
 # This sample size will be too small, so it is better to use HIV as a covariate
-# I kept this cope due to the novel coding approach
+# I kept this code due to the novel coding approach
 # This coding may be useful to future studies (i.e., Ryan's work)
 
 # MISSING DATA: COMMON DATA -----------------------------------------------
@@ -138,6 +138,37 @@ freq_prob_drug_use <- scop_1 %>%
   group_by(record_id) %>%
   # Mean score
   summarise(freq_prob_drug_use = mean(score))
+
+# Mean score "drugs": problematic drug use frequency
+# Higher scores indicate more frequent problematic polydrug use
+freq_polydrug_use <- scop_1 %>%
+  select(record_id, drugs1:drugs10) %>%
+  filter(
+    # Alcohol problem AND problem with at least one other drug
+    (
+      # At least some problem with alcohol
+      (drugs1 > 1) &
+        # AND at least some problem with one other drug
+        (
+          drugs2 > 1 | drugs3 > 1 | drugs4 > 1 | drugs5 > 1 | drugs6 > 1 | 
+            drugs7 > 1 | drugs8 > 1 | drugs9 > 1 | drugs10 > 1 
+        )
+    ) | # OR
+    # No alcohol problem AND problem with at least one other drug
+    (
+      # Never a problem with alcohol
+      (drugs1 == 1) &
+        # AND at least some problem with one other drug
+        (
+          drugs2 > 1 | drugs3 > 1 | drugs4 > 1 | drugs5 > 1 | drugs6 > 1 | 
+            drugs7 > 1 | drugs8 > 1 | drugs9 > 1 | drugs10 > 1
+        )
+    )
+  ) %>%
+  gather(key = "freq_polydrug_use", value = "score", -record_id) %>%
+  group_by(record_id) %>%
+  # Mean score
+  summarise(freq_polydrug_use = mean(score))
 
 # Total score "drug_affects": Drug Abuse Screening Test (DAST-10)
 # Higher scores indicate more severe problems related to drug abuse (NO ALCOHOL INCLUDED)
@@ -246,3 +277,4 @@ scop_eds_combined_1 <- scop_eds_combined[complete.cases(scop_eds_combined), ]
 write_csv(scop_eds_orientation, "data/cleaned/cleaned_eds_orientation.csv")
 write_csv(scop_eds_gender, "data/cleaned/cleaned_eds_gender.csv")
 write_csv(scop_eds_combined_1, "data/cleaned/cleaned_eds_combined.csv")
+write_csv(freq_polydrug_use, "data/cleaned/freq_polydrug_use.csv")
