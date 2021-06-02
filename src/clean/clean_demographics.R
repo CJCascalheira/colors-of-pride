@@ -39,9 +39,9 @@ nrow(scop_adults1)
 # Select variables for dehumanization project
 scop_1 <- scop_adults1 %>%
   select(record_id, age, birth, intersex, trans, starts_with("gender__"), 
-         other_gender, perception_scale, orientation, other_orientation, 
+         other_gender, perception_scale, orientation, other_orientation,
          hiv_result, starts_with("race"), other_race, education, annual_income, 
-         homeless_exp, fam_rejection, res1:res21, starts_with("res_scale"),
+         homeless_exp, food_ran_out, res1:res21, starts_with("res_scale"),
          starts_with("helpful"), trans_age, age_orientation, age_lgbtq,
          starts_with("gender_prob"), starts_with("orientation_prob"), ptsd,
          starts_with("hiv_prob"), sud, hiv, starts_with("drugs"), injection, 
@@ -88,7 +88,6 @@ scop_1 <- scop_adults1 %>%
                        `5` = "$50 - 74k", `6` = "$75 - 100k", `7` = "> $100k"),
     homeless_exp = recode(homeless_exp, `0` = "no", `1` = "yes, currently", 
                           `2` = "yes, past year", `3` = "yes, > year ago"),
-    fam_rejection = recode(fam_rejection, `1` = "yes", `0` = "no"),
     sud = recode(sud, `1` = "yes", `0` = "no"),
     hiv = recode(hiv, `1` = "yes", `0` = "no"),
     injection = recode(injection, `1` = "yes", `0` = "no", `77` = "prefer not to answer"),

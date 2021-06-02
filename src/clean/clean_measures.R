@@ -4,23 +4,53 @@ library(rio)
 library(RBtest)
 
 # Import cleaned demographics
-scop <- read_csv("data/cleaned/cleaned_demographics.csv") %>%
+scop_pre <- read_csv("data/cleaned/cleaned_demographics.csv") %>%
   # Remove NA for annual income
   filter(!is.na(annual_income)) %>%
   # Select variables for this project
-  select(record_id:annual_income, res1:res21, starts_with("res_scale"), unwanted,
+  select(record_id:annual_income, food_ran_out, homeless_exp, res1:res21, starts_with("res_scale"), unwanted,
          starts_with("orientation_prob"), starts_with("gender_prob"), starts_with("hiv_prob"),
-         starts_with("helpful"), starts_with("drugs"), starts_with("drug_affect"))
+         starts_with("helpful"), starts_with("drugs"), starts_with("drug_affect")) %>%
+  mutate(
+    # Recode the unwanted sexual contact variable to binary
+    unwanted = recode(unwanted, "yes" = 1, "no" = 0),
+    # Recode food insecurity to binary where 1 (yes it ran out in past 12 months) or 0 (no)
+    food_ran_out = recode(food_ran_out, `1` = 1, `2` = 1, `3` = 0),
+    # Recode homeless to binary where 1 (at least once) and 0 (never)
+    homeless_exp = recode(homeless_exp, "no" = 0, .default = 1)
+  ) %>%
+  # Recode the helpful variables so higher scores indicate that an activity was extremely helpful
+  mutate(across(helpful1:helpful16, ~ recode(., `1` = 7, `2` = 6, `3` = 5, `4` = 4, `5` = 3, `6` = 2, `7` = 1))) %>%
+  # Remove people who did not know whether their food ran out
+  filter(food_ran_out != 4)
 
-# Pull records with complete data for the helpful coping strategies
-helpful_complete <- scop %>%
+# SCORE COPING ACTIVITIES -------------------------------------------------
+
+# Score coping variables- weighted sum
+# Total number of activities, weighted by activity helpfulness
+total_coping <- scop_pre %>%
   select(record_id, starts_with("helpful")) %>%
-  gather("help", "value", -record_id) %>%
-  filter(value != 66) %>%
-  spread("help", "value") %>%
-  na.omit() %>%
-  pull(record_id)
+  # Replace missing values with 0
+  # Zero = person did not engage with that coping activity
+  mutate(across(helpful1:helpful16, ~replace(., is.na(.), 0))) %>%
+  # Convert to long format
+  gather(key = "coping_variable", value = "how_helpful", -record_id) %>%
+  # Create new variable: 1 = activity used, 0 = activity not used
+  mutate(activity_used = if_else(how_helpful == 0, 0, 1)) %>%
+  # Replace missing values (i.e., 66) with 0
+  mutate(how_helpful = if_else(how_helpful == 66, 0, how_helpful)) %>%
+  # Calculate score for each participant
+  group_by(record_id) %>%
+  # Weighted sum
+  summarize(
+    total_coping = sum(activity_used * how_helpful)
+  )
 
+# Join the data frames
+scop <- scop_pre %>%
+  select(-starts_with("helpful")) %>%
+  left_join(total_coping)
+  
 # SCORE HIV DISCRIMINATION ------------------------------------------------
 
 # Clean HIV EDS
@@ -75,12 +105,9 @@ table(scop_common_missing$type)
 scop_1a <- scop_eds %>%
   # Filter for common complete variables
   filter(record_id %in% scop_common_complete$record_id) %>%
-  # Recode the unwanted sexual contact variable to binary
-  mutate(
-    unwanted = recode(unwanted, "yes" = 1, "no" = 0)
-  ) %>%
-  select(record_id:hiv_result, education, annual_income, res1:res21, starts_with("res_scale"), unwanted,
-       starts_with("orientation_prob"), starts_with("gender_prob_"), starts_with("drugs"), starts_with("drug_affect"))
+  select(record_id:hiv_result, education:homeless_exp, res1:res21, starts_with("res_scale"), unwanted,
+       starts_with("orientation_prob"), starts_with("gender_prob_"), starts_with("drugs"), starts_with("drug_affect"),
+       total_coping)
 
 # INTRACOMMUNITY SCORE ----------------------------------------------------
 
