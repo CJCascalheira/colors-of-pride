@@ -94,12 +94,12 @@ nrow(scop_combined)
 
 # Scale all variables to return standardized coefficients
 scop_1 <- scop_combined %>%
-  select(freq_polydrug_use, race_ctrl, age, income_ctrl, hiv_ctrl, unwanted, 
-         eds_gender_total, eds_orientation_total, intracomm_eds, mspss_total) %>%
+  select(freq_polydrug_use, race_ctrl, age, income_ctrl, hiv_ctrl, food_ran_out, homeless_exp, unwanted, 
+         eds_gender_total, eds_orientation_total, intracomm_eds, mspss_total, total_coping) %>%
   lapply(scale) %>%
   as.data.frame()
 
-# MODEL 0 - TEST FOR POTENTIAL MODERATION ---------------------------------
+# MODEL 0 - TEST FOR POTENTIAL MODERATION - SOCIAL SUPPORT ----------------
 
 # Model 0 - SO EDS + Social Support
 model_0a <- lm(freq_polydrug_use ~ eds_orientation_total + mspss_total, data = scop_combined)
@@ -126,106 +126,110 @@ model_0c <- lm(freq_polydrug_use ~ unwanted + mspss_total, data = scop_combined)
 summary(model_0c)
 # No case for moderation due to non-significant unwanted sexual experience 
 
-# MODEL 1 - COVARIATES ----------------------------------------------------
+# MODEL 00 - TEST FOR POTENTIAL MODERATION - COPING -----------------------
+
+# Model 0 - SO EDS + Coping Capacity
+model_00a <- lm(freq_polydrug_use ~ eds_orientation_total + total_coping, data = scop_combined)
+summary(model_00a)
+
+#### Moderation
+model_00a_mod <- lm(freq_polydrug_use ~ eds_orientation_total + total_coping + 
+                     (eds_orientation_total * total_coping), data = scop_combined)
+summary(model_00a_mod)
+anova(model_00a, model_00a_mod)
+
+# Model 0 - GI EDS + Coping Capacity
+model_00b <- lm(freq_polydrug_use ~ eds_gender_total + total_coping, data = scop_combined)
+summary(model_00b)
+
+#### Moderation
+model_00b_mod <- lm(freq_polydrug_use ~ eds_gender_total + total_coping +
+                     (eds_gender_total * total_coping), data = scop_combined)
+summary(model_00b_mod)
+anova(model_00b, model_00b_mod)
+
+# Model 0 - Unwanted sexual contact + Coping Capacity
+model_00c <- lm(freq_polydrug_use ~ unwanted + total_coping, data = scop_combined)
+summary(model_00c)
+# No case for moderation due to non-significant unwanted sexual experience 
+
+# MODEL 1 - DEMOGRAPHIC COVARIATES ----------------------------------------
 
 # Model 1
-model_1 <- lm(freq_polydrug_use ~ race_ctrl + age + income_ctrl + hiv_ctrl, data = scop_combined)
+model_1 <- lm(freq_polydrug_use ~ race_ctrl + age + income_ctrl, data = scop_combined)
 
 # Get standardized coefficients 
-model_1_std <- lm(freq_polydrug_use ~ race_ctrl + age + income_ctrl + hiv_ctrl, data = scop_1)
+model_1_std <- lm(freq_polydrug_use ~ race_ctrl + age + income_ctrl, data = scop_1)
 
 # Summarize the model
 summary(model_1)
 summary(model_1_std)
 
-# MODEL 2 - DEHUMANIZATION ------------------------------------------------
+# MODEL 2 - SYNDEMIC COVARIATES -------------------------------------------
 
 # Model 2
-model_2 <- lm(freq_polydrug_use ~ race_ctrl + age + income_ctrl + hiv_ctrl + unwanted + 
-                eds_orientation_total + eds_gender_total, data = scop_combined)
+model_2 <- lm(freq_polydrug_use ~ race_ctrl + age + income_ctrl +
+                # Syndemic covariates
+                hiv_ctrl + homeless_exp + food_ran_out, data = scop_combined)
 
 # Get standardized coefficients 
-model_2_std <- lm(freq_polydrug_use ~ race_ctrl + age + income_ctrl + hiv_ctrl + unwanted + 
-                    eds_orientation_total + eds_gender_total, data = scop_1)
+model_2_std <- lm(freq_polydrug_use ~ race_ctrl + age + income_ctrl +
+                    # Syndemic covariates
+                    hiv_ctrl + homeless_exp + food_ran_out, data = scop_combined)
 
 # Summarize the model
 summary(model_2)
 summary(model_2_std)
 
-# MODEL 3 - SOCIAL SUPPORT ------------------------------------------------
+# MODEL 3 - DEHUMANIZATION ------------------------------------------------
 
 # Model 3
-model_3 <- lm(freq_polydrug_use ~ race_ctrl + age + income_ctrl + hiv_ctrl + unwanted + 
-                eds_orientation_total + eds_gender_total + mspss_total, data = scop_combined)
+model_3 <- lm(freq_polydrug_use ~ race_ctrl + age + income_ctrl +
+                # Syndemic covariates
+                hiv_ctrl + homeless_exp + food_ran_out +
+                # Dehumanization variables
+                eds_gender_total + eds_orientation_total + unwanted, data = scop_combined)
 
 # Get standardized coefficients 
-model_3_std <- lm(freq_polydrug_use ~ race_ctrl + age + income_ctrl + hiv_ctrl + unwanted + 
-                    eds_orientation_total + eds_gender_total + mspss_total, data = scop_1)
+model_3_std <- lm(freq_polydrug_use ~ race_ctrl + age + income_ctrl +
+                    # Syndemic covariates
+                    hiv_ctrl + homeless_exp + food_ran_out +
+                    # Dehumanization variables
+                    eds_gender_total + eds_orientation_total + unwanted, data = scop_combined)
 
 # Summarize the model
 summary(model_3)
 summary(model_3_std)
 
-# MODEL 4 - MODERATION ----------------------------------------------------
+# MODEL 4 - SOCIAL SUPPORT ------------------------------------------------
 
+# Model 4
+model_4 <- lm(freq_polydrug_use ~ race_ctrl + age + income_ctrl +
+                # Syndemic covariates
+                hiv_ctrl + homeless_exp + food_ran_out +
+                # Dehumanization variables
+                eds_gender_total + eds_orientation_total + unwanted +
+                # Protective factors
+                mspss_total, data = scop_combined)
 
+# Get standardized coefficients 
+model_4_std <- lm(freq_polydrug_use ~ race_ctrl + age + income_ctrl +
+                    # Syndemic covariates
+                    hiv_ctrl + homeless_exp + food_ran_out +
+                    # Dehumanization variables
+                    eds_gender_total + eds_orientation_total + unwanted +
+                    # Protective factors
+                    mspss_total, data = scop_combined)
+
+# Summarize the model
+summary(model_4)
+summary(model_4_std)
 
 # MODEL COMPARISON --------------------------------------------------------
 
 ####### MODEL COMPARISON
-anova(model_1, model_2, model_3)
-tab_model(model_1, model_2, model_3)
+anova(model_1, model_2, model_3, model_4)
+tab_model(model_1, model_2, model_3, model_4)
 
 # Confidence intervals
 confint(model_2)
-
-# ANALYZE DEMOGRAPHICS ----------------------------------------------------
-
-# Age
-scop_combined %>%
-  summarize(
-    M = mean(age),
-    SD = sd(age)
-  )
-
-# Number of drugs people have had problems with
-scop_b %>%
-  select(record_id, drugs1:drugs10) %>%
-  filter(record_id %in% scop_combined$record_id) %>%
-  # If at least some problem, mark as 1; if no problem, mark as 0
-  mutate(across(drugs1:drugs10, ~ recode(., `1` = 0, .default = 1))) %>%
-  # Count the number of drugs with which each participant has a problem
-  gather("drugs", "number", -record_id) %>%
-  group_by(record_id) %>%
-  summarize(sum = sum(number)) %>%
-  count(sum)
-
-# Sexual Orientation
-scop_combined %>%
-  mutate(
-    orientation = recode(orientation, "same-gender loving" = "gay/lesbian", "lesbian" = "gay/lesbian", "gay" = "gay/lesbian", "bisexual" = "plurisexual", "pansexual" = "plurisexual", "heteroflexible" = "plurisexual")
-  ) %>%
-  count(orientation) %>%
-  arrange(desc(n)) %>%
-  mutate(perc = (n / nrow(scop_combined)) * 100)
-
-# Gender
-scop_combined %>%
-  count(gender) %>%
-  arrange(desc(n)) %>%
-  mutate(perc = (n / nrow(scop_combined)) * 100)
-
-# Race
-scop_combined %>%
-  mutate(
-    race = recode(race, "latinx/AI" = "latinx/multi")
-  ) %>%
-  count(race) %>%
-  arrange(desc(n)) %>%
-  mutate(perc = (n / nrow(scop_combined)) * 100)
-
-# Income
-scop_combined %>%
-  count(annual_income) %>%
-  arrange(desc(n)) %>%
-  mutate(perc = (n / nrow(scop_combined)) * 100)
