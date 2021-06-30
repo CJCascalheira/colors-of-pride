@@ -84,6 +84,11 @@ scop_combined <- scop_a2 %>%
 
 # ANALYZE DEMOGRAPHICS ----------------------------------------------------
 
+# How many people are cisgender?
+scop_combined %>%
+  filter(gender %in% c("man", "woman")) %>%
+  nrow()
+
 # Age
 scop_combined %>%
   summarize(
