@@ -5,6 +5,7 @@ library(KScorrect)
 library(tidyverse)
 library(rio)
 library(sjPlot)
+library(lmtest)
 
 # Remove scientific notation
 options(scipen = 999)
@@ -83,7 +84,14 @@ scop_combined <- scop_a2 %>%
   ) %>%
   # Add variable that is better approximation of polydrug use
   left_join(freq_polydrug_use, by = "record_id") %>%
-  filter(!is.na(freq_polydrug_use))
+  filter(!is.na(freq_polydrug_use)) %>%
+  # Add gender variable for interaction
+  mutate(
+    # 0 = cisgender; 1 = TGNB
+    tgnb_ctrl = if_else(str_detect(gender, regex("woman|man", ignore_case = TRUE)), 0, 1),
+    # 1 = cis woman; 0 = not woman
+    woman_ctrl = if_else(str_detect(gender, regex("woman", ignore_case = TRUE)), 1, 0)
+  )
 
 # Check
 nrow(scop_combined)
@@ -91,28 +99,32 @@ nrow(scop_combined)
 # DEFINE MODELS -----------------------------------------------------------
 
 # Model 1
-model_1 <- lm(freq_polydrug_use ~ race_ctrl + age + income_ctrl, data = scop_combined)
+model_1 <- lm(freq_polydrug_use ~ race_ctrl + age + income_ctrl, 
+              data = scop_combined)
 
 # Model 2
 model_2 <- lm(freq_polydrug_use ~ race_ctrl + age + income_ctrl +
                 # Syndemic covariates
-                hiv_ctrl + homeless_exp + food_ran_out, data = scop_combined)
+                hiv_ctrl + homeless_exp + food_ran_out, 
+              data = scop_combined)
 
 # Model 3
 model_3 <- lm(freq_polydrug_use ~ race_ctrl + age + income_ctrl +
                 # Syndemic covariates
-                hiv_ctrl + homeless_exp + food_ran_out +
+                hiv_ctrl + homeless_exp + food_ran_out + 
                 # Dehumanization variables
-                eds_gender_total + eds_orientation_total + unwanted, data = scop_combined)
+                eds_gender_total + eds_orientation_total + unwanted, 
+              data = scop_combined)
 
 # Model 4
 model_4 <- lm(freq_polydrug_use ~ race_ctrl + age + income_ctrl +
                 # Syndemic covariates
-                hiv_ctrl + homeless_exp + food_ran_out +
+                hiv_ctrl + homeless_exp + food_ran_out + 
                 # Dehumanization variables
                 eds_gender_total + eds_orientation_total + unwanted +
                 # Protective factors
-                mspss_total, data = scop_combined)
+                mspss_total, 
+              data = scop_combined)
 
 # ASSUMPTIONS - NORMALITY -------------------------------------------------
 
@@ -204,6 +216,8 @@ qqPlot(scop_combined$freq_prob_drug_use)
 
 # RELATIONSHIP: STANDARDIZED RESIDUALS VS. PREDICTED VARIABLE -------------
 
+# Are the data homoskedastic?
+
 ####### MODEL 1 
 
 # Create plots
@@ -222,6 +236,9 @@ block_1_plot
 # Histogram of standardized residuals
 par(mfrow = c(1, 1))
 hist(rstandard(model_1))
+
+# Breush-Pagan test
+bptest(model_1)
 
 ####### MODEL 2 
 
@@ -242,6 +259,9 @@ block_2_plot
 par(mfrow = c(1, 1))
 hist(rstandard(model_2))
 
+# Breush-Pagan test
+bptest(model_2)
+
 ####### MODEL 3
 
 # Create plots
@@ -253,13 +273,16 @@ block_3_plot <- scop_combined %>%
   ggplot(aes(model_3$fitted.values, rstandard(model_3))) +
   geom_point() +
   geom_smooth(method = "lm", colour = "Blue") + 
-  labs(x = "Fitted Values", y = "Residuals", title = "Block 2") +
+  labs(x = "Fitted Values", y = "Residuals", title = "Block 3") +
   theme_bw()
 block_3_plot
 
 # Histogram of standardized residuals
 par(mfrow = c(1, 1))
 hist(rstandard(model_3))
+
+# Breush-Pagan test
+bptest(model_3)
 
 ####### MODEL 4
 
@@ -272,7 +295,7 @@ block_4_plot <- scop_combined %>%
   ggplot(aes(model_4$fitted.values, rstandard(model_4))) +
   geom_point() +
   geom_smooth(method = "lm", colour = "Blue") + 
-  labs(x = "Fitted Values", y = "Residuals", title = "Block 2") +
+  labs(x = "Fitted Values", y = "Residuals", title = "Block 4") +
   theme_bw()
 block_4_plot
 
@@ -280,7 +303,14 @@ block_4_plot
 par(mfrow = c(1, 1))
 hist(rstandard(model_4))
 
+# Breush-Pagan test
+bptest(model_4)
+
 # MULTICOLLINEARITY -------------------------------------------------------
+
+# Toleranace < 0.2 = likely a problem and 
+# Tolerance < 0.1 = bigger problem
+# VIF > 10 = problem
 
 ####### MODEL 1 
 
@@ -314,7 +344,30 @@ vif(model_4)
 # Tolerance
 1 / vif(model_4)
 
+
+# AUTOCORRELATION ---------------------------------------------------------
+
+# ACF (autocorrelation function). The first correlogram to investigate. 
+acf(model_4$residuals)
+
+# PACF (partial autocorrelation function) is the next correlogram to look at.
+pacf(model_4$residuals)
+
+# Breusch-Godfrey test
+bgtest(model_4)
+
+# Durbin-Watson test. Close to 2 = no evidence of autocorrelation. 
+dwtest(model_4)
+
+# SUMMARY -----------------------------------------------------------------
+
+# Some of the variables are not normally distributed. There is evidence of heteroskedasticity and autocorrelation. 
+
+# Therefore, bootstrapping or transformations are required. Model respecification may help
+# with the violation of homoskedasticity. After trying several different models, however, 
+# heteroskedasticity remained an issue. 
+
 # EXPORT FOR JESSIE -------------------------------------------------------
 
 # Save file
-write_csv(scop_combined, file = "data/cleaned/scop_combined.csv")
+# write_csv(scop_combined, file = "data/cleaned/scop_combined.csv")

@@ -47,7 +47,7 @@ scop_1 <- scop_adults1 %>%
          starts_with("hiv_prob"), sud, hiv, starts_with("drugs"), injection, 
          addiction, starts_with("drug_prob"), addict_diagnosis, addict_treatment, 
          starts_with("drug_affects"), poz_undet, unwanted, 
-         starts_with("assualtant"), recent_assault) %>%
+         starts_with("assualtant"), recent_assault, starts_with("aces")) %>%
   # Recode variables
   mutate(
     # Demographic variables

@@ -10,7 +10,7 @@ scop_pre <- read_csv("data/cleaned/cleaned_demographics.csv") %>%
   # Select variables for this project
   select(record_id:annual_income, food_ran_out, homeless_exp, res1:res21, starts_with("res_scale"), unwanted,
          starts_with("orientation_prob"), starts_with("gender_prob"), starts_with("hiv_prob"),
-         starts_with("helpful"), starts_with("drugs"), starts_with("drug_affect")) %>%
+         starts_with("helpful"), starts_with("drugs"), starts_with("drug_affect"), starts_with("aces")) %>%
   mutate(
     # Recode the unwanted sexual contact variable to binary
     unwanted = recode(unwanted, "yes" = 1, "no" = 0),
@@ -106,7 +106,8 @@ scop_1a <- scop_eds %>%
   # Filter for common complete variables
   filter(record_id %in% scop_common_complete$record_id) %>%
   select(record_id:hiv_result, education:homeless_exp, res1:res21, starts_with("res_scale"), unwanted,
-       starts_with("orientation_prob"), starts_with("gender_prob_"), starts_with("drugs"), starts_with("drug_affect"),
+       starts_with("orientation_prob"), starts_with("gender_prob_"), starts_with("drugs"), 
+       starts_with("drug_affect"), starts_with("aces"),
        total_coping)
 
 # INTRACOMMUNITY SCORE ----------------------------------------------------
@@ -138,6 +139,14 @@ intracomm_eds_1 <- intracomm_eds %>%
 scop_1 <- left_join(scop_1a, intracomm_eds_1)
 
 # CALCULATE SCORES: COMMON ------------------------------------------------
+
+# ACES to control
+aces_total <- scop_1 %>%
+  select(record_id, starts_with("aces")) %>%
+  gather(key = "aces", value = "score", -record_id) %>%
+  group_by(record_id) %>%
+  # Mean score
+  summarise(aces_total = sum(score))
 
 # Score Multidimensional Scale of Perceived Social Support (Zimet et al., 1988, 1990)
 # Higher scores indicate more perceived social support
@@ -208,12 +217,13 @@ drug_abuse_severity <- scop_1 %>%
 
 # Combine the main df with total scores
 scop_2 <- scop_1 %>%
+  # Drop individual items
+  select(-starts_with("res"), -starts_with("drugs"), -starts_with("drug_aff"), -starts_with("aces")) %>%
   left_join(mspss_total) %>%
   left_join(brs_total) %>%
   left_join(freq_prob_drug_use) %>%
   left_join(drug_abuse_severity) %>%
-  # Drop individual items
-  select(-starts_with("res"), -starts_with("drugs"), -starts_with("drug_aff"))
+  left_join(aces_total)
 scop_2
 
 # CALCULATE SCORES: SEPARATE ----------------------------------------------
