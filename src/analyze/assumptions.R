@@ -123,7 +123,7 @@ model_4 <- lm(freq_polydrug_use ~ race_ctrl + age + income_ctrl +
                 # Dehumanization variables
                 eds_gender_total + eds_orientation_total + unwanted +
                 # Protective factors
-                mspss_total, 
+                mspss_total + brs_total, 
               data = scop_combined)
 
 # ASSUMPTIONS - NORMALITY -------------------------------------------------

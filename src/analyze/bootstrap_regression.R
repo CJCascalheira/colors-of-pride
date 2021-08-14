@@ -169,12 +169,12 @@ model_1 <- lm(freq_polydrug_use ~ race_ctrl + age + income_ctrl, data = scop_com
 # Bootstrap estimation
 model_1_boot <- Boot(model_1, R = 5000, method = "case")
 
-# Confidence intervals for model estimates
-confint(model_1_boot, level = .95, type = "norm")
-
 # Summarize the model
 model_1_sumry <- summary(model_1_boot)
 model_1_sumry
+
+# Confidence intervals for model estimates
+confint(model_1_boot, level = .95, type = "norm")
 
 # Get t-statistics for each coefficient
 model_1_tstat <- data.frame(
@@ -194,6 +194,11 @@ model_1_r2 <- boot(data = scop_combined, statistic = rsq_function, R = 5000,
 model_1_r2
 boot.ci(model_1_r2, type = "bca")
 
+# Get AIC
+model_1_aic <- boot(data = scop_combined, statistic = get_aic, R = 5000, 
+                   formula = freq_polydrug_use ~ race_ctrl + age + income_ctrl)
+model_1_aic
+
 # MODEL 2 - SYNDEMIC COVARIATES -------------------------------------------
 
 # Model 2
@@ -204,12 +209,12 @@ model_2 <- lm(freq_polydrug_use ~ race_ctrl + age + income_ctrl +
 # Bootstrap estimation
 model_2_boot <- Boot(model_2, R = 5000, method = "case")
 
-# Confidence intervals for model estimates
-confint(model_2_boot, level = .95, type = "norm")
-
 # Summarize the model
 model_2_sumry <- summary(model_2_boot)
 model_2_sumry
+
+# Confidence intervals for model estimates
+confint(model_2_boot, level = .95, type = "norm")
 
 # Get t-statistics for each coefficient
 model_2_tstat <- data.frame(
@@ -231,6 +236,13 @@ model_2_r2 <- boot(data = scop_combined, statistic = rsq_function, R = 5000,
 model_2_r2
 boot.ci(model_2_r2, type = "bca")
 
+# Get AIC
+model_2_aic <- boot(data = scop_combined, statistic = get_aic, R = 5000, 
+                   formula = freq_polydrug_use ~ race_ctrl + age + income_ctrl +
+                     # Syndemic covariates
+                     hiv_ctrl + homeless_exp + food_ran_out)
+model_2_aic
+
 # MODEL 3 - DEHUMANIZATION ------------------------------------------------
 
 # Model 3
@@ -243,12 +255,12 @@ model_3 <- lm(freq_polydrug_use ~ race_ctrl + age + income_ctrl +
 # Bootstrap estimation
 model_3_boot <- Boot(model_3, R = 5000, method = "case")
 
-# Confidence intervals for model estimates
-confint(model_3_boot, level = .95, type = "norm")
-
 # Summarize the model
 model_3_sumry <- summary(model_3_boot)
 model_3_sumry
+
+# Confidence intervals for model estimates
+confint(model_3_boot, level = .95, type = "norm")
 
 # Get t-statistics for each coefficient
 model_3_tstat <- data.frame(
@@ -272,6 +284,15 @@ model_3_r2 <- boot(data = scop_combined, statistic = rsq_function, R = 5000,
 model_3_r2
 boot.ci(model_3_r2, type = "bca")
 
+# Get R^2
+model_3_aic <- boot(data = scop_combined, statistic = get_aic, R = 5000, 
+                   formula = freq_polydrug_use ~ race_ctrl + age + income_ctrl +
+                     # Syndemic covariates
+                     hiv_ctrl + homeless_exp + food_ran_out +
+                     # Dehumanization variables
+                     eds_gender_total + eds_orientation_total + unwanted)
+model_3_aic
+
 # MODEL 4 - SOCIAL SUPPORT ------------------------------------------------
 
 # Model 4
@@ -281,17 +302,17 @@ model_4 <- lm(freq_polydrug_use ~ race_ctrl + age + income_ctrl +
                 # Dehumanization variables
                 eds_gender_total + eds_orientation_total + unwanted +
                 # Protective factors
-                mspss_total, data = scop_combined)
+                mspss_total + brs_total, data = scop_combined)
 
 # Bootstrap estimation
 model_4_boot <- Boot(model_4, R = 5000, method = "case")
 
-# Confidence intervals for model estimates
-confint(model_4_boot, level = .95, type = "norm")
-
 # Summarize the model
 model_4_sumry <- summary(model_4_boot)
 model_4_sumry
+
+# Confidence intervals for model estimates
+confint(model_4_boot, level = .95, type = "norm")
 
 # Get t-statistics for each coefficient
 model_4_tstat <- data.frame(
@@ -313,9 +334,20 @@ model_4_r2 <- boot(data = scop_combined, statistic = rsq_function, R = 5000,
                      # Dehumanization variables
                      eds_gender_total + eds_orientation_total + unwanted +
                      # Protective factors
-                     mspss_total)
+                     mspss_total + brs_total)
 model_4_r2
 boot.ci(model_4_r2, type = "bca")
+
+# Get R^2
+model_4_aic <- boot(data = scop_combined, statistic = get_aic, R = 5000, 
+                   formula = freq_polydrug_use ~ race_ctrl + age + income_ctrl +
+                     # Syndemic covariates
+                     hiv_ctrl + homeless_exp + food_ran_out +
+                     # Dehumanization variables
+                     eds_gender_total + eds_orientation_total + unwanted +
+                     # Protective factors
+                     mspss_total + brs_total)
+model_4_aic
 
 # MODEL COMPARISON --------------------------------------------------------
 
