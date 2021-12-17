@@ -90,6 +90,22 @@ scop_combined <- scop_a2 %>%
   left_join(freq_polydrug_use, by = "record_id") %>%
   filter(!is.na(freq_polydrug_use))
 
+# POWER ANALYSIS INFO FOR G*POWER -----------------------------------------
+
+# F test - R^2 deviation from 0
+
+# Effect size of Model 4 (see Cohen, 1988)
+(.439) / (1 - .439)
+
+# Alpha
+0.05
+
+# Sample size
+nrow(scop_combined)
+
+# Number of predictors
+11
+
 # PRE-PROCESS -------------------------------------------------------------
 
 # Initial sizes
@@ -131,7 +147,7 @@ get_aic <- function(formula, data, indices) {
   fit <- lm(formula, data = d)
   
   # Calculate AIC
-  aic <- nrow(data) * log((sum(fit$residuals^2)) / (nrow(data))) + (2 * length(model_1$coefficients))
+  aic <- nrow(data) * log((sum(fit$residuals^2)) / (nrow(data))) + (2 * length(fit$coefficients))
   
   # Return the AIC
   return(aic)

@@ -1,4 +1,5 @@
 # Dependencies
+library(ltm)
 library(tidyverse)
 library(rio)
 library(RBtest)
@@ -23,6 +24,9 @@ scop_pre <- read_csv("data/cleaned/cleaned_demographics.csv") %>%
   mutate(across(helpful1:helpful16, ~ recode(., `1` = 7, `2` = 6, `3` = 5, `4` = 4, `5` = 3, `6` = 2, `7` = 1))) %>%
   # Remove people who did not know whether their food ran out
   filter(food_ran_out != 4)
+
+# Import final data set
+scop_combined <- read_csv("data/cleaned/scop_combined.csv")
 
 # SCORE COPING ACTIVITIES -------------------------------------------------
 
@@ -309,9 +313,102 @@ scop_eds_combined <- scop_2 %>%
 # Check for complete cases
 scop_eds_combined_1 <- scop_eds_combined[complete.cases(scop_eds_combined), ]
 
+# CRONBACH'S ALPHA --------------------------------------------------------
+
+# EDS-GI
+gender_complete %>%
+  select(gender_prob_1:gender_prob_19) %>%
+  cronbach.alpha()
+
+# EDS-SO
+sex_or_complete %>%
+  select(orientation_prob1:orientation_prob17) %>%
+  cronbach.alpha()
+
+# MSPSS
+scop_1 %>%
+  select(res1:res12) %>%
+  cronbach.alpha()
+
+# BRS
+scop_1 %>%
+  select(res_scale1:res_scale6) %>%
+  cronbach.alpha()
+
+# Frequent problematic polysubstance use
+scop_1 %>%
+  select(drugs1:drugs10) %>%
+  filter(
+    # Alcohol problem AND problem with at least one other drug
+    (
+      # At least some problem with alcohol
+      (drugs1 > 1) &
+        # AND at least some problem with one other drug
+        (
+          drugs2 > 1 | drugs3 > 1 | drugs4 > 1 | drugs5 > 1 | drugs6 > 1 | 
+            drugs7 > 1 | drugs8 > 1 | drugs9 > 1 | drugs10 > 1 
+        )
+    ) | # OR
+      # No alcohol problem AND problem with at least one other drug
+      (
+        # Never a problem with alcohol
+        (drugs1 == 1) &
+          # AND at least some problem with one other drug
+          (
+            drugs2 > 1 | drugs3 > 1 | drugs4 > 1 | drugs5 > 1 | drugs6 > 1 | 
+              drugs7 > 1 | drugs8 > 1 | drugs9 > 1 | drugs10 > 1
+          )
+      )
+  ) %>%
+  cronbach.alpha()
+
+# SELECT ITEMS FOR FACTOR ANALYSIS ----------------------------------------
+
+# FPPU
+fppu <- scop_1 %>%
+  select(record_id, drugs1:drugs10) %>%
+  filter(
+    # Alcohol problem AND problem with at least one other drug
+    (
+      # At least some problem with alcohol
+      (drugs1 > 1) &
+        # AND at least some problem with one other drug
+        (
+          drugs2 > 1 | drugs3 > 1 | drugs4 > 1 | drugs5 > 1 | drugs6 > 1 | 
+            drugs7 > 1 | drugs8 > 1 | drugs9 > 1 | drugs10 > 1 
+        )
+    ) | # OR
+      # No alcohol problem AND problem with at least one other drug
+      (
+        # Never a problem with alcohol
+        (drugs1 == 1) &
+          # AND at least some problem with one other drug
+          (
+            drugs2 > 1 | drugs3 > 1 | drugs4 > 1 | drugs5 > 1 | drugs6 > 1 | 
+              drugs7 > 1 | drugs8 > 1 | drugs9 > 1 | drugs10 > 1
+          )
+      )
+  )
+
+# EDS-GI
+eds_gi <- gender_complete %>%
+  select(record_id, gender_prob_1:gender_prob_19)
+
+# EDS-SO
+eds_so <- sex_or_complete %>%
+  select(record_id, orientation_prob1:orientation_prob17)
+
+# Combine the data
+scop_factor_analysis <- scop_combined %>%
+  select(record_id) %>%
+  left_join(fppu) %>%
+  left_join(eds_gi) %>%
+  left_join(eds_so)
+
 # SAVE NEW DATASET --------------------------------------------------------
 
 write_csv(scop_eds_orientation, "data/cleaned/cleaned_eds_orientation.csv")
 write_csv(scop_eds_gender, "data/cleaned/cleaned_eds_gender.csv")
 write_csv(scop_eds_combined_1, "data/cleaned/cleaned_eds_combined.csv")
 write_csv(freq_polydrug_use, "data/cleaned/freq_polydrug_use.csv")
+write_csv(scop_factor_analysis, "data/cleaned/scop_factor_analysis.csv")

@@ -1,5 +1,6 @@
 # Dependencies
 library(psych)
+library(stringi)
 library(tidyverse)
 library(rio)
 
@@ -82,6 +83,16 @@ scop_combined <- scop_a2 %>%
   left_join(freq_polydrug_use, by = "record_id") %>%
   filter(!is.na(freq_polydrug_use))
 
+# Import data to get drug counts
+scop_drugs <- read_csv("data/cleaned/cleaned_demographics.csv") %>%
+  select(record_id, starts_with("drugs")) %>%
+  filter(record_id %in% scop_combined$record_id)
+
+# Rename drugs
+drug_names <- c('record_id', 'alcohol', 'meth', 'coke', 'cannabis', 'party',
+                'opioids', 'heroin', 'halluc', 'benzos', 'other')
+names(scop_drugs) <- drug_names
+
 # ANALYZE DEMOGRAPHICS ----------------------------------------------------
 
 # How many people are cisgender?
@@ -137,3 +148,70 @@ scop_combined %>%
   count(annual_income) %>%
   arrange(desc(n)) %>%
   mutate(perc = (n / nrow(scop_combined)) * 100)
+
+# DRUG ANALYSIS -----------------------------------------------------------
+
+# Most commonly misused substances during lifetime
+scop_drugs %>%
+  gather(key = "drugs", value = "value", -record_id) %>%
+  group_by(drugs) %>%
+  filter(value > 1) %>%
+  count(drugs) %>%
+  arrange(desc(n)) %>%
+  mutate(percent = n / nrow(scop_drugs))
+
+# Most commonly misused substances in past 12 months
+scop_drugs %>%
+  gather(key = "drugs", value = "value", -record_id) %>%
+  group_by(drugs) %>%
+  filter(value > 2) %>%
+  count(drugs) %>%
+  arrange(desc(n)) %>%
+  mutate(percent = n / nrow(scop_drugs))
+
+# Most commonly misused substances in past 30 days
+scop_drugs %>%
+  gather(key = "drugs", value = "value", -record_id) %>%
+  group_by(drugs) %>%
+  filter(value == 6) %>%
+  count(drugs) %>%
+  arrange(desc(n)) %>%
+  mutate(percent = n / nrow(scop_drugs))
+
+# Most common polysubstances - prepare data frame
+scop_drugs_1 <- scop_drugs %>%
+  # Create names for values
+  mutate(
+    alcohol = if_else(alcohol == 1, "none", "alcohol"),
+    meth = if_else(meth == 1, "none", "meth"),
+    coke = if_else(coke == 1, "none", "coke"),
+    cannabis = if_else(cannabis == 1, "none", "cannabis"),
+    party = if_else(party == 1, "none", "party"),
+    opioids = if_else(opioids == 1, "none", "opioids"),
+    heroin = if_else(heroin == 1, "none", "heroin"),
+    halluc = if_else(halluc == 1, "none", "halluc"),
+    benzos = if_else(benzos == 1, "none", "benzos"),
+    other = if_else(other == 1, "none", "other")
+  ) %>%
+  # Merge all columns
+  unite(poly, alcohol:other) %>%
+  # Remove useless characters
+  mutate(poly = str_remove_all(poly, regex("none"))) %>%
+  mutate(poly = str_replace_all(poly, "_", " ")) %>%
+  # Trim whitespace
+  mutate(poly = str_trim(poly, side = "both")) %>%
+  mutate(poly = str_split(poly, " ")) %>%
+  # Alphabetical order
+  mutate(poly = map(poly, sort)) %>%
+  # Remove empty elements in the vector
+  mutate(poly = map(poly, stri_remove_empty))
+
+# Number of drugs with which people had problems
+scop_drugs_1 %>%
+  mutate(num_drugs = map_int(poly, length)) %>%
+  count(num_drugs) %>%
+  arrange(desc(n)) %>%
+  mutate(percent = n / 306)
+
+# Common combinations
+unlist(map(scop_drugs_1$poly, toString))
